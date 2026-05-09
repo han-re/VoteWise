@@ -299,7 +299,7 @@ export default function ResultsPage() {
         </section>
 
         <p style={{ textAlign: "center", paddingBottom: "3rem", fontSize: "0.64rem", color: "rgba(180,207,232,0.14)", letterSpacing: "0.1em", textTransform: "uppercase" as const }}>
-          Mandate &nbsp;·&nbsp; Vote for the policy, not the tribe
+          VoteWise &nbsp;·&nbsp; Vote for the policy, not the tribe
         </p>
       </div>
     </div>
@@ -350,15 +350,9 @@ function MlaCard({ mla, meta, delay }: { mla: MlaScore; meta: { color: string; s
     >
       <TopStripe color={meta.color} />
 
-      {mla.photo_url ? (
-        <img src={mla.photo_url} alt={mla.name} style={{ width: "56px", height: "56px", borderRadius: "50%", objectFit: "cover" as const, border: `2px solid ${meta.color}55` }} />
-      ) : (
-        <div style={{ width: "56px", height: "56px", borderRadius: "50%", background: "rgba(180,207,232,0.07)", border: `2px solid ${meta.color}33`, display: "flex", alignItems: "center", justifyContent: "center", color: meta.color }}>
-          <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
-            <path d="M12 12c2.67 0 8 1.34 8 4v2H4v-2c0-2.66 5.33-4 8-4zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" />
-          </svg>
-        </div>
-      )}
+      <div style={{ width: "56px", height: "56px", borderRadius: "50%", background: `color-mix(in srgb, ${meta.color} 18%, rgba(8,14,26,0.9))`, border: `2px solid ${meta.color}55`, display: "flex", alignItems: "center", justifyContent: "center", color: meta.color, fontSize: "1.1rem", fontWeight: 700, letterSpacing: "0.02em" }}>
+        {mla.name.split(" ").map((w: string) => w[0]).join("").slice(0, 2).toUpperCase()}
+      </div>
 
       <p style={{ fontSize: "0.84rem", fontWeight: 700, color: "rgba(215,228,242,0.9)", lineHeight: 1.25 }}>{mla.name}</p>
       <p style={{ fontSize: "0.68rem", color: "rgba(180,207,232,0.36)", lineHeight: 1.4 }}>
