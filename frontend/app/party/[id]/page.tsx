@@ -198,7 +198,7 @@ export default function PartyPage() {
   if (error || !party) return (
     <div style={{ background: "#080e1a", minHeight: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: "1rem", fontFamily: "'Segoe UI', system-ui, sans-serif" }}>
       <p style={{ color: "#e8962a", fontSize: "0.88rem" }}>Party not found.</p>
-      <Link href="/" style={{ background: "transparent", border: "1px solid rgba(180,207,232,0.18)", borderRadius: "20px", padding: "0.5rem 1.2rem", color: "#b4cfe8", fontSize: "0.8rem", textDecoration: "none" }}>← Back to Mandate</Link>
+      <Link href="/" style={{ background: "transparent", border: "1px solid rgba(180,207,232,0.18)", borderRadius: "20px", padding: "0.5rem 1.2rem", color: "#b4cfe8", fontSize: "0.8rem", textDecoration: "none" }}>← Back to VoteWise</Link>
     </div>
   );
 
@@ -224,7 +224,7 @@ export default function PartyPage() {
             onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(180,207,232,0.45)")}
           >
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M19 12H5M12 5l-7 7 7 7" /></svg>
-            Mandate
+            VoteWise
           </Link>
           <span style={{ color: "rgba(180,207,232,0.18)", fontSize: "0.75rem" }}>/</span>
           <span style={{ color, fontSize: "0.75rem", fontWeight: 700 }}>{party.short_name}</span>
@@ -318,7 +318,7 @@ export default function PartyPage() {
         )}
 
         <p style={{ textAlign: "center", paddingBottom: "3rem", fontSize: "0.64rem", color: "rgba(180,207,232,0.14)", letterSpacing: "0.1em", textTransform: "uppercase" as const }}>
-          Mandate &nbsp;·&nbsp; Vote for the policy, not the tribe
+          VoteWise &nbsp;·&nbsp; Vote for the policy, not the tribe
         </p>
 
       </div>
