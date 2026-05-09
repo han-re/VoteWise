@@ -339,7 +339,7 @@ export default function QuizPage() {
             userSelect: "none",
           }}
         >
-          Mandate &nbsp;·&nbsp; Vote for the policy, not the tribe
+          VoteWise &nbsp;·&nbsp; Vote for the policy, not the tribe
         </p>
       </div>
     </div>
