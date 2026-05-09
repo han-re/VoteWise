@@ -262,3 +262,6 @@ desktop.ini
 # Source documents
 *.docx
 *.doc
+
+# Internal codebase analysis — not for public repo
+codebase-analysis-docs/
