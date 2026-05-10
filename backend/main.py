@@ -130,6 +130,14 @@ async def seed_party_spending():
     return result
 
 
+@app.post("/admin/seed-stormont-sessions")
+async def seed_stormont_sessions():
+    """One-shot: ingest backend/data/stormont_sessions.json into db.stormont_sessions and db.mla_session_participation."""
+    from seed.seed_stormont_sessions import main as run_seed
+    result = await run_seed()
+    return result
+
+
 @app.post("/admin/verify-all-mlas")
 async def verify_all_mlas():
     """One-shot: stamps all MLAs on Solana devnet and stores chain_state records."""

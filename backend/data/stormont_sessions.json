@@ -1,0 +1,143 @@
+{
+  "_note": "All speech_count, division_votes, and written_questions values below are SYNTHETIC, hand-curated for HackBelfast 2026 demonstration. Session dates, titles, and agenda summaries are based on real plenary sittings of the NI Assembly post-restoration. Real per-MLA Hansard counts would be ingested in production via TheyWorkForYou or direct Hansard scraping. The mla_pbp_placeholder MLA is intentionally excluded from participation rows.",
+  "sessions": [
+    {
+      "session_id": "stormont_2024_02_03",
+      "date": "2024-02-03",
+      "title": "Restoration of the Executive and election of Speaker",
+      "agenda_summary": "Resumption of the Assembly following the two-year DUP boycott. Election of the Speaker, nomination of First and deputy First Minister, and party leader statements on the return of power-sharing.",
+      "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/02/03",
+      "total_divisions": 3,
+      "mla_participation": [
+        {"mla_id": "mla_naomi_long",       "attended": true,  "speech_count": 5, "division_votes": 3, "written_questions": 1},
+        {"mla_id": "mla_andrew_muir",      "attended": true,  "speech_count": 2, "division_votes": 3, "written_questions": 0},
+        {"mla_id": "mla_gavin_robinson",   "attended": true,  "speech_count": 4, "division_votes": 3, "written_questions": 0},
+        {"mla_id": "mla_paul_givan",       "attended": true,  "speech_count": 3, "division_votes": 3, "written_questions": 0},
+        {"mla_id": "mla_michelle_oneill",  "attended": true,  "speech_count": 6, "division_votes": 3, "written_questions": 0},
+        {"mla_id": "mla_conor_murphy",     "attended": true,  "speech_count": 3, "division_votes": 3, "written_questions": 0},
+        {"mla_id": "mla_doug_beattie",     "attended": true,  "speech_count": 4, "division_votes": 3, "written_questions": 1},
+        {"mla_id": "mla_robbie_butler",    "attended": true,  "speech_count": 1, "division_votes": 3, "written_questions": 0},
+        {"mla_id": "mla_matthew_otoole",   "attended": true,  "speech_count": 5, "division_votes": 3, "written_questions": 2},
+        {"mla_id": "mla_colin_mcgrath",    "attended": true,  "speech_count": 2, "division_votes": 3, "written_questions": 1},
+        {"mla_id": "mla_gerry_carroll",    "attended": true,  "speech_count": 3, "division_votes": 3, "written_questions": 3},
+        {"mla_id": "mla_jim_allister",     "attended": true,  "speech_count": 7, "division_votes": 3, "written_questions": 2},
+        {"mla_id": "mla_timothy_gaston",   "attended": true,  "speech_count": 2, "division_votes": 3, "written_questions": 0}
+      ]
+    },
+    {
+      "session_id": "stormont_2024_05_13",
+      "date": "2024-05-13",
+      "title": "Budget 2024-25 second stage debate",
+      "agenda_summary": "Second stage of the Budget Bill setting departmental allocations for the 2024-25 financial year. Debate covered shortfalls in health, education, and the public-sector pay settlement.",
+      "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/05/13",
+      "total_divisions": 5,
+      "mla_participation": [
+        {"mla_id": "mla_naomi_long",       "attended": true,  "speech_count": 3, "division_votes": 5, "written_questions": 4},
+        {"mla_id": "mla_andrew_muir",      "attended": true,  "speech_count": 2, "division_votes": 5, "written_questions": 1},
+        {"mla_id": "mla_gavin_robinson",   "attended": true,  "speech_count": 2, "division_votes": 5, "written_questions": 0},
+        {"mla_id": "mla_paul_givan",       "attended": true,  "speech_count": 4, "division_votes": 5, "written_questions": 1},
+        {"mla_id": "mla_michelle_oneill",  "attended": true,  "speech_count": 3, "division_votes": 5, "written_questions": 0},
+        {"mla_id": "mla_conor_murphy",     "attended": true,  "speech_count": 5, "division_votes": 5, "written_questions": 0},
+        {"mla_id": "mla_doug_beattie",     "attended": false, "speech_count": 0, "division_votes": 0, "written_questions": 2},
+        {"mla_id": "mla_robbie_butler",    "attended": true,  "speech_count": 2, "division_votes": 5, "written_questions": 4},
+        {"mla_id": "mla_matthew_otoole",   "attended": true,  "speech_count": 8, "division_votes": 5, "written_questions": 5},
+        {"mla_id": "mla_colin_mcgrath",    "attended": true,  "speech_count": 3, "division_votes": 5, "written_questions": 2},
+        {"mla_id": "mla_gerry_carroll",    "attended": true,  "speech_count": 4, "division_votes": 5, "written_questions": 6},
+        {"mla_id": "mla_jim_allister",     "attended": true,  "speech_count": 9, "division_votes": 5, "written_questions": 3},
+        {"mla_id": "mla_timothy_gaston",   "attended": true,  "speech_count": 3, "division_votes": 5, "written_questions": 1}
+      ]
+    },
+    {
+      "session_id": "stormont_2024_09_30",
+      "date": "2024-09-30",
+      "title": "Programme for Government statement",
+      "agenda_summary": "First Minister and deputy First Minister joint statement laying out the draft Programme for Government priorities. Cross-party debate on housing, health waiting lists, and childcare.",
+      "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/30",
+      "total_divisions": 2,
+      "mla_participation": [
+        {"mla_id": "mla_naomi_long",       "attended": true,  "speech_count": 2, "division_votes": 2, "written_questions": 3},
+        {"mla_id": "mla_andrew_muir",      "attended": true,  "speech_count": 3, "division_votes": 2, "written_questions": 2},
+        {"mla_id": "mla_gavin_robinson",   "attended": false, "speech_count": 0, "division_votes": 0, "written_questions": 0},
+        {"mla_id": "mla_paul_givan",       "attended": true,  "speech_count": 5, "division_votes": 2, "written_questions": 1},
+        {"mla_id": "mla_michelle_oneill",  "attended": true,  "speech_count": 7, "division_votes": 2, "written_questions": 0},
+        {"mla_id": "mla_conor_murphy",     "attended": true,  "speech_count": 2, "division_votes": 2, "written_questions": 1},
+        {"mla_id": "mla_doug_beattie",     "attended": true,  "speech_count": 3, "division_votes": 2, "written_questions": 2},
+        {"mla_id": "mla_robbie_butler",    "attended": true,  "speech_count": 2, "division_votes": 2, "written_questions": 5},
+        {"mla_id": "mla_matthew_otoole",   "attended": true,  "speech_count": 6, "division_votes": 2, "written_questions": 4},
+        {"mla_id": "mla_colin_mcgrath",    "attended": true,  "speech_count": 2, "division_votes": 2, "written_questions": 3},
+        {"mla_id": "mla_gerry_carroll",    "attended": true,  "speech_count": 5, "division_votes": 2, "written_questions": 7},
+        {"mla_id": "mla_jim_allister",     "attended": true,  "speech_count": 8, "division_votes": 2, "written_questions": 4},
+        {"mla_id": "mla_timothy_gaston",   "attended": true,  "speech_count": 4, "division_votes": 2, "written_questions": 2}
+      ]
+    },
+    {
+      "session_id": "stormont_2025_01_27",
+      "date": "2025-01-27",
+      "title": "Hate Crime Legislation second stage",
+      "agenda_summary": "Second stage debate on a private members Hate Crime Bill brought by Alliance, building on Judge Marrinan's review. Cross-bench engagement, with TUV and the DUP voting against.",
+      "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/01/27",
+      "total_divisions": 4,
+      "mla_participation": [
+        {"mla_id": "mla_naomi_long",       "attended": true,  "speech_count": 6, "division_votes": 4, "written_questions": 1},
+        {"mla_id": "mla_andrew_muir",      "attended": true,  "speech_count": 2, "division_votes": 4, "written_questions": 0},
+        {"mla_id": "mla_gavin_robinson",   "attended": true,  "speech_count": 4, "division_votes": 4, "written_questions": 0},
+        {"mla_id": "mla_paul_givan",       "attended": true,  "speech_count": 3, "division_votes": 4, "written_questions": 0},
+        {"mla_id": "mla_michelle_oneill",  "attended": false, "speech_count": 0, "division_votes": 0, "written_questions": 0},
+        {"mla_id": "mla_conor_murphy",     "attended": true,  "speech_count": 3, "division_votes": 4, "written_questions": 0},
+        {"mla_id": "mla_doug_beattie",     "attended": true,  "speech_count": 2, "division_votes": 4, "written_questions": 1},
+        {"mla_id": "mla_robbie_butler",    "attended": true,  "speech_count": 1, "division_votes": 4, "written_questions": 2},
+        {"mla_id": "mla_matthew_otoole",   "attended": true,  "speech_count": 4, "division_votes": 4, "written_questions": 3},
+        {"mla_id": "mla_colin_mcgrath",    "attended": true,  "speech_count": 3, "division_votes": 4, "written_questions": 1},
+        {"mla_id": "mla_gerry_carroll",    "attended": true,  "speech_count": 3, "division_votes": 4, "written_questions": 4},
+        {"mla_id": "mla_jim_allister",     "attended": true,  "speech_count": 11, "division_votes": 4, "written_questions": 2},
+        {"mla_id": "mla_timothy_gaston",   "attended": true,  "speech_count": 5, "division_votes": 4, "written_questions": 1}
+      ]
+    },
+    {
+      "session_id": "stormont_2025_06_23",
+      "date": "2025-06-23",
+      "title": "Health Service Reform Bill consideration stage",
+      "agenda_summary": "Consideration stage of the Health Service Reform Bill. Amendments tabled on private-sector capacity, waiting-list initiatives, and rural-trust funding formula.",
+      "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/06/23",
+      "total_divisions": 6,
+      "mla_participation": [
+        {"mla_id": "mla_naomi_long",       "attended": true,  "speech_count": 2, "division_votes": 6, "written_questions": 2},
+        {"mla_id": "mla_andrew_muir",      "attended": true,  "speech_count": 4, "division_votes": 6, "written_questions": 1},
+        {"mla_id": "mla_gavin_robinson",   "attended": true,  "speech_count": 2, "division_votes": 6, "written_questions": 0},
+        {"mla_id": "mla_paul_givan",       "attended": true,  "speech_count": 5, "division_votes": 6, "written_questions": 1},
+        {"mla_id": "mla_michelle_oneill",  "attended": true,  "speech_count": 2, "division_votes": 6, "written_questions": 0},
+        {"mla_id": "mla_conor_murphy",     "attended": true,  "speech_count": 2, "division_votes": 6, "written_questions": 0},
+        {"mla_id": "mla_doug_beattie",     "attended": true,  "speech_count": 3, "division_votes": 6, "written_questions": 2},
+        {"mla_id": "mla_robbie_butler",    "attended": true,  "speech_count": 4, "division_votes": 6, "written_questions": 6},
+        {"mla_id": "mla_matthew_otoole",   "attended": true,  "speech_count": 9, "division_votes": 6, "written_questions": 5},
+        {"mla_id": "mla_colin_mcgrath",    "attended": true,  "speech_count": 5, "division_votes": 6, "written_questions": 4},
+        {"mla_id": "mla_gerry_carroll",    "attended": true,  "speech_count": 6, "division_votes": 6, "written_questions": 8},
+        {"mla_id": "mla_jim_allister",     "attended": true,  "speech_count": 7, "division_votes": 6, "written_questions": 3},
+        {"mla_id": "mla_timothy_gaston",   "attended": false, "speech_count": 0, "division_votes": 0, "written_questions": 1}
+      ]
+    },
+    {
+      "session_id": "stormont_2026_03_30",
+      "date": "2026-03-30",
+      "title": "Climate Action Plan year-three progress report",
+      "agenda_summary": "DAERA statement on year three of the Climate Action Plan under the Climate Change Act 2022. Cross-party debate on agriculture-emissions caps, just transition funding, and renewable consenting.",
+      "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/03/30",
+      "total_divisions": 4,
+      "mla_participation": [
+        {"mla_id": "mla_naomi_long",       "attended": true,  "speech_count": 3, "division_votes": 4, "written_questions": 1},
+        {"mla_id": "mla_andrew_muir",      "attended": true,  "speech_count": 6, "division_votes": 4, "written_questions": 3},
+        {"mla_id": "mla_gavin_robinson",   "attended": true,  "speech_count": 2, "division_votes": 4, "written_questions": 0},
+        {"mla_id": "mla_paul_givan",       "attended": true,  "speech_count": 3, "division_votes": 4, "written_questions": 1},
+        {"mla_id": "mla_michelle_oneill",  "attended": true,  "speech_count": 2, "division_votes": 4, "written_questions": 0},
+        {"mla_id": "mla_conor_murphy",     "attended": true,  "speech_count": 4, "division_votes": 4, "written_questions": 1},
+        {"mla_id": "mla_doug_beattie",     "attended": true,  "speech_count": 2, "division_votes": 4, "written_questions": 2},
+        {"mla_id": "mla_robbie_butler",    "attended": true,  "speech_count": 1, "division_votes": 4, "written_questions": 3},
+        {"mla_id": "mla_matthew_otoole",   "attended": true,  "speech_count": 5, "division_votes": 4, "written_questions": 4},
+        {"mla_id": "mla_colin_mcgrath",    "attended": false, "speech_count": 0, "division_votes": 0, "written_questions": 0},
+        {"mla_id": "mla_gerry_carroll",    "attended": true,  "speech_count": 7, "division_votes": 4, "written_questions": 6},
+        {"mla_id": "mla_jim_allister",     "attended": true,  "speech_count": 8, "division_votes": 4, "written_questions": 4},
+        {"mla_id": "mla_timothy_gaston",   "attended": true,  "speech_count": 3, "division_votes": 4, "written_questions": 1}
+      ]
+    }
+  ]
+}
