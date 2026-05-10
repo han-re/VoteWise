@@ -480,6 +480,8 @@ async def engagement_leaderboard(
             "attended_sessions": {"$sum": {"$cond": ["$attended", 1, 0]}},
             "total_sessions": {"$sum": 1},
             "speech_count_total": {"$sum": "$speech_count"},
+            "division_votes_total": {"$sum": "$division_votes"},
+            "written_questions_total": {"$sum": "$written_questions"},
         }},
     ]
     raw = await db.mla_session_participation.aggregate(pipeline).to_list(None)
@@ -494,15 +496,17 @@ async def engagement_leaderboard(
         attendance_pct = round(attended / total * 100.0, 1) if total else 0.0
         score = r.get("engagement_score") or 0.0
         out.append({
-            "mla_id":              r["_id"],
-            "name":                mla.get("name", ""),
-            "party_id":            mla.get("party_id", ""),
-            "party_name":          meta["name"],
-            "party_color":         meta["color"],
-            "constituency":        mla.get("constituency", ""),
-            "engagement_score":    round(float(score), 1),
-            "attendance_pct":      attendance_pct,
-            "speech_count_total":  r["speech_count_total"],
+            "mla_id":                  r["_id"],
+            "name":                    mla.get("name", ""),
+            "party_id":                mla.get("party_id", ""),
+            "party_name":              meta["name"],
+            "party_color":             meta["color"],
+            "constituency":            mla.get("constituency", ""),
+            "engagement_score":        round(float(score), 1),
+            "attendance_pct":          attendance_pct,
+            "speech_count_total":      r["speech_count_total"],
+            "division_votes_total":    r["division_votes_total"],
+            "written_questions_total": r["written_questions_total"],
         })
     out.sort(key=lambda x: x["engagement_score"], reverse=(order == "desc"))
     return out[:limit]
