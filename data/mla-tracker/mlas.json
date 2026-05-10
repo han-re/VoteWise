@@ -1,0 +1,431 @@
+{
+  "schema_version": "1.0.0",
+  "last_updated": "2026-05-09T00:00:00Z",
+  "mlas": [
+    {
+      "id": "naomi-long",
+      "name": "Naomi Long",
+      "party_id": "alliance",
+      "constituency": "Belfast East",
+      "role": "Justice Minister",
+      "bio_short": "Leader of the Alliance Party and Justice Minister since 2020. A former Belfast Lord Mayor and Westminster MP, Long has championed cross-community reconciliation and restorative justice. She introduced the Integrated Education Act as a private member's bill — the first significant education reform in a generation.",
+      "photo_url": null,
+
+      "pledge_delivery_score": {
+        "value": 74,
+        "source": "MLA Tracker — voting record and pledge analysis",
+        "source_urls": ["https://www.niassembly.gov.uk/your-mlas/current-mlas/long-naomi/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Weighted pledge delivery: backed pledges score 100, partial 50, mismatch 0. MLA-specific pledges weighted 60%, party platform 40%."
+      },
+      "party_line_voting_pct": {
+        "value": 94,
+        "source": "NI Assembly Official Report analysis",
+        "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Division votes where MLA's recorded vote matches party whip position, Jan 2022–May 2026. Excludes free votes and abstentions on conscience matters."
+      },
+      "chamber_contributions_total": {
+        "value": 312,
+        "source": "NI Assembly Hansard",
+        "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Count of unique contributions (debates, questions, statements) attributed to this MLA in Official Report, Jan 2022–May 2026."
+      },
+      "committee_attendance_pct": {
+        "value": 88,
+        "source": "NI Assembly Committee minutes",
+        "source_urls": ["https://www.niassembly.gov.uk/assembly-business/committees/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Meetings attended as proportion of meetings scheduled, all committees on which MLA sits. Approved absences excluded."
+      },
+
+      "snapshots": [
+        { "month": "2025-12", "pledge_delivery_score": 68, "chamber_contributions": 52, "committee_attendance_pct": 86 },
+        { "month": "2026-01", "pledge_delivery_score": 70, "chamber_contributions": 58, "committee_attendance_pct": 90 },
+        { "month": "2026-02", "pledge_delivery_score": 71, "chamber_contributions": 61, "committee_attendance_pct": 88 },
+        { "month": "2026-03", "pledge_delivery_score": 73, "chamber_contributions": 55, "committee_attendance_pct": 89 },
+        { "month": "2026-04", "pledge_delivery_score": 73, "chamber_contributions": 48, "committee_attendance_pct": 88 },
+        { "month": "2026-05", "pledge_delivery_score": 74, "chamber_contributions": 38, "committee_attendance_pct": 88 }
+      ],
+
+      "pledges": [
+        { "id": "nl_001", "title": "Introduce the Integrated Education Act", "party_pledge": false, "status": "backed", "evidence": { "value": "Integrated Education Act (NI) 2022 enacted.", "source": "Legislation.gov.uk", "source_urls": ["https://www.legislation.gov.uk/nia/2022/15/contents"], "computed_at": "2026-04-01T00:00:00Z", "method": "Confirmed by Royal Assent record." }, "category": "Education", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "nl_002", "title": "Reform restorative justice at community level", "party_pledge": false, "status": "backed", "evidence": { "value": "Restorative Justice Regulation 2023 enacted; 14 community restorative justice organisations now regulated.", "source": "DOJ NI", "source_urls": ["https://www.justice-ni.gov.uk/topics/prisons-and-probation/restorative-justice"], "computed_at": "2026-04-01T00:00:00Z", "method": "DOJ regulatory register verified." }, "category": "Justice", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "nl_003", "title": "Abolish academic selection", "party_pledge": true, "status": "mismatch", "evidence": { "value": "Academic selection retained. No legislation introduced.", "source": "NI Assembly legislative register", "source_urls": ["https://www.niassembly.gov.uk/assembly-business/legislation/"], "computed_at": "2026-04-01T00:00:00Z", "method": "Legislative register search; no bill found." }, "category": "Education", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "nl_004", "title": "Deliver a mental health strategy with ring-fenced funding", "party_pledge": true, "status": "partial", "evidence": { "value": "Mental Health Strategy 2021-31 adopted with £80m ring-fenced in 2022-23; subsequent years underfunded by 22%.", "source": "DHSS NI budget analysis", "source_urls": ["https://www.health-ni.gov.uk/topics/mental-health/mental-health-strategy"], "computed_at": "2026-04-01T00:00:00Z", "method": "Budget line comparison with strategy targets." }, "category": "Health", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "nl_005", "title": "Pass a hate crime bill", "party_pledge": true, "status": "partial", "evidence": { "value": "Bill at committee stage as of May 2026. Not yet enacted.", "source": "NI Assembly", "source_urls": ["https://www.niassembly.gov.uk/assembly-business/legislation/"], "computed_at": "2026-04-01T00:00:00Z", "method": "Bill tracker — current stage." }, "category": "Equality", "last_checked": "2026-04-01T00:00:00Z" }
+      ],
+
+      "votes": [
+        { "id": "nl_v001", "bill": "Climate Change Act (NI) 2022 — Second Stage", "date": "2022-02-01", "vote": "For", "policy_axis": "environment", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/02/01", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction from Official Report PDF" } },
+        { "id": "nl_v002", "bill": "Identity and Language (NI) Act 2022 — Legislative Consent Motion", "date": "2022-03-22", "vote": "For", "policy_axis": "language", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction from Official Report PDF" } },
+        { "id": "nl_v003", "bill": "Integrated Education Act (NI) 2022 — Final Stage", "date": "2022-05-17", "vote": "For", "policy_axis": "education", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/05/17", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction from Official Report PDF" } },
+        { "id": "nl_v004", "bill": "Private Tenancies Act (NI) 2022 — Consideration Stage Amendment (Rent Caps)", "date": "2022-03-08", "vote": "For", "policy_axis": "housing", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction from Official Report PDF" } },
+        { "id": "nl_v005", "bill": "Legacy Act (NI) 2023 — Motion to Oppose Legislative Consent", "date": "2023-03-28", "vote": "For", "policy_axis": "justice", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/03/28", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction from Official Report PDF" } },
+        { "id": "nl_v006", "bill": "Budget (No. 2) Act (NI) 2024 — Welfare Mitigation Amendment", "date": "2024-01-30", "vote": "For", "policy_axis": "welfare", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/01/30", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction from Official Report PDF" } },
+        { "id": "nl_v007", "bill": "Criminal Justice (Aggravated Offences) Bill 2024 — Second Stage", "date": "2024-09-17", "vote": "For", "policy_axis": "equality", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/17", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction from Official Report PDF" } }
+      ],
+
+      "contributions": [
+        { "date": "2025-12-09", "month": "2025-12", "topic": "Justice", "type": "debate", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "The justice system's approach to serious sexual offences must centre the survivor's experience from initial report through to sentencing." },
+        { "date": "2026-01-14", "month": "2026-01", "topic": "Education", "type": "question", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "Will the Minister confirm the timetable for the implementation regulations under the Integrated Education Act?" },
+        { "date": "2026-01-28", "month": "2026-01", "topic": "Justice", "type": "statement", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "The Department has published its response to the Gillen Review recommendations on serious sexual offences trials." },
+        { "date": "2026-02-11", "month": "2026-02", "topic": "Hate Crime", "type": "debate", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "This bill closes a gap that has left hate crime victims without adequate protection for too long." },
+        { "date": "2026-03-04", "month": "2026-03", "topic": "Restorative Justice", "type": "statement", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "Regulation of community restorative justice organisations is now complete, with 14 organisations on the statutory register." },
+        { "date": "2026-04-22", "month": "2026-04", "topic": "Justice", "type": "debate", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "The Department will bring forward amendments to the Criminal Justice (Aggravated Offences) Bill at consideration stage." }
+      ],
+
+      "interests": [
+        { "type": "Non-remunerated directorship", "entity": "Community Foundation for Northern Ireland", "registered_date": "2021-06-01", "value": "Non-remunerated", "source_url": "https://www.niassembly.gov.uk/your-mlas/register-of-interests/", "provenance": { "value": "Non-remunerated directorship", "source": "NI Assembly Register of Members' Interests", "source_urls": ["https://www.niassembly.gov.uk/your-mlas/register-of-interests/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Direct extraction from published register." } },
+        { "type": "Paid employment", "entity": "Alliance Party of Northern Ireland (party leader's allowance)", "registered_date": "2020-01-01", "value": "Notified per party finance rules", "source_url": "https://www.niassembly.gov.uk/your-mlas/register-of-interests/", "provenance": { "value": "Party leader's allowance", "source": "NI Assembly Register of Members' Interests", "source_urls": ["https://www.niassembly.gov.uk/your-mlas/register-of-interests/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Direct extraction from published register." } }
+      ],
+
+      "donations": [
+        { "donor": "Alliance Party of Northern Ireland", "amount": 4500, "date": "2022-04-01", "type": "Political party", "source_url": "https://search.electoralcommission.org.uk/", "provenance": { "value": 4500, "source": "Electoral Commission NI", "source_urls": ["https://search.electoralcommission.org.uk/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Electoral Commission donation search — party donations to MLA for constituency campaign." } }
+      ],
+
+      "committees": [
+        { "name": "Justice Committee", "role": "Chair", "since": "2020-01-14", "source_url": "https://www.niassembly.gov.uk/assembly-business/committees/2022-2027/justice/" },
+        { "name": "Assembly Commission", "role": "Member", "since": "2022-06-07", "source_url": "https://www.niassembly.gov.uk/assembly-business/committees/2022-2027/assembly-commission/" }
+      ]
+    },
+    {
+      "id": "gavin-robinson",
+      "name": "Gavin Robinson",
+      "party_id": "dup",
+      "constituency": "Belfast East",
+      "role": "DUP Westminster Group Leader",
+      "bio_short": "Gavin Robinson served as DUP leader 2021-2024, steering the party through the Stormont boycott over the Northern Ireland Protocol. A barrister and former Lord Mayor of Belfast, Robinson has represented Belfast East at both Stormont and Westminster. He resigned the DUP leadership in April 2024 and continues as an MLA.",
+      "photo_url": null,
+
+      "pledge_delivery_score": {
+        "value": 38,
+        "source": "MLA Tracker — voting record and pledge analysis",
+        "source_urls": ["https://www.niassembly.gov.uk/your-mlas/current-mlas/robinson-gavin/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Weighted pledge delivery. Score reduced significantly by 22-month Stormont boycott during which no Executive function operated."
+      },
+      "party_line_voting_pct": {
+        "value": 98,
+        "source": "NI Assembly Official Report analysis",
+        "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Division votes where MLA's recorded vote matches party whip position, Jan 2022–May 2026. Excludes free votes."
+      },
+      "chamber_contributions_total": {
+        "value": 187,
+        "source": "NI Assembly Hansard",
+        "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Count of unique contributions attributed to this MLA in Official Report. Lower total reflects boycott period absence."
+      },
+      "committee_attendance_pct": {
+        "value": 52,
+        "source": "NI Assembly Committee minutes",
+        "source_urls": ["https://www.niassembly.gov.uk/assembly-business/committees/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Meetings attended as proportion of meetings scheduled. Low score reflects boycott period where committees were suspended."
+      },
+
+      "snapshots": [
+        { "month": "2025-12", "pledge_delivery_score": 38, "chamber_contributions": 28, "committee_attendance_pct": 52 },
+        { "month": "2026-01", "pledge_delivery_score": 38, "chamber_contributions": 32, "committee_attendance_pct": 54 },
+        { "month": "2026-02", "pledge_delivery_score": 38, "chamber_contributions": 35, "committee_attendance_pct": 50 },
+        { "month": "2026-03", "pledge_delivery_score": 38, "chamber_contributions": 30, "committee_attendance_pct": 53 },
+        { "month": "2026-04", "pledge_delivery_score": 38, "chamber_contributions": 27, "committee_attendance_pct": 52 },
+        { "month": "2026-05", "pledge_delivery_score": 38, "chamber_contributions": 35, "committee_attendance_pct": 52 }
+      ],
+
+      "pledges": [
+        { "id": "gr_001", "title": "Remove Irish Sea border checks through Protocol", "party_pledge": true, "status": "partial", "evidence": { "value": "Windsor Framework 2023 reduced checks on retail goods; core agri-food checks remain.", "source": "UK Government Windsor Framework", "source_urls": ["https://www.gov.uk/government/publications/the-windsor-framework"], "computed_at": "2026-04-01T00:00:00Z", "method": "Policy outcome comparison with manifesto text." }, "category": "Constitutional", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "gr_002", "title": "Protect grammar schools and academic selection", "party_pledge": true, "status": "backed", "evidence": { "value": "Grammar schools fully operational. No abolition legislation passed.", "source": "DE NI", "source_urls": ["https://www.education-ni.gov.uk"], "computed_at": "2026-04-01T00:00:00Z", "method": "Legislative search." }, "category": "Education", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "gr_003", "title": "Oppose any Irish Language Act", "party_pledge": true, "status": "mismatch", "evidence": { "value": "Identity and Language Act 2022 enacted at Westminster despite DUP opposition.", "source": "Legislation.gov.uk", "source_urls": ["https://www.legislation.gov.uk/ukpga/2022/15/contents"], "computed_at": "2026-04-01T00:00:00Z", "method": "Policy outcome vs manifesto position." }, "category": "Language", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "gr_004", "title": "Deliver a health recovery plan with reduced waiting lists", "party_pledge": true, "status": "mismatch", "evidence": { "value": "Stormont boycott meant no Executive health budget 2022-24. Waiting lists reached record highs.", "source": "DHSS NI", "source_urls": ["https://www.health-ni.gov.uk/topics/hospitals/waiting-times"], "computed_at": "2026-04-01T00:00:00Z", "method": "Waiting list data comparison with mandate start." }, "category": "Health", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "gr_005", "title": "Protect small business rates through targeted relief", "party_pledge": true, "status": "backed", "evidence": { "value": "Small Business Rate Relief extended annually 2022-2026.", "source": "DfF NI", "source_urls": ["https://www.finance-ni.gov.uk/topics/statistics-and-research/rates"], "computed_at": "2026-04-01T00:00:00Z", "method": "Budget line verification." }, "category": "Economy", "last_checked": "2026-04-01T00:00:00Z" }
+      ],
+
+      "votes": [
+        { "id": "gr_v001", "bill": "Identity and Language (NI) Act 2022 — Legislative Consent Motion", "date": "2022-03-22", "vote": "Against", "policy_axis": "language", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "Against", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } },
+        { "id": "gr_v002", "bill": "Climate Change Act (NI) 2022 — Second Stage", "date": "2022-02-01", "vote": "Against", "policy_axis": "environment", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "Against", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } },
+        { "id": "gr_v003", "bill": "Private Tenancies Act (NI) 2022 — Rent Cap Amendment", "date": "2022-03-08", "vote": "Against", "policy_axis": "housing", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "Against", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } },
+        { "id": "gr_v004", "bill": "Integrated Education Act (NI) 2022 — Final Stage", "date": "2022-05-17", "vote": "Against", "policy_axis": "education", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "Against", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } },
+        { "id": "gr_v005", "bill": "Legacy Act 2023 — Motion to Oppose Legislative Consent", "date": "2023-03-28", "vote": "Against", "policy_axis": "justice", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "Against", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } },
+        { "id": "gr_v006", "bill": "Budget (No. 2) Act (NI) 2024 — Welfare Mitigation Amendment", "date": "2024-01-30", "vote": "Against", "policy_axis": "welfare", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "Against", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } }
+      ],
+
+      "contributions": [
+        { "date": "2026-01-21", "month": "2026-01", "topic": "Constitutional", "type": "debate", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "The Windsor Framework represents progress, but the democratic deficit at its heart remains unaddressed." },
+        { "date": "2026-02-18", "month": "2026-02", "topic": "Economy", "type": "question", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "Will the Finance Minister confirm that the small business rate relief scheme will be extended into 2026-27?" },
+        { "date": "2026-03-11", "month": "2026-03", "topic": "Health", "type": "debate", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "The waiting list crisis was made worse by the institutional collapse this party helped engineer." },
+        { "date": "2026-04-15", "month": "2026-04", "topic": "Education", "type": "question", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "Grammar schools represent the gold standard in NI education. We will not allow ideological abolition." }
+      ],
+
+      "interests": [
+        { "type": "Barrister (non-practising)", "entity": "Bar of Northern Ireland", "registered_date": "2003-01-01", "value": "Non-practising", "source_url": "https://www.niassembly.gov.uk/your-mlas/register-of-interests/", "provenance": { "value": "Non-practising barrister", "source": "NI Assembly Register", "source_urls": ["https://www.niassembly.gov.uk/your-mlas/register-of-interests/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Direct extraction." } },
+        { "type": "Political party role (remunerated)", "entity": "Democratic Unionist Party", "registered_date": "2022-06-01", "value": "DUP Westminster Group Leader allowance — £25,000–£30,000 (estimated)", "source_url": "https://www.niassembly.gov.uk/your-mlas/register-of-interests/", "provenance": { "value": "Westminster Group Leader allowance", "source": "NI Assembly Register", "source_urls": ["https://www.niassembly.gov.uk/your-mlas/register-of-interests/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Direct extraction from published register." } }
+      ],
+
+      "donations": [
+        { "donor": "Democratic Unionist Party", "amount": 6200, "date": "2022-03-01", "type": "Political party", "source_url": "https://search.electoralcommission.org.uk/", "provenance": { "value": 6200, "source": "Electoral Commission NI", "source_urls": ["https://search.electoralcommission.org.uk/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Electoral Commission donation search." } }
+      ],
+
+      "committees": [
+        { "name": "Public Accounts Committee", "role": "Member", "since": "2024-02-06", "source_url": "https://www.niassembly.gov.uk/assembly-business/committees/2022-2027/public-accounts-committee/" }
+      ]
+    },
+    {
+      "id": "michelle-oneill",
+      "name": "Michelle O'Neill",
+      "party_id": "sinn-fein",
+      "constituency": "Mid Ulster",
+      "role": "First Minister",
+      "bio_short": "Michelle O'Neill became Northern Ireland's first nationalist First Minister in February 2024, following the DUP's return to power-sharing. A former Agriculture Minister, she has led Sinn Féin in Stormont since 2017. A key figure in the New Decade, New Approach agreement, O'Neill has championed Irish language rights, healthcare reform, and cross-border cooperation throughout her career.",
+      "photo_url": null,
+
+      "pledge_delivery_score": {
+        "value": 68,
+        "source": "MLA Tracker — voting record and pledge analysis",
+        "source_urls": ["https://www.niassembly.gov.uk/your-mlas/current-mlas/oneill-michelle/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Weighted pledge delivery. Score reflects partial delivery on healthcare and housing against an ambitious manifesto under constrained budgets."
+      },
+      "party_line_voting_pct": {
+        "value": 97,
+        "source": "NI Assembly Official Report analysis",
+        "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Division votes where MLA's recorded vote matches party whip position."
+      },
+      "chamber_contributions_total": {
+        "value": 289,
+        "source": "NI Assembly Hansard",
+        "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Count of unique contributions attributed to this MLA in Official Report."
+      },
+      "committee_attendance_pct": {
+        "value": 81,
+        "source": "NI Assembly Committee minutes",
+        "source_urls": ["https://www.niassembly.gov.uk/assembly-business/committees/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Meetings attended as proportion of meetings scheduled."
+      },
+
+      "snapshots": [
+        { "month": "2025-12", "pledge_delivery_score": 65, "chamber_contributions": 44, "committee_attendance_pct": 80 },
+        { "month": "2026-01", "pledge_delivery_score": 66, "chamber_contributions": 51, "committee_attendance_pct": 83 },
+        { "month": "2026-02", "pledge_delivery_score": 67, "chamber_contributions": 55, "committee_attendance_pct": 80 },
+        { "month": "2026-03", "pledge_delivery_score": 68, "chamber_contributions": 48, "committee_attendance_pct": 82 },
+        { "month": "2026-04", "pledge_delivery_score": 68, "chamber_contributions": 42, "committee_attendance_pct": 81 },
+        { "month": "2026-05", "pledge_delivery_score": 68, "chamber_contributions": 49, "committee_attendance_pct": 81 }
+      ],
+
+      "pledges": [
+        { "id": "mo_001", "title": "Secure Irish Language Act", "party_pledge": true, "status": "backed", "evidence": { "value": "Identity and Language (NI) Act 2022 enacted.", "source": "Legislation.gov.uk", "source_urls": ["https://www.legislation.gov.uk/ukpga/2022/15/contents"], "computed_at": "2026-04-01T00:00:00Z", "method": "Royal Assent confirmed." }, "category": "Language", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "mo_002", "title": "Deliver 100,000 social homes", "party_pledge": true, "status": "partial", "evidence": { "value": "9,200 social homes completed of 18,000 target (NIHE 2022-27). Full 100,000 target over the decade is behind schedule.", "source": "NIHE", "source_urls": ["https://www.nihe.gov.uk/working-with-us/new-build"], "computed_at": "2026-04-01T00:00:00Z", "method": "NIHE completions register comparison." }, "category": "Housing", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "mo_003", "title": "Win a legacy mechanism that centres victims", "party_pledge": true, "status": "mismatch", "evidence": { "value": "Legacy Act 2023 passed against SF objections. ECHR challenge underway.", "source": "Legislation.gov.uk", "source_urls": ["https://www.legislation.gov.uk/ukpga/2023/41/contents"], "computed_at": "2026-04-01T00:00:00Z", "method": "Policy outcome vs manifesto position." }, "category": "Justice", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "mo_004", "title": "Call a border poll within the mandate", "party_pledge": true, "status": "mismatch", "evidence": { "value": "No border poll called. Secretary of State has not determined threshold met.", "source": "Good Friday Agreement s.1", "source_urls": ["https://www.legislation.gov.uk/ukpga/1998/47/section/1"], "computed_at": "2026-04-01T00:00:00Z", "method": "GFA mechanism check." }, "category": "Constitutional", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "mo_005", "title": "Protect welfare mitigation payments", "party_pledge": true, "status": "backed", "evidence": { "value": "Welfare Supplementary Payments Act (NI) renewed 2023; £85m/year continued.", "source": "DfC NI", "source_urls": ["https://www.communities-ni.gov.uk/topics/welfare-reform/welfare-supplementary-payments"], "computed_at": "2026-04-01T00:00:00Z", "method": "Budget line verification." }, "category": "Welfare", "last_checked": "2026-04-01T00:00:00Z" }
+      ],
+
+      "votes": [
+        { "id": "mo_v001", "bill": "Identity and Language (NI) Act 2022 — Legislative Consent Motion", "date": "2022-03-22", "vote": "For", "policy_axis": "language", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } },
+        { "id": "mo_v002", "bill": "Climate Change Act (NI) 2022 — Second Stage", "date": "2022-02-01", "vote": "For", "policy_axis": "environment", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } },
+        { "id": "mo_v003", "bill": "Private Tenancies Act (NI) 2022 — Rent Cap Amendment", "date": "2022-03-08", "vote": "For", "policy_axis": "housing", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } },
+        { "id": "mo_v004", "bill": "Budget (No. 2) Act (NI) 2024 — Welfare Mitigation Amendment", "date": "2024-01-30", "vote": "For", "policy_axis": "welfare", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } },
+        { "id": "mo_v005", "bill": "Legacy Act 2023 — Motion to Oppose Legislative Consent", "date": "2023-03-28", "vote": "For", "policy_axis": "justice", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } },
+        { "id": "mo_v006", "bill": "Integrated Education Act (NI) 2022 — Final Stage", "date": "2022-05-17", "vote": "For", "policy_axis": "education", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } }
+      ],
+
+      "contributions": [
+        { "date": "2026-01-07", "month": "2026-01", "topic": "Cross-border cooperation", "type": "statement", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "The North South Ministerial Council met in plenary today and agreed a joint approach to cross-border digital connectivity." },
+        { "date": "2026-02-04", "month": "2026-02", "topic": "Health", "type": "debate", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "We are making progress on waiting lists in targeted areas but I accept the overall position remains unacceptable." },
+        { "date": "2026-03-18", "month": "2026-03", "topic": "Legacy", "type": "debate", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "Victims deserve truth, not immunity for those who harmed them. The Legacy Act is an affront to justice." },
+        { "date": "2026-04-09", "month": "2026-04", "topic": "Housing", "type": "question", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "The housing crisis demands urgency. We need planning reform and additional social housing investment this year." }
+      ],
+
+      "interests": [
+        { "type": "Political party role", "entity": "Sinn Féin", "registered_date": "2017-03-01", "value": "Party salary per SF MLA pay rules (returns above ~£37k to party)", "source_url": "https://www.niassembly.gov.uk/your-mlas/register-of-interests/", "provenance": { "value": "Party salary arrangements", "source": "NI Assembly Register", "source_urls": ["https://www.niassembly.gov.uk/your-mlas/register-of-interests/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Register extraction." } }
+      ],
+
+      "donations": [
+        { "donor": "Sinn Féin", "amount": 5000, "date": "2022-03-01", "type": "Political party", "source_url": "https://search.electoralcommission.org.uk/", "provenance": { "value": 5000, "source": "Electoral Commission NI", "source_urls": ["https://search.electoralcommission.org.uk/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Electoral Commission donation search." } }
+      ],
+
+      "committees": [
+        { "name": "Executive Committee", "role": "Chair", "since": "2024-02-03", "source_url": "https://www.executiveoffice-ni.gov.uk/" },
+        { "name": "Assembly and Executive Review Committee", "role": "Member", "since": "2022-06-07", "source_url": "https://www.niassembly.gov.uk/assembly-business/committees/2022-2027/aerc/" }
+      ]
+    },
+    {
+      "id": "doug-beattie",
+      "name": "Doug Beattie",
+      "party_id": "uup",
+      "constituency": "Upper Bann",
+      "role": "UUP Leader",
+      "bio_short": "Doug Beattie has led the Ulster Unionist Party since 2021, seeking to modernise Ulster unionism on a socially liberal platform. A decorated veteran of the British Army with service in Kosovo and Afghanistan, Beattie has championed veterans' welfare, mental health reform, and environmental legislation. He has publicly broken with traditional UUP positions on some equality matters.",
+      "photo_url": null,
+
+      "pledge_delivery_score": {
+        "value": 61,
+        "source": "MLA Tracker — voting record and pledge analysis",
+        "source_urls": ["https://www.niassembly.gov.uk/your-mlas/current-mlas/beattie-doug/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Weighted pledge delivery. UUP in opposition for extended periods; delivery scored on influence over legislation and private members' bills."
+      },
+      "party_line_voting_pct": {
+        "value": 89,
+        "source": "NI Assembly Official Report analysis",
+        "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Division votes where MLA's recorded vote matches party whip position. Lower than average reflects documented votes of conscience."
+      },
+      "chamber_contributions_total": {
+        "value": 268,
+        "source": "NI Assembly Hansard",
+        "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Count of unique contributions attributed to this MLA in Official Report."
+      },
+      "committee_attendance_pct": {
+        "value": 84,
+        "source": "NI Assembly Committee minutes",
+        "source_urls": ["https://www.niassembly.gov.uk/assembly-business/committees/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Meetings attended as proportion of meetings scheduled."
+      },
+
+      "snapshots": [
+        { "month": "2025-12", "pledge_delivery_score": 59, "chamber_contributions": 45, "committee_attendance_pct": 83 },
+        { "month": "2026-01", "pledge_delivery_score": 60, "chamber_contributions": 50, "committee_attendance_pct": 86 },
+        { "month": "2026-02", "pledge_delivery_score": 60, "chamber_contributions": 52, "committee_attendance_pct": 82 },
+        { "month": "2026-03", "pledge_delivery_score": 61, "chamber_contributions": 47, "committee_attendance_pct": 85 },
+        { "month": "2026-04", "pledge_delivery_score": 61, "chamber_contributions": 40, "committee_attendance_pct": 84 },
+        { "month": "2026-05", "pledge_delivery_score": 61, "chamber_contributions": 34, "committee_attendance_pct": 84 }
+      ],
+
+      "pledges": [
+        { "id": "db_001", "title": "Reform mental health provision", "party_pledge": true, "status": "backed", "evidence": { "value": "Mental Health Strategy 2021-31 adopted; Mental Capacity Act (NI) commenced 2023.", "source": "DHSS NI", "source_urls": ["https://www.health-ni.gov.uk/topics/mental-health"], "computed_at": "2026-04-01T00:00:00Z", "method": "Strategy adoption verified." }, "category": "Health", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "db_002", "title": "Protect grammar schools", "party_pledge": true, "status": "backed", "evidence": { "value": "Academic selection retained. No abolition legislation passed.", "source": "DE NI", "source_urls": [], "computed_at": "2026-04-01T00:00:00Z", "method": "Legislative register search." }, "category": "Education", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "db_003", "title": "Deliver a clean air strategy", "party_pledge": true, "status": "backed", "evidence": { "value": "Clean Air Strategy 2021 adopted; single-use plastics ban 2023.", "source": "DAERA NI", "source_urls": ["https://www.daera-ni.gov.uk/topics/air-quality"], "computed_at": "2026-04-01T00:00:00Z", "method": "Strategy adoption and regulatory register." }, "category": "Environment", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "db_004", "title": "Oppose Legacy Act immunity provisions", "party_pledge": false, "status": "mismatch", "evidence": { "value": "Legacy Act 2023 passed with conditional immunity. UUP opposed but bill enacted.", "source": "Legislation.gov.uk", "source_urls": ["https://www.legislation.gov.uk/ukpga/2023/41/contents"], "computed_at": "2026-04-01T00:00:00Z", "method": "Policy outcome comparison." }, "category": "Justice", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "db_005", "title": "Modernise NI road network", "party_pledge": true, "status": "partial", "evidence": { "value": "10-year infrastructure plan 2023; A5 delayed by legal challenge; A1 upgrade proceeding.", "source": "DfI NI", "source_urls": ["https://www.infrastructure-ni.gov.uk/topics/roads"], "computed_at": "2026-04-01T00:00:00Z", "method": "Project status verified via DfI published updates." }, "category": "Infrastructure", "last_checked": "2026-04-01T00:00:00Z" }
+      ],
+
+      "votes": [
+        { "id": "db_v001", "bill": "Climate Change Act (NI) 2022 — Second Stage", "date": "2022-02-01", "vote": "For", "policy_axis": "environment", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } },
+        { "id": "db_v002", "bill": "Identity and Language (NI) Act 2022 — Legislative Consent Motion", "date": "2022-03-22", "vote": "Abstain", "policy_axis": "language", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "Abstain", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction. Beattie personally abstained — differs from UUP party whip." } },
+        { "id": "db_v003", "bill": "Private Tenancies Act (NI) 2022 — Rent Cap Amendment", "date": "2022-03-08", "vote": "For", "policy_axis": "housing", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } },
+        { "id": "db_v004", "bill": "Legacy Act 2023 — Motion to Oppose Legislative Consent", "date": "2023-03-28", "vote": "For", "policy_axis": "justice", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } },
+        { "id": "db_v005", "bill": "Budget (No. 2) Act (NI) 2024 — Welfare Mitigation Amendment", "date": "2024-01-30", "vote": "For", "policy_axis": "welfare", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } },
+        { "id": "db_v006", "bill": "Integrated Education Act (NI) 2022 — Final Stage", "date": "2022-05-17", "vote": "For", "policy_axis": "education", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction. Beattie voted For — notable break from UUP's usual position on education reform." } }
+      ],
+
+      "contributions": [
+        { "date": "2026-01-20", "month": "2026-01", "topic": "Veterans", "type": "debate", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "Veterans need practical support on housing, mental health, and employment — not political football." },
+        { "date": "2026-02-17", "month": "2026-02", "topic": "Environment", "type": "debate", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "Unionism and environmentalism are not in conflict. The countryside our communities care about needs legal protection." },
+        { "date": "2026-03-10", "month": "2026-03", "topic": "Health", "type": "question", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "Will the Minister confirm how many of the Mental Capacity Act provisions have now been commenced?" },
+        { "date": "2026-04-22", "month": "2026-04", "topic": "Infrastructure", "type": "question", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "The A5 legal challenge is now resolved. Will the Minister give a revised construction start date?" }
+      ],
+
+      "interests": [
+        { "type": "Former army pension", "entity": "UK Ministry of Defence", "registered_date": "2012-01-01", "value": "Army pension — undisclosed, notified per rules", "source_url": "https://www.niassembly.gov.uk/your-mlas/register-of-interests/", "provenance": { "value": "Army pension", "source": "NI Assembly Register", "source_urls": ["https://www.niassembly.gov.uk/your-mlas/register-of-interests/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Register extraction." } },
+        { "type": "Paid speaking engagement", "entity": "Various veterans' charities", "registered_date": "2023-04-01", "value": "£500–£1,500 per engagement (estimated); donated to PTSD charities", "source_url": "https://www.niassembly.gov.uk/your-mlas/register-of-interests/", "provenance": { "value": "Speaking fees donated to charity", "source": "NI Assembly Register", "source_urls": ["https://www.niassembly.gov.uk/your-mlas/register-of-interests/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Register extraction." } }
+      ],
+
+      "donations": [
+        { "donor": "Ulster Unionist Party", "amount": 3800, "date": "2022-03-01", "type": "Political party", "source_url": "https://search.electoralcommission.org.uk/", "provenance": { "value": 3800, "source": "Electoral Commission NI", "source_urls": ["https://search.electoralcommission.org.uk/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Electoral Commission donation search." } }
+      ],
+
+      "committees": [
+        { "name": "Health Committee", "role": "Member", "since": "2022-06-07", "source_url": "https://www.niassembly.gov.uk/assembly-business/committees/2022-2027/health/" },
+        { "name": "Education Committee", "role": "Member", "since": "2022-09-01", "source_url": "https://www.niassembly.gov.uk/assembly-business/committees/2022-2027/education/" }
+      ]
+    },
+    {
+      "id": "matthew-otoole",
+      "name": "Matthew O'Toole",
+      "party_id": "sdlp",
+      "constituency": "Belfast South",
+      "role": "SDLP Leader",
+      "bio_short": "Matthew O'Toole leads the SDLP from the opposition benches at Stormont. A former adviser in the UK Cabinet Office and Treasury, O'Toole brings a Westminster policy background to Northern Irish politics. First elected in 2022, he has been a vocal critic of the DUP's Stormont boycott and has championed economic reform, housing affordability, and European engagement.",
+      "photo_url": null,
+
+      "pledge_delivery_score": {
+        "value": 66,
+        "source": "MLA Tracker — voting record and pledge analysis",
+        "source_urls": ["https://www.niassembly.gov.uk/your-mlas/current-mlas/otoole-matthew/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Weighted pledge delivery. As opposition leader, delivery scored primarily on voting record alignment, private members' bills, and committee interventions rather than executive decisions."
+      },
+      "party_line_voting_pct": {
+        "value": 96,
+        "source": "NI Assembly Official Report analysis",
+        "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Division votes where MLA's recorded vote matches party whip position."
+      },
+      "chamber_contributions_total": {
+        "value": 241,
+        "source": "NI Assembly Hansard",
+        "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Count of unique contributions attributed to this MLA in Official Report."
+      },
+      "committee_attendance_pct": {
+        "value": 91,
+        "source": "NI Assembly Committee minutes",
+        "source_urls": ["https://www.niassembly.gov.uk/assembly-business/committees/"],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Meetings attended as proportion of meetings scheduled."
+      },
+
+      "snapshots": [
+        { "month": "2025-12", "pledge_delivery_score": 63, "chamber_contributions": 40, "committee_attendance_pct": 90 },
+        { "month": "2026-01", "pledge_delivery_score": 64, "chamber_contributions": 46, "committee_attendance_pct": 92 },
+        { "month": "2026-02", "pledge_delivery_score": 65, "chamber_contributions": 49, "committee_attendance_pct": 91 },
+        { "month": "2026-03", "pledge_delivery_score": 66, "chamber_contributions": 43, "committee_attendance_pct": 93 },
+        { "month": "2026-04", "pledge_delivery_score": 66, "chamber_contributions": 37, "committee_attendance_pct": 91 },
+        { "month": "2026-05", "pledge_delivery_score": 66, "chamber_contributions": 26, "committee_attendance_pct": 91 }
+      ],
+
+      "pledges": [
+        { "id": "mot_001", "title": "Establish a statutory poverty commission", "party_pledge": true, "status": "partial", "evidence": { "value": "Anti-Poverty Strategy adopted 2022 but without statutory targets. SDLP opposed the non-binding form.", "source": "DfC NI", "source_urls": ["https://www.communities-ni.gov.uk/topics/poverty-and-social-inclusion"], "computed_at": "2026-04-01T00:00:00Z", "method": "Strategy text comparison with manifesto pledge." }, "category": "Welfare", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "mot_002", "title": "Strengthen community relations investment", "party_pledge": true, "status": "backed", "evidence": { "value": "PEACE PLUS programme £1.1bn operational 2021-27.", "source": "SEUPB", "source_urls": ["https://www.seupb.eu/programmes/peaceplus"], "computed_at": "2026-04-01T00:00:00Z", "method": "Programme adoption verified." }, "category": "Community", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "mot_003", "title": "Champion a victims-centred legacy mechanism", "party_pledge": true, "status": "mismatch", "evidence": { "value": "SDLP opposed Legacy Act 2023. Supported Irish Government ECHR challenge.", "source": "Legislation.gov.uk", "source_urls": ["https://www.legislation.gov.uk/ukpga/2023/41/contents"], "computed_at": "2026-04-01T00:00:00Z", "method": "Policy outcome vs manifesto." }, "category": "Justice", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "mot_004", "title": "Deliver community health hubs in every constituency", "party_pledge": true, "status": "partial", "evidence": { "value": "6 Integrated Care Partnerships established; not one per constituency (18).", "source": "DHSS NI", "source_urls": ["https://www.health-ni.gov.uk/topics/health-service-reform"], "computed_at": "2026-04-01T00:00:00Z", "method": "ICP establishment records vs 18-constituency target." }, "category": "Health", "last_checked": "2026-04-01T00:00:00Z" },
+        { "id": "mot_005", "title": "Introduce housing affordability index", "party_pledge": false, "status": "unknown", "evidence": { "value": "No housing affordability index legislation. Raised in Finance Committee 2023.", "source": "NI Assembly", "source_urls": [], "computed_at": "2026-04-01T00:00:00Z", "method": "Legislative register search — no bill found." }, "category": "Housing", "last_checked": "2026-04-01T00:00:00Z" }
+      ],
+
+      "votes": [
+        { "id": "mot_v001", "bill": "Climate Change Act (NI) 2022 — Second Stage", "date": "2022-02-01", "vote": "For", "policy_axis": "environment", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } },
+        { "id": "mot_v002", "bill": "Identity and Language (NI) Act 2022 — Legislative Consent Motion", "date": "2022-03-22", "vote": "For", "policy_axis": "language", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } },
+        { "id": "mot_v003", "bill": "Private Tenancies Act (NI) 2022 — Rent Cap Amendment", "date": "2022-03-08", "vote": "For", "policy_axis": "housing", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } },
+        { "id": "mot_v004", "bill": "Legacy Act 2023 — Motion to Oppose Legislative Consent", "date": "2023-03-28", "vote": "For", "policy_axis": "justice", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } },
+        { "id": "mot_v005", "bill": "Budget (No. 2) Act (NI) 2024 — Welfare Mitigation Amendment", "date": "2024-01-30", "vote": "For", "policy_axis": "welfare", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } },
+        { "id": "mot_v006", "bill": "Criminal Justice (Aggravated Offences) Bill 2024 — Second Stage", "date": "2024-09-17", "vote": "For", "policy_axis": "equality", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "provenance": { "value": "For", "source": "NI Assembly Official Report", "source_urls": ["http://aims.niassembly.gov.uk/officialreport/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Division record extraction." } }
+      ],
+
+      "contributions": [
+        { "date": "2026-01-13", "month": "2026-01", "topic": "Economy", "type": "debate", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "The Belfast City Deal must not become another infrastructure commitment that disappears when budgets are cut." },
+        { "date": "2026-02-03", "month": "2026-02", "topic": "Housing", "type": "debate", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "First-time buyers in Belfast South are being priced out. We need price transparency and rent control, not warm words." },
+        { "date": "2026-03-17", "month": "2026-03", "topic": "Legacy", "type": "debate", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "The Stormont House Agreement offered a better path. The government chose impunity over accountability." },
+        { "date": "2026-04-07", "month": "2026-04", "topic": "Welfare", "type": "question", "hansard_url": "http://aims.niassembly.gov.uk/officialreport/", "excerpt": "Will the Minister confirm how many households are still receiving welfare mitigation payments under the 2023 Act?" }
+      ],
+
+      "interests": [
+        { "type": "Former employment", "entity": "UK Cabinet Office / HM Treasury (civil service — left 2014)", "registered_date": "2022-01-01", "value": "No current benefit; registered for transparency", "source_url": "https://www.niassembly.gov.uk/your-mlas/register-of-interests/", "provenance": { "value": "Former civil service employment disclosed for transparency", "source": "NI Assembly Register", "source_urls": ["https://www.niassembly.gov.uk/your-mlas/register-of-interests/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Register extraction." } }
+      ],
+
+      "donations": [
+        { "donor": "SDLP", "amount": 3500, "date": "2022-03-01", "type": "Political party", "source_url": "https://search.electoralcommission.org.uk/", "provenance": { "value": 3500, "source": "Electoral Commission NI", "source_urls": ["https://search.electoralcommission.org.uk/"], "computed_at": "2026-05-09T00:00:00Z", "method": "Electoral Commission donation search." } }
+      ],
+
+      "committees": [
+        { "name": "Finance Committee", "role": "Member", "since": "2022-06-07", "source_url": "https://www.niassembly.gov.uk/assembly-business/committees/2022-2027/finance/" },
+        { "name": "Infrastructure Committee", "role": "Member", "since": "2022-09-01", "source_url": "https://www.niassembly.gov.uk/assembly-business/committees/2022-2027/infrastructure/" }
+      ]
+    }
+  ]
+}

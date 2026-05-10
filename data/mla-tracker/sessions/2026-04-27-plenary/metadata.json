@@ -1,0 +1,83 @@
+{
+  "session_id": "2026-04-27-plenary",
+  "speakers": [
+    {
+      "name": "Mr Deputy Speaker",
+      "party": "Dr Aiken",
+      "contribution_count": 3
+    },
+    {
+      "name": "Mr Givan",
+      "party": "The Minister of Education",
+      "contribution_count": 1
+    }
+  ],
+  "topics_raised": [
+    {
+      "topic": "Infrastructure",
+      "first_mention_line": 39
+    },
+    {
+      "topic": "Justice",
+      "first_mention_line": 43
+    },
+    {
+      "topic": "Language",
+      "first_mention_line": 67
+    },
+    {
+      "topic": "Environment",
+      "first_mention_line": 79
+    },
+    {
+      "topic": "Education",
+      "first_mention_line": 85
+    },
+    {
+      "topic": "Equality",
+      "first_mention_line": 457
+    },
+    {
+      "topic": "Housing",
+      "first_mention_line": 458
+    },
+    {
+      "topic": "Health",
+      "first_mention_line": 704
+    },
+    {
+      "topic": "Economy",
+      "first_mention_line": 704
+    },
+    {
+      "topic": "Welfare",
+      "first_mention_line": 1147
+    }
+  ],
+  "votes_recorded": [
+    {
+      "motion": "Question accordingly agreed to.                                     change. Lots of inconvenient truths are being",
+      "result": "",
+      "for": 0,
+      "against": 0,
+      "abstain": 0,
+      "line": 1646
+    },
+    {
+      "motion": "The Assembly divided: Ayes 54; Noes 20.                             Committee has agreed that there will be no time",
+      "result": "",
+      "for": 0,
+      "against": 0,
+      "abstain": 0,
+      "line": 3643
+    },
+    {
+      "motion": "Question accordingly agreed to.                                     The Bill deals with many different areas related",
+      "result": "",
+      "for": 0,
+      "against": 0,
+      "abstain": 0,
+      "line": 3680
+    }
+  ]
+}
