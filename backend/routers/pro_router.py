@@ -98,15 +98,27 @@ async def pro_health() -> HealthResponse:
 
 # ------------------------------------------------------------------ donations
 
+def _split_csv(raw: Optional[str]) -> Optional[list[str]]:
+    """Splits a comma-separated query param into a clean list, or None if empty."""
+    if not raw:
+        return None
+    parts = [p.strip() for p in raw.split(",") if p.strip()]
+    return parts or None
+
+
 @router.get("/donations/parties")
 async def donations_by_party(
     date_from: Optional[str] = Query(default=None, alias="from"),
     date_to: Optional[str] = Query(default=None, alias="to"),
+    donor_type: Optional[str] = Query(default=None),
 ):
     """Per-party donation totals over an optional date window (accepted_date).
 
     Dates are ISO YYYY-MM-DD; from/to are inclusive. Empty parties return zero
     rows so the frontend can render a stable bar chart with all 7 ids.
+
+    donor_type is an optional comma-separated filter against the canonical
+    {Individual, Company, Trade Union, Other} bucket assigned by the seed.
     """
     db = _get_db()
     match: dict = {"raw_id": {"$exists": True}}
@@ -117,6 +129,9 @@ async def donations_by_party(
         if date_to:
             date_clause["$lte"] = date_to
         match["accepted_date"] = date_clause
+    types = _split_csv(donor_type)
+    if types:
+        match["donor_type"] = {"$in": types}
 
     pipeline = [
         {"$match": match},
@@ -151,9 +166,15 @@ async def donations_by_party(
 async def top_donors(
     party_id: Optional[str] = Query(default=None),
     limit: int = Query(default=20, ge=1, le=100),
+    donor_type: Optional[str] = Query(default=None),
+    party_ids: Optional[str] = Query(default=None),
+    date_from: Optional[str] = Query(default=None, alias="from"),
+    date_to: Optional[str] = Query(default=None, alias="to"),
 ):
-    """Top donors by total donation value, optionally filtered to one party.
+    """Top donors by total donation value, optionally filtered.
 
+    party_id is the legacy single-party filter; party_ids is the newer
+    comma-separated multi-party filter (used by the donations dashboard).
     Each donor row carries a per-party breakdown so the UI can show a chip
     list of recipients alongside the headline total.
     """
@@ -161,6 +182,19 @@ async def top_donors(
     match: dict = {"raw_id": {"$exists": True}, "donor_name": {"$ne": ""}}
     if party_id:
         match["party_id"] = party_id
+    multi = _split_csv(party_ids)
+    if multi:
+        match["party_id"] = {"$in": multi}
+    types = _split_csv(donor_type)
+    if types:
+        match["donor_type"] = {"$in": types}
+    if date_from or date_to:
+        date_clause: dict = {}
+        if date_from:
+            date_clause["$gte"] = date_from
+        if date_to:
+            date_clause["$lte"] = date_to
+        match["accepted_date"] = date_clause
 
     pipeline = [
         {"$match": match},
@@ -204,6 +238,9 @@ async def top_donors(
 async def donations_timeseries(
     party_ids: Optional[str] = Query(default=None),
     granularity: str = Query(default="quarter", pattern="^(quarter|year)$"),
+    donor_type: Optional[str] = Query(default=None),
+    date_from: Optional[str] = Query(default=None, alias="from"),
+    date_to: Optional[str] = Query(default=None, alias="to"),
 ):
     """Donations over time, grouped by period × party.
 
@@ -211,12 +248,19 @@ async def donations_timeseries(
     all 7 canonical NI parties. Period labels: '2024-Q2' or '2024'.
     """
     db = _get_db()
-    if party_ids:
-        ids = [p.strip() for p in party_ids.split(",") if p.strip()]
-    else:
-        ids = list(_PARTY_META.keys())
+    ids = _split_csv(party_ids) or list(_PARTY_META.keys())
 
     match: dict = {"raw_id": {"$exists": True}, "party_id": {"$in": ids}}
+    types = _split_csv(donor_type)
+    if types:
+        match["donor_type"] = {"$in": types}
+    if date_from or date_to:
+        date_clause: dict = {}
+        if date_from:
+            date_clause["$gte"] = date_from
+        if date_to:
+            date_clause["$lte"] = date_to
+        match["accepted_date"] = date_clause
     rows = await db.party_donations.find(
         match, {"party_id": 1, "amount_gbp": 1, "accepted_date": 1, "_id": 0}
     ).to_list(None)
@@ -244,6 +288,7 @@ async def donations_timeseries(
 async def spending_by_party(
     date_from: Optional[str] = Query(default=None, alias="from"),
     date_to: Optional[str] = Query(default=None, alias="to"),
+    party_ids: Optional[str] = Query(default=None),
 ):
     db = _get_db()
     match: dict = {"raw_id": {"$exists": True}}
@@ -254,6 +299,9 @@ async def spending_by_party(
         if date_to:
             date_clause["$lte"] = date_to
         match["payment_date"] = date_clause
+    ids = _split_csv(party_ids)
+    if ids:
+        match["party_id"] = {"$in": ids}
 
     pipeline = [
         {"$match": match},
@@ -282,6 +330,48 @@ async def spending_by_party(
             "donor_count": r["donor_count"],
         })
     return enriched
+
+
+@router.get("/spending/timeseries")
+async def spending_timeseries(
+    party_ids: Optional[str] = Query(default=None),
+    granularity: str = Query(default="quarter", pattern="^(quarter|year)$"),
+    date_from: Optional[str] = Query(default=None, alias="from"),
+    date_to: Optional[str] = Query(default=None, alias="to"),
+):
+    """Campaign spending over time, grouped by period × party. Mirrors
+    the donations timeseries shape so the dashboard can re-use the chart
+    component."""
+    db = _get_db()
+    ids = _split_csv(party_ids) or list(_PARTY_META.keys())
+
+    match: dict = {"raw_id": {"$exists": True}, "party_id": {"$in": ids}}
+    if date_from or date_to:
+        date_clause: dict = {}
+        if date_from:
+            date_clause["$gte"] = date_from
+        if date_to:
+            date_clause["$lte"] = date_to
+        match["payment_date"] = date_clause
+    rows = await db.party_spending.find(
+        match, {"party_id": 1, "amount_gbp": 1, "payment_date": 1, "_id": 0}
+    ).to_list(None)
+
+    bucket_fn = _year_label if granularity == "year" else _quarter_label
+    buckets: dict[tuple[str, str], float] = {}
+    for r in rows:
+        period = bucket_fn(r.get("payment_date") or "")
+        if not period:
+            continue
+        key = (period, r["party_id"])
+        buckets[key] = buckets.get(key, 0.0) + float(r.get("amount_gbp", 0.0))
+
+    out = [
+        {"period": period, "party_id": pid, "total_gbp": round(v, 2)}
+        for (period, pid), v in buckets.items()
+    ]
+    out.sort(key=lambda x: (x["period"], x["party_id"]))
+    return out
 
 
 @router.get("/spending/top-categories")
