@@ -108,7 +108,11 @@ function fmtGBP(n: number) {
 
 function loadQuizAnswers(): Record<string, number> {
   try {
-    const raw = sessionStorage.getItem("mandate_quiz_answers") ?? sessionStorage.getItem("mandate_answers");
+    const raw = sessionStorage.getItem("votewise_quiz_answers")
+             ?? sessionStorage.getItem("votewise_answers")
+             ?? sessionStorage.getItem("mandate_quiz_answers")
+             ?? sessionStorage.getItem("mandate_answers");
+    // TODO: remove old-key fallback after 2026-05-24
     if (!raw) return {};
     const answers: Record<string, number> = JSON.parse(raw);
     const byAxis: Record<string, number> = {};
@@ -122,7 +126,9 @@ function loadQuizAnswers(): Record<string, number> {
 
 function loadStoredAlignment(mlaId: string): number | null {
   try {
-    const raw = sessionStorage.getItem("mandate_results");
+    const raw = sessionStorage.getItem("votewise_results")
+             ?? sessionStorage.getItem("mandate_results");
+    // TODO: remove old-key fallback after 2026-05-24
     if (!raw) return null;
     const r = JSON.parse(raw);
     const match = (r.mla_alignment ?? []).find((m: { mla_id: string; alignment_pct: number }) => m.mla_id === mlaId);

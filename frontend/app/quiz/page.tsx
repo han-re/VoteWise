@@ -60,7 +60,7 @@ export default function QuizPage() {
       // 260ms: exit animation plays, then advance
       setTimeout(() => {
         if (index + 1 >= questions.length) {
-          sessionStorage.setItem("mandate_quiz_answers", JSON.stringify(newAnswers));
+          sessionStorage.setItem("votewise_quiz_answers", JSON.stringify(newAnswers));
           router.push("/results");
         } else {
           setAnswers(newAnswers);

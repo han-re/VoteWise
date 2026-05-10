@@ -62,7 +62,9 @@ export default function ResultsPage() {
 
   /* Read answers from sessionStorage, POST to /quiz/score */
   useEffect(() => {
-    const raw = sessionStorage.getItem("mandate_quiz_answers");
+    const raw = sessionStorage.getItem("votewise_quiz_answers")
+             ?? sessionStorage.getItem("mandate_quiz_answers");
+    // TODO: remove old-key fallback after 2026-05-24
     if (!raw) { router.replace("/quiz"); return; }
 
     let answers: Record<string, number>;
@@ -80,8 +82,8 @@ export default function ResultsPage() {
       .then((data: ScoreResult) => {
         setResult(data);
         setLoading(false);
-        sessionStorage.setItem("mandate_answers", raw);
-        sessionStorage.setItem("mandate_results", JSON.stringify(data));
+        sessionStorage.setItem("votewise_answers", raw);
+        sessionStorage.setItem("votewise_results", JSON.stringify(data));
       })
       .catch(() => { setError(true); setLoading(false); });
   }, [router]);
