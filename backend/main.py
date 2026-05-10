@@ -114,6 +114,22 @@ async def seed_mlas():
     return {"seeded": seeded, "total_in_db": count}
 
 
+@app.post("/admin/seed-party-donations")
+async def seed_party_donations():
+    """One-shot: ingest backend/data/electoral_commission_donations.csv into db.party_donations."""
+    from seed.seed_party_donations import main as run_seed
+    result = await run_seed()
+    return result
+
+
+@app.post("/admin/seed-party-spending")
+async def seed_party_spending():
+    """One-shot: ingest backend/data/electoral_commission_spending.csv into db.party_spending."""
+    from seed.seed_party_spending import main as run_seed
+    result = await run_seed()
+    return result
+
+
 @app.post("/admin/verify-all-mlas")
 async def verify_all_mlas():
     """One-shot: stamps all MLAs on Solana devnet and stores chain_state records."""
