@@ -1,19 +1,9 @@
-// TODO(ryan): replace placeholder cards with sessions-feed component once merged
 "use client";
 
-import Link from "next/link";
 import { useEffect, useState, type CSSProperties } from "react";
 
 import { useSetProPage } from "../components/ProPageContext";
-
-interface SessionRow {
-  session_id: string;
-  date: string;
-  title: string;
-  agenda_summary: string;
-  attendee_count: number;
-  speech_count_total: number;
-}
+import { ProSessionCard, type ProSessionRow } from "./components/ProSessionCard";
 
 interface ProHealth {
   last_sessions_seeded_at: string | null;
@@ -25,22 +15,6 @@ const cardStyle: CSSProperties = {
   borderRadius: 10,
   padding: "16px 18px",
 };
-
-const sessionCardStyle: CSSProperties = {
-  ...cardStyle,
-  display: "flex",
-  flexDirection: "column",
-  gap: 8,
-  padding: "18px 20px",
-};
-
-function formatDate(iso: string): string {
-  return new Date(iso).toLocaleDateString("en-GB", {
-    day: "2-digit",
-    month: "short",
-    year: "numeric",
-  });
-}
 
 function formatRelative(iso: string | null): string {
   if (!iso) return "never";
@@ -57,7 +31,7 @@ function formatRelative(iso: string | null): string {
 export default function SessionsFeedPage() {
   useSetProPage("Stormont Sessions", ["Stormont Sessions"]);
 
-  const [sessions, setSessions] = useState<SessionRow[]>([]);
+  const [sessions, setSessions] = useState<ProSessionRow[]>([]);
   const [updated, setUpdated] = useState<string | null>(null);
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -93,43 +67,9 @@ export default function SessionsFeedPage() {
         </span>
       </header>
 
-      {/* TODO(ryan): swap inline cards below for the sessions-feed component when merged. */}
-      <div data-todo="ryan-sessions-feed" style={{ display: "grid", gap: 14 }}>
+      <div style={{ display: "grid", gap: 14 }}>
         {sessions.map((s) => (
-          <article key={s.session_id} style={sessionCardStyle}>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 12 }}>
-              <Link
-                href={`/pro/sessions/${s.session_id}`}
-                style={{ color: "#e6eef7", textDecoration: "none", fontSize: 16, fontWeight: 600, lineHeight: 1.3 }}
-              >
-                {s.title}
-              </Link>
-              <span style={{ color: "rgba(180,207,232,0.55)", fontSize: 12, fontFamily: "var(--vw-pro-mono)", whiteSpace: "nowrap" }}>
-                {formatDate(s.date)}
-              </span>
-            </div>
-            <p style={{ margin: 0, color: "rgba(205,220,236,0.7)", fontSize: 13.5, lineHeight: 1.55 }}>
-              {s.agenda_summary}
-            </p>
-            <div
-              style={{
-                display: "flex",
-                gap: 18,
-                fontSize: 12,
-                color: "rgba(180,207,232,0.55)",
-                marginTop: 4,
-              }}
-            >
-              <span><strong style={{ fontFamily: "var(--vw-pro-mono)", color: "#cddcec" }}>{s.attendee_count}</strong> attendees</span>
-              <span><strong style={{ fontFamily: "var(--vw-pro-mono)", color: "#cddcec" }}>{s.speech_count_total}</strong> speeches</span>
-              <Link
-                href={`/pro/sessions/${s.session_id}`}
-                style={{ color: "var(--vw-pro-cyan)", textDecoration: "none", marginLeft: "auto" }}
-              >
-                Open session →
-              </Link>
-            </div>
-          </article>
+          <ProSessionCard key={s.session_id} session={s} />
         ))}
       </div>
     </div>

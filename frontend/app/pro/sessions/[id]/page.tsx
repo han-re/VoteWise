@@ -1,4 +1,3 @@
-// TODO(ryan): replace placeholder div with chatbot component once merged
 "use client";
 
 import Link from "next/link";
@@ -7,6 +6,8 @@ import { useEffect, useMemo, useState, type CSSProperties } from "react";
 
 import { DataTable, type Column } from "../../components/DataTable";
 import { useSetProPage } from "../../components/ProPageContext";
+import { ChatbotProvider, useChatbot } from "../../../components/tracker/ChatbotProvider";
+import { FloatingChatbot } from "../../../components/tracker/FloatingChatbot";
 
 interface SessionParticipant {
   mla_id: string;
@@ -59,15 +60,40 @@ function formatDate(iso: string): string {
   });
 }
 
-export default function SessionDetailPage() {
-  const params = useParams<{ id: string }>();
-  const sessionId = params?.id ?? "";
+function AskSessionButton({ sessionId }: { sessionId: string }) {
+  const { openFor } = useChatbot();
+  return (
+    <button
+      type="button"
+      onClick={() => openFor(sessionId)}
+      style={{
+        display: "inline-flex",
+        alignItems: "center",
+        gap: "0.45rem",
+        background: "rgba(125,211,252,0.08)",
+        border: "1px solid var(--vw-pro-cyan)",
+        borderRadius: "8px",
+        padding: "0.5rem 1rem",
+        cursor: "pointer",
+        fontSize: "0.88rem",
+        color: "var(--vw-pro-cyan)",
+        fontWeight: 700,
+        letterSpacing: "0.02em",
+      }}
+    >
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+      </svg>
+      Ask about this session
+    </button>
+  );
+}
 
+function SessionDetailContent({ sessionId }: { sessionId: string }) {
   const [data, setData] = useState<SessionDetail | null>(null);
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(true);
 
-  // Set the topbar title once the data lands so the breadcrumb is meaningful.
   const title = data?.title ?? "Session";
   useSetProPage(title, ["Stormont Sessions", title]);
 
@@ -188,7 +214,7 @@ export default function SessionDetailPage() {
               whiteSpace: "nowrap",
             }}
           >
-            Hansard ↗
+            Hansard &#8599;
           </a>
         </div>
         <p style={{ marginTop: 12, color: "rgba(205,220,236,0.7)", fontSize: 14, lineHeight: 1.6 }}>
@@ -215,33 +241,15 @@ export default function SessionDetailPage() {
         </div>
       </section>
 
-      {/* Chatbot placeholder — slot Ryan's component here once merged */}
+      {/* Session chatbot */}
       <section style={cardStyle}>
-        <header style={{ marginBottom: 10, display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
+        <header style={{ marginBottom: 12, display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
           <h3 style={sectionTitle}>Ask this session</h3>
           <span style={{ fontSize: 11.5, color: "rgba(180,207,232,0.5)" }}>
             Chatbot grounded on the session transcript
           </span>
         </header>
-        <div
-          data-todo="ryan-chatbot"
-          style={{
-            border: "1px dashed var(--vw-pro-grid)",
-            borderRadius: 8,
-            padding: 32,
-            textAlign: "center",
-            color: "rgba(205,220,236,0.55)",
-            fontSize: 13,
-            lineHeight: 1.6,
-          }}
-        >
-          <strong style={{ color: "var(--vw-pro-cyan)" }}>Chatbot component slots here</strong>
-          <div style={{ marginTop: 8, fontSize: 12 }}>
-            Ryan&rsquo;s session-grounded chatbot will mount in this slot.
-            <br />
-            It consumes <code>GET /pro/sessions/{data.session_id}</code> for grounding context.
-          </div>
-        </div>
+        <AskSessionButton sessionId={data.session_id} />
       </section>
 
       {/* Per-MLA participation */}
@@ -258,8 +266,21 @@ export default function SessionDetailPage() {
       </section>
 
       <Link href="/pro/sessions" style={{ color: "var(--vw-pro-cyan)", textDecoration: "none", fontSize: 13 }}>
-        ← Back to all sessions
+        &#8592; Back to all sessions
       </Link>
+
+      <FloatingChatbot />
     </div>
+  );
+}
+
+export default function SessionDetailPage() {
+  const params = useParams<{ id: string }>();
+  const sessionId = params?.id ?? "";
+
+  return (
+    <ChatbotProvider>
+      <SessionDetailContent sessionId={sessionId} />
+    </ChatbotProvider>
   );
 }
