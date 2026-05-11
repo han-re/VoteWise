@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-db = AsyncIOMotorClient(os.getenv("MONGODB_URI", "mongodb://localhost:27017"))["mandatewatch"]
+db = AsyncIOMotorClient(os.getenv("MONGODB_URI", "mongodb://localhost:27017"))["votewise"]
 
 
 async def test():

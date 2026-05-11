@@ -37,8 +37,6 @@ def get_db():
         uri = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
         _mongo_client = AsyncIOMotorClient(uri, serverSelectionTimeoutMS=3000)
     return _mongo_client["votewise"]
-
-
 def _read_tracker_json(relative_path: str) -> dict:
     full_path = _TRACKER_DATA_DIR / relative_path
     with open(full_path, encoding="utf-8") as f:
@@ -257,32 +255,3 @@ async def chain_verify(politician_id: str):
     except Exception as exc:
         raise HTTPException(status_code=502, detail=str(exc)) from exc
 
-    profile_data = _politician_cache.get(politician_id, {"politician_id": politician_id, "stub": True})
-    try:
-        db = get_db()
-        politician = await db.mlas.find_one({"_id": politician_id})
-        if politician:
-            politician.pop("_id", None)
-            profile_data = politician
-    except Exception:
-        pass  # MongoDB unavailable — use cached/stub profile
-    _politician_cache[politician_id] = profile_data
-
-    class MemDB:
-        class chain_state:
-            @staticmethod
-            async def find_one(*a, **kw):
-                return _chain_state_cache.get(politician_id)
-            @staticmethod
-            async def update_one(filter, update, **kw):
-                rec = update.get("$set", {})
-                _chain_state_cache[rec.get("politician_id", politician_id)] = rec
-
-    try:
-        db = get_db()
-        await db.command("ping")
-        result = await verify_profile_on_chain(politician_id, profile_data, db)
-    except Exception:
-        result = await verify_profile_on_chain(politician_id, profile_data, MemDB())
-
-    return result

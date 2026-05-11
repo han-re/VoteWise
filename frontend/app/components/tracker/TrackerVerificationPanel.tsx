@@ -38,7 +38,6 @@ const TRACKER_CARD: CSSProperties = {
   overflow: "hidden",
   position: "relative",
 };
-const WHITE = "#ffffff";
 const GREEN_TEXT = "#bbf7d0";
 const GREEN_MUTED = "rgba(187,247,208,0.76)";
 const GREEN_DIM = "rgba(187,247,208,0.58)";
@@ -233,7 +232,6 @@ function DarkTopStripe({ color }: { color: string }) {
 
 export default function TrackerVerificationPanel({
   recordId,
-  subjectLabel,
   payload,
   accentColor = "#22c55e",
 }: Props) {

@@ -51,7 +51,7 @@ PARTIES = [
 async def seed():
     uri = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
     client = AsyncIOMotorClient(uri)
-    db = client["mandatewatch"]
+    db = client["votewise"]
 
     for party in PARTIES:
         await db["Parties"].replace_one({"_id": party["_id"]}, party, upsert=True)

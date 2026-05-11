@@ -1,6 +1,6 @@
 @AGENTS.md
 
-# MandateWatch — HackBelfast 2026
+# VoteWise — HackBelfast 2026
 
 ## What this project is
 Belfast politician accountability platform. Aggregates public data 
@@ -118,7 +118,7 @@ UPDATE THIS as phases complete:
 
 ## Legal boundary — never violate this
 Every data point displayed must have a source link.
-MandateWatch aggregates public record only — zero independent claims.
+VoteWise aggregates public record only — zero independent claims.
 Claude output must describe correlations, never make accusations.
 No personal addresses, family info, or non-public data ever.
 

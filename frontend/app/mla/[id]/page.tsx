@@ -108,7 +108,11 @@ function fmtGBP(n: number) {
 
 function loadQuizAnswers(): Record<string, number> {
   try {
-    const raw = sessionStorage.getItem("mandate_quiz_answers") ?? sessionStorage.getItem("mandate_answers");
+    const raw = sessionStorage.getItem("votewise_quiz_answers")
+             ?? sessionStorage.getItem("votewise_answers")
+             ?? sessionStorage.getItem("mandate_quiz_answers")
+             ?? sessionStorage.getItem("mandate_answers");
+    // TODO: remove old-key fallback after 2026-05-24
     if (!raw) return {};
     const answers: Record<string, number> = JSON.parse(raw);
     const byAxis: Record<string, number> = {};
@@ -122,7 +126,9 @@ function loadQuizAnswers(): Record<string, number> {
 
 function loadStoredAlignment(mlaId: string): number | null {
   try {
-    const raw = sessionStorage.getItem("mandate_results");
+    const raw = sessionStorage.getItem("votewise_results")
+             ?? sessionStorage.getItem("mandate_results");
+    // TODO: remove old-key fallback after 2026-05-24
     if (!raw) return null;
     const r = JSON.parse(raw);
     const match = (r.mla_alignment ?? []).find((m: { mla_id: string; alignment_pct: number }) => m.mla_id === mlaId);
@@ -181,7 +187,7 @@ export default function MlaPage() {
   if (error || !mla) return (
     <div style={{ background: "#080e1a", minHeight: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: "1rem", fontFamily: "'Segoe UI', system-ui, sans-serif" }}>
       <p style={{ color: "#e8962a", fontSize: "0.88rem" }}>MLA not found.</p>
-      <Link href="/" style={{ border: "1px solid rgba(180,207,232,0.18)", borderRadius: "20px", padding: "0.5rem 1.2rem", color: "#b4cfe8", fontSize: "0.8rem", textDecoration: "none" }}>← Back to Mandate</Link>
+      <Link href="/" style={{ border: "1px solid rgba(180,207,232,0.18)", borderRadius: "20px", padding: "0.5rem 1.2rem", color: "#b4cfe8", fontSize: "0.8rem", textDecoration: "none" }}>← Back to VoteWise</Link>
     </div>
   );
 
@@ -206,7 +212,7 @@ export default function MlaPage() {
             onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(180,207,232,0.45)")}
           >
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M19 12H5M12 5l-7 7 7 7" /></svg>
-            Mandate
+            VoteWise
           </Link>
           <span style={{ color: "rgba(180,207,232,0.18)", fontSize: "0.75rem" }}>/</span>
           <Link href={`/party/${mla.party_id}`} style={{ color, fontSize: "0.75rem", fontWeight: 700, textDecoration: "none" }}>{meta.short_name}</Link>
@@ -393,7 +399,7 @@ export default function MlaPage() {
         </div>
 
         <p style={{ textAlign: "center", paddingBottom: "3rem", fontSize: "0.64rem", color: "rgba(180,207,232,0.14)", letterSpacing: "0.1em", textTransform: "uppercase" as const }}>
-          Mandate &nbsp;·&nbsp; Vote for the policy, not the tribe
+          VoteWise &nbsp;·&nbsp; Vote for the policy, not the tribe
         </p>
 
       </div>

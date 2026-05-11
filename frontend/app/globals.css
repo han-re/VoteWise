@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
-/* ── Mandate design tokens ── */
+/* ── VoteWise design tokens ── */
 :root {
-  --m-dark:    #080e1a;
-  --m-card-bg: rgba(11,20,38,0.82);
-  --m-border:  rgba(180,207,232,0.11);
-  --m-accent:  #e8962a;
-  --m-glow:    #b4cfe8;
+  --vw-dark:    #080e1a;
+  --vw-card-bg: rgba(11,20,38,0.82);
+  --vw-border:  rgba(180,207,232,0.11);
+  --vw-accent:  #e8962a;
+  --vw-glow:    #b4cfe8;
 
   /* keep Tailwind compat */
   --background: #080e1a;
@@ -26,7 +26,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  background: var(--m-dark);
+  background: var(--vw-dark);
   color: #cddcec;
   font-family: 'Segoe UI', system-ui, sans-serif;
   overflow-x: hidden;
@@ -34,53 +34,53 @@ body {
 }
 
 /* ── Keyframes — exact copies from html/index.html ── */
-@keyframes mandateShimmerBar {
+@keyframes votewiseShimmerBar {
   0%   { background-position: 200% 0; }
   100% { background-position: -200% 0; }
 }
 
-@keyframes mandateTitleEntrance {
+@keyframes votewiseTitleEntrance {
   from { opacity: 0; transform: scale(0.94); filter: blur(6px); }
   to   { opacity: 1; transform: scale(1);    filter: blur(0);   }
 }
 
-@keyframes mandateCardFade {
+@keyframes votewiseCardFade {
   from { opacity: 0; transform: translateY(22px); }
   to   { opacity: 1; transform: translateY(0);    }
 }
 
-@keyframes mandateAmberPulse {
+@keyframes votewiseAmberPulse {
   0%,100% { text-shadow: 0 0 40px rgba(232,150,42,0.55), 0 3px 0 rgba(0,0,0,1), 0 6px 20px rgba(0,0,0,1); }
   50%     { text-shadow: 0 0 90px rgba(232,150,42,0.9),  0 0 20px rgba(232,150,42,0.45), 0 3px 0 rgba(0,0,0,1); }
 }
 
-@keyframes mandateFloatTile {
+@keyframes votewiseFloatTile {
   0%, 100% { transform: translateY(0px); }
   50%       { transform: translateY(-9px); }
 }
 
 /* ── Quiz question transitions ── */
-@keyframes mandateQuestionEnter {
+@keyframes votewiseQuestionEnter {
   from { opacity: 0; transform: translateY(28px) scale(0.98); filter: blur(4px); }
   to   { opacity: 1; transform: translateY(0)    scale(1);    filter: blur(0);   }
 }
 
-@keyframes mandateQuestionExit {
+@keyframes votewiseQuestionExit {
   from { opacity: 1; transform: translateY(0)     scale(1);    filter: blur(0);   }
   to   { opacity: 0; transform: translateY(-20px) scale(0.98); filter: blur(3px); }
 }
 
-.mandate-question-enter {
-  animation: mandateQuestionEnter 0.38s cubic-bezier(0.16,1,0.3,1) both;
+.votewise-question-enter {
+  animation: votewiseQuestionEnter 0.38s cubic-bezier(0.16,1,0.3,1) both;
 }
 
-.mandate-question-exit {
-  animation: mandateQuestionExit 0.26s ease-in both;
+.votewise-question-exit {
+  animation: votewiseQuestionExit 0.26s ease-in both;
   pointer-events: none;
 }
 
 /* ── Answer button hover (CSS custom property set per-element) ── */
-.mandate-answer-btn:not(:disabled):hover {
+.votewise-answer-btn:not(:disabled):hover {
   border-color: var(--btn-color) !important;
   box-shadow:
     0 0 0 1px var(--btn-color),
@@ -89,16 +89,16 @@ body {
   transform: translateY(-3px) scale(1.03);
 }
 
-.mandate-answer-btn:not(:disabled):hover .mandate-btn-stripe {
+.votewise-answer-btn:not(:disabled):hover .votewise-btn-stripe {
   height: 4px !important;
   opacity: 1 !important;
 }
 
-.mandate-answer-btn:not(:disabled):hover .mandate-btn-short {
+.votewise-answer-btn:not(:disabled):hover .votewise-btn-short {
   text-shadow: 0 0 16px var(--btn-color) !important;
 }
 
-.mandate-answer-btn {
+.votewise-answer-btn {
   transition:
     border-color 0.25s ease,
     box-shadow   0.25s ease,
@@ -111,7 +111,7 @@ body {
   to { transform: rotate(360deg); }
 }
 
-.mandate-answer-btn::after {
+.votewise-answer-btn::after {
   content: '';
   position: absolute;
   inset: 0;
@@ -123,7 +123,7 @@ body {
   border-radius: 12px;
 }
 
-.mandate-answer-btn:not(:disabled):hover::after {
+.votewise-answer-btn:not(:disabled):hover::after {
   background-position: -150% 0;
 }
 

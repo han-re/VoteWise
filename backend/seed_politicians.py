@@ -63,7 +63,7 @@ POLITICIANS = [
 async def seed():
     uri = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
     client = AsyncIOMotorClient(uri)
-    db = client["mandatewatch"]
+    db = client["votewise"]
 
     for pol in POLITICIANS:
         await db.politicians.replace_one(

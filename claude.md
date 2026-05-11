@@ -1,10 +1,10 @@
-# CLAUDE.md — Mandate Build Instructions
+# CLAUDE.md — VoteWise Build Instructions
 
 This file is the source of truth for the 8-hour final sprint. Read top to bottom before doing anything. Every feature is in priority order. Do not skip ahead. Do not invent features not listed here.
 
 ## Project context
 
-Mandate is a political accountability platform for Northern Ireland. The core insight: NI voters back parties on tribal/identity lines rather than policy alignment. Mandate breaks that pattern with a 90-second quiz that maps the user's policy positions to each party's actual voting record (not their manifesto rhetoric), then lets them investigate the parties and their MLAs.
+VoteWise is a political accountability platform for Northern Ireland. The core insight: NI voters back parties on tribal/identity lines rather than policy alignment. VoteWise breaks that pattern with a 90-second quiz that maps the user's policy positions to each party's actual voting record (not their manifesto rhetoric), then lets them investigate the parties and their MLAs.
 
 The hackathon is HackBelfast 2026 (Builder track, brief: "Belfast 2036"). Submission deadline: 10:56 Sunday. We have ~6 hours of build time, then 1 hour for demo recording, then 1 hour submission buffer.
 
@@ -374,7 +374,7 @@ Generate 7 audio files locally using ElevenLabs API, save to `frontend/public/au
 
 Each script ~90 seconds, ~250 words. Template:
 
-> "You aligned most with the {Party Name}. Their record on {top issue from your alignment} matches yours: {one specific kept promise or vote}. But here's where they may diverge from you: {one specific broken or in-progress promise}. The {Party Name} holds {seat count} seats at Stormont and is led by {leader}. In the next term, watch for {one upcoming or expected policy area}. Mandate is anchored on the Solana blockchain so this analysis cannot be silently changed. Your views matter. Vote for the policy, not the tribe."
+> "You aligned most with the {Party Name}. Their record on {top issue from your alignment} matches yours: {one specific kept promise or vote}. But here's where they may diverge from you: {one specific broken or in-progress promise}. The {Party Name} holds {seat count} seats at Stormont and is led by {leader}. In the next term, watch for {one upcoming or expected policy area}. VoteWise is anchored on the Solana blockchain so this analysis cannot be silently changed. Your views matter. Vote for the policy, not the tribe."
 
 Generate once, commit to repo.
 
@@ -427,7 +427,7 @@ Before recording:
 
 Demo script (90 seconds):
 
-1. (10s) Hook: "NI politics is dominated by tribal voting. Mandate breaks that pattern."
+1. (10s) Hook: "NI politics is dominated by tribal voting. VoteWise breaks that pattern."
 2. (15s) Homepage → click quiz CTA.
 3. (20s) Speed-run 5 quiz questions on screen.
 4. (15s) Results — bar chart appears, audio plays. Voice-over the surprise alignment.

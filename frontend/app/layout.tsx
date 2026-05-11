@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mandate — NI Political Accountability",
+  title: "VoteWise — NI Political Accountability",
   description: "Find out which Northern Ireland party your views actually align with, based on how they've voted, not what they've promised.",
 };
 

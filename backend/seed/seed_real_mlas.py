@@ -1363,7 +1363,7 @@ MLAS = [
 async def main() -> None:
     uri = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
     client = AsyncIOMotorClient(uri)
-    db = client["mandatewatch"]
+    db = client["votewise"]
 
     for mla in MLAS:
         await db["mlas"].replace_one({"_id": mla["_id"]}, mla, upsert=True)

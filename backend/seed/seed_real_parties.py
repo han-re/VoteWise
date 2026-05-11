@@ -930,7 +930,7 @@ PARTIES = [
 async def main() -> None:
     uri = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
     client = AsyncIOMotorClient(uri)
-    db = client["mandatewatch"]
+    db = client["votewise"]
 
     # Migrate any existing data from capital-P collection before seeding.
     old_count = await db["Parties"].count_documents({})
