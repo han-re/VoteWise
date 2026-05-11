@@ -1,4 +1,7 @@
+import json
 import os
+import re
+from pathlib import Path
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
@@ -27,6 +30,7 @@ _chain_state_cache: dict = {}
 _politician_cache: dict = {
     "pol_001": {"politician_id": "pol_001", "stub": True},
 }
+_TRACKER_DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "mla-tracker"
 
 
 def get_db():
@@ -35,6 +39,52 @@ def get_db():
         uri = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
         _mongo_client = AsyncIOMotorClient(uri, serverSelectionTimeoutMS=3000)
     return _mongo_client["votewise"]
+def _read_tracker_json(relative_path: str) -> dict:
+    full_path = _TRACKER_DATA_DIR / relative_path
+    with open(full_path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _validate_tracker_slug(slug: str) -> None:
+    if not re.fullmatch(r"[A-Za-z0-9_-]+", slug):
+        raise HTTPException(status_code=400, detail="Invalid tracker id")
+
+
+def _tracker_mla_payload(mla_id: str) -> dict:
+    _validate_tracker_slug(mla_id)
+    data = _read_tracker_json("mlas.json")
+    mla = next((item for item in data.get("mlas", []) if item.get("id") == mla_id), None)
+    if not mla:
+        raise HTTPException(status_code=404, detail="Tracker MLA not found")
+    return {
+        "record_type": "tracker_mla",
+        "mla_id": mla_id,
+        "mla": mla,
+    }
+
+
+def _tracker_session_payload(slug: str) -> dict:
+    _validate_tracker_slug(slug)
+    session_dir = _TRACKER_DATA_DIR / "sessions" / slug
+    summary_path = session_dir / "summary.json"
+    if not summary_path.exists():
+        raise HTTPException(status_code=404, detail="Tracker session not found")
+
+    with open(summary_path, encoding="utf-8") as f:
+        summary = json.load(f)
+
+    metadata = None
+    metadata_path = session_dir / "metadata.json"
+    if metadata_path.exists():
+        with open(metadata_path, encoding="utf-8") as f:
+            metadata = json.load(f)
+
+    return {
+        "record_type": "tracker_session",
+        "slug": slug,
+        "summary": summary,
+        "metadata": metadata,
+    }
 
 
 async def _get_chain_record(politician_id: str) -> dict | None:
@@ -64,21 +114,21 @@ def health():
 
 # ------------------------------------------------------------------ parties
 
-def _parties_col(db):
-    """Atlas has the collection as 'Parties' (capital P); fall back to lowercase."""
-    return db["Parties"]
-
-
 @app.get("/parties")
 async def get_parties():
     db = get_db()
-    return await _parties_col(db).find({}).to_list(None)
+    parties = await db["parties"].find({}).to_list(None)
+    if parties:
+        return parties
+    return await db["Parties"].find({}).to_list(None)
 
 
 @app.get("/party/{party_id}")
 async def get_party(party_id: str):
     db = get_db()
-    party = await _parties_col(db).find_one({"_id": party_id})
+    party = await db["parties"].find_one({"_id": party_id})
+    if not party:
+        party = await db["Parties"].find_one({"_id": party_id})
     if not party:
         raise HTTPException(status_code=404, detail="Party not found")
     return party
@@ -92,14 +142,14 @@ async def get_party_mlas(party_id: str):
 
 @app.post("/admin/seed-parties")
 async def seed_parties():
-    """One-shot: seeds the 7 real NI parties into db.Parties."""
+    """One-shot: seeds the 7 real NI parties into db.parties."""
     from seed.seed_real_parties import PARTIES
     db = get_db()
     seeded = []
     for party in PARTIES:
-        await _parties_col(db).replace_one({"_id": party["_id"]}, party, upsert=True)
+        await db["parties"].replace_one({"_id": party["_id"]}, party, upsert=True)
         seeded.append(party["_id"])
-    count = await _parties_col(db).count_documents({})
+    count = await db["parties"].count_documents({})
     return {"seeded": seeded, "total_in_db": count}
 
 
@@ -157,6 +207,18 @@ async def verify_all_mlas():
     return {"verified": results, "chain_state_total": count}
 
 
+# -------------------------------------------------------------- tracker chain
+
+@app.get("/tracker/mla/{mla_id}")
+async def get_tracker_mla(mla_id: str):
+    return _tracker_mla_payload(mla_id)["mla"]
+
+
+@app.get("/tracker/session/{slug}")
+async def get_tracker_session(slug: str):
+    return _tracker_session_payload(slug)
+
+
 # --------------------------------------------------------------------- MLAs
 
 @app.get("/mla/{mla_id}")
@@ -207,32 +269,15 @@ async def chain_status(politician_id: str):
 async def chain_verify(politician_id: str):
     from services.solana_service import verify_profile_on_chain
 
-    profile_data = _politician_cache.get(politician_id, {"politician_id": politician_id, "stub": True})
-    try:
-        db = get_db()
-        politician = await db.politicians.find_one({"_id": politician_id})
-        if politician:
-            politician.pop("_id", None)
-            profile_data = politician
-    except Exception:
-        pass  # MongoDB unavailable — use cached/stub profile
-    _politician_cache[politician_id] = profile_data
+    db = get_db()
+    await db.command("ping")
 
-    class MemDB:
-        class chain_state:
-            @staticmethod
-            async def find_one(*a, **kw):
-                return _chain_state_cache.get(politician_id)
-            @staticmethod
-            async def update_one(filter, update, **kw):
-                rec = update.get("$set", {})
-                _chain_state_cache[rec.get("politician_id", politician_id)] = rec
+    profile_data = await _get_mla(politician_id)
+    if not profile_data:
+        raise HTTPException(status_code=404, detail="MLA not found")
 
     try:
-        db = get_db()
-        await db.command("ping")
-        result = await verify_profile_on_chain(politician_id, profile_data, db)
-    except Exception:
-        result = await verify_profile_on_chain(politician_id, profile_data, MemDB())
+        return await verify_profile_on_chain(politician_id, profile_data, db)
+    except Exception as exc:
+        raise HTTPException(status_code=502, detail=str(exc)) from exc
 
-    return result

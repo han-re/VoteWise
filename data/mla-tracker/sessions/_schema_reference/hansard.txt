@@ -1,0 +1,6 @@
+# SCHEMA REFERENCE — hansard.txt
+
+Raw text extracted from the Hansard PDF via pypdf.
+One line per line of the original document.
+Speaker turns identified by the pattern:  "FIRSTNAME LASTNAME (PARTY):  " at the start of a line.
+This file is the canonical source for all summaries, chunks, and metadata.

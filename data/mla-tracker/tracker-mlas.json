@@ -1,0 +1,231 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-05-09T00:00:00Z",
+  "mlas": [
+    {
+      "slug": "naomi-long",
+      "name": "Naomi Long",
+      "party": "alliance",
+      "party_short_name": "Alliance",
+      "party_color": "#F6CB2F",
+      "constituency": "Belfast East",
+      "role": "Justice Minister",
+      "pledge_delivery_score": {
+        "value": 74,
+        "source": "MLA Tracker — voting record and pledge analysis",
+        "source_urls": [
+          "https://www.niassembly.gov.uk/your-mlas/current-mlas/long-naomi/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Weighted pledge delivery: backed pledges score 100, partial 50, mismatch 0. MLA-specific pledges weighted 60%, party platform 40%."
+      },
+      "party_line_voting_pct": {
+        "value": 94,
+        "source": "NI Assembly Official Report analysis",
+        "source_urls": [
+          "http://aims.niassembly.gov.uk/officialreport/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Division votes where MLA's recorded vote matches party whip position, Jan 2022–May 2026. Excludes free votes and abstentions on conscience matters."
+      },
+      "chamber_contributions_total": {
+        "value": 312,
+        "source": "NI Assembly Hansard",
+        "source_urls": [
+          "http://aims.niassembly.gov.uk/officialreport/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Count of unique contributions (debates, questions, statements) attributed to this MLA in Official Report, Jan 2022–May 2026."
+      },
+      "committee_attendance_pct": {
+        "value": 88,
+        "source": "NI Assembly Committee minutes",
+        "source_urls": [
+          "https://www.niassembly.gov.uk/assembly-business/committees/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Meetings attended as proportion of meetings scheduled, all committees on which MLA sits. Approved absences excluded."
+      }
+    },
+    {
+      "slug": "gavin-robinson",
+      "name": "Gavin Robinson",
+      "party": "dup",
+      "party_short_name": "DUP",
+      "party_color": "#D4213D",
+      "constituency": "Belfast East",
+      "role": "DUP Westminster Group Leader",
+      "pledge_delivery_score": {
+        "value": 38,
+        "source": "MLA Tracker — voting record and pledge analysis",
+        "source_urls": [
+          "https://www.niassembly.gov.uk/your-mlas/current-mlas/robinson-gavin/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Weighted pledge delivery. Score reduced significantly by 22-month Stormont boycott during which no Executive function operated."
+      },
+      "party_line_voting_pct": {
+        "value": 98,
+        "source": "NI Assembly Official Report analysis",
+        "source_urls": [
+          "http://aims.niassembly.gov.uk/officialreport/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Division votes where MLA's recorded vote matches party whip position, Jan 2022–May 2026. Excludes free votes."
+      },
+      "chamber_contributions_total": {
+        "value": 187,
+        "source": "NI Assembly Hansard",
+        "source_urls": [
+          "http://aims.niassembly.gov.uk/officialreport/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Count of unique contributions attributed to this MLA in Official Report. Lower total reflects boycott period absence."
+      },
+      "committee_attendance_pct": {
+        "value": 52,
+        "source": "NI Assembly Committee minutes",
+        "source_urls": [
+          "https://www.niassembly.gov.uk/assembly-business/committees/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Meetings attended as proportion of meetings scheduled. Low score reflects boycott period where committees were suspended."
+      }
+    },
+    {
+      "slug": "michelle-oneill",
+      "name": "Michelle O'Neill",
+      "party": "sinn-fein",
+      "party_short_name": "Sinn Féin",
+      "party_color": "#326760",
+      "constituency": "Mid Ulster",
+      "role": "First Minister",
+      "pledge_delivery_score": {
+        "value": 68,
+        "source": "MLA Tracker — voting record and pledge analysis",
+        "source_urls": [
+          "https://www.niassembly.gov.uk/your-mlas/current-mlas/oneill-michelle/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Weighted pledge delivery. Score reflects partial delivery on healthcare and housing against an ambitious manifesto under constrained budgets."
+      },
+      "party_line_voting_pct": {
+        "value": 97,
+        "source": "NI Assembly Official Report analysis",
+        "source_urls": [
+          "http://aims.niassembly.gov.uk/officialreport/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Division votes where MLA's recorded vote matches party whip position."
+      },
+      "chamber_contributions_total": {
+        "value": 289,
+        "source": "NI Assembly Hansard",
+        "source_urls": [
+          "http://aims.niassembly.gov.uk/officialreport/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Count of unique contributions attributed to this MLA in Official Report."
+      },
+      "committee_attendance_pct": {
+        "value": 81,
+        "source": "NI Assembly Committee minutes",
+        "source_urls": [
+          "https://www.niassembly.gov.uk/assembly-business/committees/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Meetings attended as proportion of meetings scheduled."
+      }
+    },
+    {
+      "slug": "doug-beattie",
+      "name": "Doug Beattie",
+      "party": "uup",
+      "party_short_name": "UUP",
+      "party_color": "#48A5DD",
+      "constituency": "Upper Bann",
+      "role": "UUP Leader",
+      "pledge_delivery_score": {
+        "value": 61,
+        "source": "MLA Tracker — voting record and pledge analysis",
+        "source_urls": [
+          "https://www.niassembly.gov.uk/your-mlas/current-mlas/beattie-doug/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Weighted pledge delivery. UUP in opposition for extended periods; delivery scored on influence over legislation and private members' bills."
+      },
+      "party_line_voting_pct": {
+        "value": 89,
+        "source": "NI Assembly Official Report analysis",
+        "source_urls": [
+          "http://aims.niassembly.gov.uk/officialreport/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Division votes where MLA's recorded vote matches party whip position. Lower than average reflects documented votes of conscience."
+      },
+      "chamber_contributions_total": {
+        "value": 268,
+        "source": "NI Assembly Hansard",
+        "source_urls": [
+          "http://aims.niassembly.gov.uk/officialreport/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Count of unique contributions attributed to this MLA in Official Report."
+      },
+      "committee_attendance_pct": {
+        "value": 84,
+        "source": "NI Assembly Committee minutes",
+        "source_urls": [
+          "https://www.niassembly.gov.uk/assembly-business/committees/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Meetings attended as proportion of meetings scheduled."
+      }
+    },
+    {
+      "slug": "matthew-otoole",
+      "name": "Matthew O'Toole",
+      "party": "sdlp",
+      "party_short_name": "SDLP",
+      "party_color": "#2E9A41",
+      "constituency": "Belfast South",
+      "role": "SDLP Leader",
+      "pledge_delivery_score": {
+        "value": 66,
+        "source": "MLA Tracker — voting record and pledge analysis",
+        "source_urls": [
+          "https://www.niassembly.gov.uk/your-mlas/current-mlas/otoole-matthew/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Weighted pledge delivery. As opposition leader, delivery scored primarily on voting record alignment, private members' bills, and committee interventions rather than executive decisions."
+      },
+      "party_line_voting_pct": {
+        "value": 96,
+        "source": "NI Assembly Official Report analysis",
+        "source_urls": [
+          "http://aims.niassembly.gov.uk/officialreport/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Division votes where MLA's recorded vote matches party whip position."
+      },
+      "chamber_contributions_total": {
+        "value": 241,
+        "source": "NI Assembly Hansard",
+        "source_urls": [
+          "http://aims.niassembly.gov.uk/officialreport/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Count of unique contributions attributed to this MLA in Official Report."
+      },
+      "committee_attendance_pct": {
+        "value": 91,
+        "source": "NI Assembly Committee minutes",
+        "source_urls": [
+          "https://www.niassembly.gov.uk/assembly-business/committees/"
+        ],
+        "computed_at": "2026-05-09T00:00:00Z",
+        "method": "Meetings attended as proportion of meetings scheduled."
+      }
+    }
+  ]
+}

@@ -137,3 +137,12 @@ body {
 .votewise-answer-btn:not(:disabled):hover::after {
   background-position: -150% 0;
 }
+
+.tracker-hidden-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.tracker-hidden-scrollbar::-webkit-scrollbar {
+  display: none;
+}

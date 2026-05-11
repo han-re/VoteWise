@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "last_updated": "2026-05-09T00:00:00Z",
+  "reports": [
+    {
+      "slug": "manifesto-vs-reality-q1-2026",
+      "title": "Manifesto vs Reality: Q1 2026",
+      "subtitle": "How the five main parties' 2022 election pledges compare to their record four years on",
+      "published": "2026-04-15T00:00:00Z",
+      "author": "MLA Tracker editorial team",
+      "topics": ["education", "health", "housing", "legacy", "environment"],
+      "parties_covered": ["alliance", "dup", "sinn-fein", "uup", "sdlp"],
+      "mlas_featured": ["naomi-long", "gavin-robinson", "michelle-oneill", "doug-beattie", "matthew-otoole"],
+      "data_hash": "sha256:placeholder-replace-with-computed-hash-on-first-pipeline-run"
+    }
+  ]
+}

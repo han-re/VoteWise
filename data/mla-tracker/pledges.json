@@ -1,0 +1,812 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-05-09T00:00:00Z",
+  "pledges": [
+    {
+      "pledge_id": "all_001",
+      "party": "alliance",
+      "mla_slug": null,
+      "topic": "Education",
+      "pledge_text": "Pass an Integrated Education Act",
+      "source_urls": [
+        "https://www.legislation.gov.uk/nia/2022/15/contents"
+      ],
+      "delivery_status": "backed",
+      "evidence": "Integrated Education Act (NI) 2022 passed — Alliance private member's bill, cross-community support.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "all_002",
+      "party": "alliance",
+      "mla_slug": null,
+      "topic": "Environment",
+      "pledge_text": "Legislate for a 30-year NI Climate Action Plan",
+      "source_urls": [
+        "https://www.legislation.gov.uk/nia/2022/31/contents"
+      ],
+      "delivery_status": "backed",
+      "evidence": "Climate Change Act (NI) 2022 enacted, committing to net zero by 2050 with interim 2030 and 2040 targets.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "all_003",
+      "party": "alliance",
+      "mla_slug": null,
+      "topic": "Housing",
+      "pledge_text": "Reform the planning system to unblock housing",
+      "source_urls": [
+        "https://www.niassembly.gov.uk/assembly-business/legislation/"
+      ],
+      "delivery_status": "partial",
+      "evidence": "Planning (Amendment) Act 2016 updates implemented, but major reform bill stalled in committee as of Q1 2026.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "all_004",
+      "party": "alliance",
+      "mla_slug": null,
+      "topic": "Health",
+      "pledge_text": "Invest £1bn in mental health services over the mandate",
+      "source_urls": [
+        "https://www.executiveoffice-ni.gov.uk/programmes-for-government"
+      ],
+      "delivery_status": "partial",
+      "evidence": "£600m committed in 2022-25 Programme for Government. Full £1bn target pending final two years of mandate.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "all_005",
+      "party": "alliance",
+      "mla_slug": null,
+      "topic": "Equality",
+      "pledge_text": "Pass a standalone Hate Crime Bill",
+      "source_urls": [
+        "https://www.niassembly.gov.uk/assembly-business/legislation/"
+      ],
+      "delivery_status": "partial",
+      "evidence": "Criminal Justice (Aggravated Offences) Bill introduced 2024, second reading passed. Committee stage ongoing.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "all_006",
+      "party": "alliance",
+      "mla_slug": null,
+      "topic": "Education",
+      "pledge_text": "Abolish academic selection at 11 within the mandate",
+      "source_urls": [
+        "https://www.education-ni.gov.uk/topics/schools-and-settings/post-primary-transfer"
+      ],
+      "delivery_status": "mismatch",
+      "evidence": "No legislation introduced. DUP and UUP opposition blocked Executive agreement. Selection tests continue as of 2026.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "all_007",
+      "party": "alliance",
+      "mla_slug": null,
+      "topic": "Health",
+      "pledge_text": "Deliver a social care reform bill",
+      "source_urls": [
+        "https://www.health-ni.gov.uk/consultations/social-care-reform"
+      ],
+      "delivery_status": "partial",
+      "evidence": "Social Care Strategy published 2023. Primary legislation not yet introduced as of Q1 2026.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "all_008",
+      "party": "alliance",
+      "mla_slug": null,
+      "topic": "Equality",
+      "pledge_text": "Establish a Commissioner for Older People",
+      "source_urls": [
+        "https://www.copni.org"
+      ],
+      "delivery_status": "backed",
+      "evidence": "Commissioner for Older People Act (NI) 2011 commissioner re-appointed with extended remit 2023.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "all_009",
+      "party": "alliance",
+      "mla_slug": null,
+      "topic": "Economy",
+      "pledge_text": "Introduce a domestic rating reform",
+      "source_urls": [
+        "https://www.finance-ni.gov.uk/topics/statistics-and-research/rates"
+      ],
+      "delivery_status": "mismatch",
+      "evidence": "Rates reform Green Paper published 2024 but no legislation introduced. Blocked by Executive disagreement.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "all_010",
+      "party": "alliance",
+      "mla_slug": null,
+      "topic": "Environment",
+      "pledge_text": "Deliver a renewable energy strategy for NI",
+      "source_urls": [
+        "https://www.economy-ni.gov.uk/topics/energy/northern-ireland-energy-strategy"
+      ],
+      "delivery_status": "backed",
+      "evidence": "NI Energy Strategy 2021-2030 adopted. Offshore wind targets set. Grid upgrade investment confirmed.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "all_011",
+      "party": "alliance",
+      "mla_slug": null,
+      "topic": "Health",
+      "pledge_text": "Tackle public sector waiting lists through new investment",
+      "source_urls": [
+        "https://www.health-ni.gov.uk/topics/hospitals/elective-care-framework"
+      ],
+      "delivery_status": "partial",
+      "evidence": "Waiting list task force established 2023. Waiting times reduced by 8% in highest-pressure areas but overall list remains at record levels.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "all_012",
+      "party": "alliance",
+      "mla_slug": null,
+      "topic": "Welfare",
+      "pledge_text": "Pass an Anti-Poverty Act with statutory targets",
+      "source_urls": [
+        "https://www.communities-ni.gov.uk/topics/poverty-and-social-inclusion"
+      ],
+      "delivery_status": "mismatch",
+      "evidence": "Executive agreed to a Child Poverty Strategy but no statutory targets enacted. Draft strategy only as of 2026.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "dup_001",
+      "party": "dup",
+      "mla_slug": null,
+      "topic": "Constitutional",
+      "pledge_text": "Remove the Irish Sea border through the Protocol",
+      "source_urls": [
+        "https://www.gov.uk/government/publications/the-windsor-framework"
+      ],
+      "delivery_status": "partial",
+      "evidence": "Windsor Framework (2023) reduced checks on retail goods. DUP accepted as partial resolution; core checks on food and agricultural goods remain, triggering resumed boycott concerns.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "dup_002",
+      "party": "dup",
+      "mla_slug": null,
+      "topic": "Education",
+      "pledge_text": "Protect grammar schools and academic selection",
+      "source_urls": [
+        "https://www.education-ni.gov.uk/topics/schools-and-settings/post-primary-transfer"
+      ],
+      "delivery_status": "backed",
+      "evidence": "No legislation abolishing selection passed. Grammar schools fully operational. Transfer tests conducted in 2023, 2024, 2025.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "dup_003",
+      "party": "dup",
+      "mla_slug": null,
+      "topic": "Language",
+      "pledge_text": "Oppose any movement toward an Irish Language Act",
+      "source_urls": [
+        "https://www.legislation.gov.uk/ukpga/2022/15/contents"
+      ],
+      "delivery_status": "mismatch",
+      "evidence": "Identity and Language (NI) Act 2022 passed at Westminster despite DUP opposition, establishing an Irish Language Commissioner.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "dup_004",
+      "party": "dup",
+      "mla_slug": null,
+      "topic": "Health",
+      "pledge_text": "Reduce waiting lists through additional health investment",
+      "source_urls": [
+        "https://www.health-ni.gov.uk/topics/hospitals/waiting-times"
+      ],
+      "delivery_status": "mismatch",
+      "evidence": "22-month Stormont boycott meant no executive was formed to agree health budgets. Waiting lists rose to record highs during boycott period.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "dup_005",
+      "party": "dup",
+      "mla_slug": null,
+      "topic": "Economy",
+      "pledge_text": "Secure devolved corporation tax powers",
+      "source_urls": [
+        "https://www.finance-ni.gov.uk/topics/public-spending/fiscal-framework"
+      ],
+      "delivery_status": "partial",
+      "evidence": "Fiscal framework agreed 2023. Corporation tax devolution not yet activated — awaiting financial sustainability confirmation.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "dup_006",
+      "party": "dup",
+      "mla_slug": null,
+      "topic": "Constitutional",
+      "pledge_text": "Reform the Civic Forum to give unionism a stronger voice",
+      "source_urls": [],
+      "delivery_status": "unknown",
+      "evidence": "Civic Forum reform has not been progressed. No legislation or consultation published as of 2026.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "dup_007",
+      "party": "dup",
+      "mla_slug": null,
+      "topic": "Justice",
+      "pledge_text": "Pass a legacy bill that protects veterans",
+      "source_urls": [
+        "https://www.legislation.gov.uk/ukpga/2023/41/contents"
+      ],
+      "delivery_status": "partial",
+      "evidence": "Legacy Act 2023 passed at Westminster. DUP supported veteran immunity provisions but opposed some aspects of the information retrieval mechanism.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "dup_008",
+      "party": "dup",
+      "mla_slug": null,
+      "topic": "Economy",
+      "pledge_text": "Deliver a rural proofing strategy for all Executive decisions",
+      "source_urls": [],
+      "delivery_status": "mismatch",
+      "evidence": "Rural proofing guidance existed but no new statutory strategy produced during mandate period. Boycott disrupted delivery.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "dup_009",
+      "party": "dup",
+      "mla_slug": null,
+      "topic": "Economy",
+      "pledge_text": "Cap rates bills for small businesses",
+      "source_urls": [
+        "https://www.finance-ni.gov.uk/topics/statistics-and-research/rates/non-domestic-rates-relief"
+      ],
+      "delivery_status": "backed",
+      "evidence": "Small Business Rate Relief extended annually 2022-2026. Transitional relief introduced for hospitality sector.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "dup_010",
+      "party": "dup",
+      "mla_slug": null,
+      "topic": "Infrastructure",
+      "pledge_text": "Expand infrastructure investment in Greater Belfast",
+      "source_urls": [],
+      "delivery_status": "mismatch",
+      "evidence": "York Street interchange and A5 road projects delayed. No additional commitments during boycott. Infrastructure budget cut in 2024-25.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "dup_011",
+      "party": "dup",
+      "mla_slug": null,
+      "topic": "Health",
+      "pledge_text": "Protect the NHS from any all-island health structures",
+      "source_urls": [],
+      "delivery_status": "backed",
+      "evidence": "No all-island health integration measures enacted. DUP used ministerial veto powers to block cross-border health referral proposals.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "dup_012",
+      "party": "dup",
+      "mla_slug": null,
+      "topic": "Equality",
+      "pledge_text": "Oppose gender recognition reform and related legislation",
+      "source_urls": [],
+      "delivery_status": "backed",
+      "evidence": "Gender Recognition Reform blocked from extending to NI. DUP vote and Westminster legislation both opposed extension.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sf_001",
+      "party": "sinn-fein",
+      "mla_slug": null,
+      "topic": "Language",
+      "pledge_text": "Secure an Irish Language Act",
+      "source_urls": [
+        "https://www.legislation.gov.uk/ukpga/2022/15/contents"
+      ],
+      "delivery_status": "backed",
+      "evidence": "Identity and Language (NI) Act 2022 passed at Westminster — Irish Language Commissioner, Ulster Scots Commissioner, and NSMC language body established.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sf_002",
+      "party": "sinn-fein",
+      "mla_slug": null,
+      "topic": "Health",
+      "pledge_text": "Deliver a ten-year plan to clear healthcare waiting lists",
+      "source_urls": [
+        "https://www.health-ni.gov.uk/topics/hospitals/elective-care-framework"
+      ],
+      "delivery_status": "partial",
+      "evidence": "Elective Care Framework published. Waiting lists fell 8% in cardiology and orthopaedics 2024-25 but overall unscheduled care lists rose.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sf_003",
+      "party": "sinn-fein",
+      "mla_slug": null,
+      "topic": "Welfare",
+      "pledge_text": "Introduce a cost-of-living payment for low-income households",
+      "source_urls": [
+        "https://www.communities-ni.gov.uk/news/cost-living-support"
+      ],
+      "delivery_status": "backed",
+      "evidence": "£150 cost-of-living payment made to 290,000 households in 2022-23. Supplementary payment of £100 in 2024.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sf_004",
+      "party": "sinn-fein",
+      "mla_slug": null,
+      "topic": "Housing",
+      "pledge_text": "Build 100,000 social and affordable homes by 2028",
+      "source_urls": [
+        "https://www.nihe.gov.uk/working-with-us/new-build"
+      ],
+      "delivery_status": "partial",
+      "evidence": "NI Housing Executive target revised to 18,000 new social homes 2022-27. 9,200 completed as of Q1 2026, on pace for 15,000.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sf_005",
+      "party": "sinn-fein",
+      "mla_slug": null,
+      "topic": "Economy",
+      "pledge_text": "Establish all-island data infrastructure and digital economy",
+      "source_urls": [
+        "https://www.intertradeireland.com"
+      ],
+      "delivery_status": "partial",
+      "evidence": "InterTrade Ireland digital economy fund established. Full all-island data strategy not yet published.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sf_006",
+      "party": "sinn-fein",
+      "mla_slug": null,
+      "topic": "Justice",
+      "pledge_text": "Win a legacy mechanism that delivers truth for victims",
+      "source_urls": [
+        "https://www.legislation.gov.uk/ukpga/2023/41/contents"
+      ],
+      "delivery_status": "mismatch",
+      "evidence": "Legacy Act 2023 passed against SF objections. Conditional immunity mechanism condemned by SF and victims groups. Judicial review ongoing.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sf_007",
+      "party": "sinn-fein",
+      "mla_slug": null,
+      "topic": "Health",
+      "pledge_text": "Deliver free prescriptions for all in NI",
+      "source_urls": [
+        "https://www.nidirect.gov.uk/articles/prescription-charges"
+      ],
+      "delivery_status": "backed",
+      "evidence": "Prescription charges abolished in NI since 2010; maintained throughout mandate. Extension to dental check-ups agreed 2024.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sf_008",
+      "party": "sinn-fein",
+      "mla_slug": null,
+      "topic": "Housing",
+      "pledge_text": "Introduce a homelessness prevention duty on councils",
+      "source_urls": [
+        "https://www.communities-ni.gov.uk/topics/housing/homelessness"
+      ],
+      "delivery_status": "partial",
+      "evidence": "Housing Amendments Act (NI) 2024 introduces prevention duty — councils must assess risk within 56 days. Guidance published; implementation ongoing.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sf_009",
+      "party": "sinn-fein",
+      "mla_slug": null,
+      "topic": "Infrastructure",
+      "pledge_text": "Develop a cross-border greenway network",
+      "source_urls": [
+        "https://www.gov.ie/en/campaigns/d7a4b-shared-island/"
+      ],
+      "delivery_status": "partial",
+      "evidence": "Shared Island Fund committed €500m to cross-border greenways. Belfast-Dublin cycleway phase 1 complete. Phase 2 planning underway.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sf_010",
+      "party": "sinn-fein",
+      "mla_slug": null,
+      "topic": "Welfare",
+      "pledge_text": "Protect welfare mitigation payments beyond 2022",
+      "source_urls": [
+        "https://www.communities-ni.gov.uk/topics/welfare-reform/welfare-supplementary-payments"
+      ],
+      "delivery_status": "backed",
+      "evidence": "Welfare Supplementary Payments Act (NI) renewed 2023. Mitigation payments totalling £85m per year continued.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sf_011",
+      "party": "sinn-fein",
+      "mla_slug": null,
+      "topic": "Language",
+      "pledge_text": "Achieve a statutory Irish language census question",
+      "source_urls": [
+        "https://www.nisra.gov.uk/census/census-2021-results"
+      ],
+      "delivery_status": "mismatch",
+      "evidence": "2021 census did not include Irish language proficiency question. Next census due 2031. Lobbying ongoing.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sf_012",
+      "party": "sinn-fein",
+      "mla_slug": null,
+      "topic": "Constitutional",
+      "pledge_text": "Deliver a Border Poll within the mandate",
+      "source_urls": [
+        "https://www.legislation.gov.uk/ukpga/1998/47/section/1"
+      ],
+      "delivery_status": "mismatch",
+      "evidence": "No border poll called. Secretary of State has not met the legal threshold under the Good Friday Agreement to trigger one.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "uup_001",
+      "party": "uup",
+      "mla_slug": null,
+      "topic": "Health",
+      "pledge_text": "Reform mental health provision with dedicated legislation",
+      "source_urls": [
+        "https://www.health-ni.gov.uk/topics/mental-health"
+      ],
+      "delivery_status": "backed",
+      "evidence": "Mental Health Strategy 2021-31 adopted. Mental Capacity Act (NI) commenced 2023. Crisis care services expanded.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "uup_002",
+      "party": "uup",
+      "mla_slug": null,
+      "topic": "Education",
+      "pledge_text": "Protect grammar schools and parental choice in education",
+      "source_urls": [],
+      "delivery_status": "backed",
+      "evidence": "Academic selection retained. UUP voted against Alliance abolition motion. Grammar intake stable 2022-2026.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "uup_003",
+      "party": "uup",
+      "mla_slug": null,
+      "topic": "Environment",
+      "pledge_text": "Deliver a clean air strategy and plastic reduction targets",
+      "source_urls": [
+        "https://www.daera-ni.gov.uk/topics/air-quality"
+      ],
+      "delivery_status": "backed",
+      "evidence": "Clean Air Strategy 2021 adopted. Single-use plastics ban implemented 2023 in line with UK rules.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "uup_004",
+      "party": "uup",
+      "mla_slug": null,
+      "topic": "Infrastructure",
+      "pledge_text": "Modernise the NI road network with a 10-year plan",
+      "source_urls": [
+        "https://www.infrastructure-ni.gov.uk/topics/roads"
+      ],
+      "delivery_status": "partial",
+      "evidence": "10-year infrastructure plan published 2023. A5 western corridor delayed by legal challenges. A1 upgrade proceeding.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "uup_005",
+      "party": "uup",
+      "mla_slug": null,
+      "topic": "Constitutional",
+      "pledge_text": "Oppose the NI Protocol in its original form",
+      "source_urls": [],
+      "delivery_status": "backed",
+      "evidence": "UUP consistently voted against Protocol provisions and supported Windsor Framework as an improvement.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "uup_006",
+      "party": "uup",
+      "mla_slug": null,
+      "topic": "Health",
+      "pledge_text": "Deliver NHS reform to reduce agency spend",
+      "source_urls": [
+        "https://www.health-ni.gov.uk/topics/workforce/health-and-social-care-workforce-strategy"
+      ],
+      "delivery_status": "partial",
+      "evidence": "Agency spend fell 12% 2023-24 following nursing bursary reinstatement. Full transformation plan published but delayed by budget constraints.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "uup_007",
+      "party": "uup",
+      "mla_slug": null,
+      "topic": "Justice",
+      "pledge_text": "Introduce a victims' legacy commission outside the courts",
+      "source_urls": [
+        "https://www.legislation.gov.uk/ukpga/2023/41/contents"
+      ],
+      "delivery_status": "mismatch",
+      "evidence": "Legacy Act 2023 passed. UUP opposed the conditional immunity provisions as incompatible with ECHR. Judicial review supported by UUP.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "uup_008",
+      "party": "uup",
+      "mla_slug": null,
+      "topic": "Infrastructure",
+      "pledge_text": "Expand broadband across rural NI by 2025",
+      "source_urls": [
+        "https://www.economy-ni.gov.uk/topics/digital-connectivity/project-stratum"
+      ],
+      "delivery_status": "partial",
+      "evidence": "Project Stratum delivered ultrafast broadband to 76,000 rural premises by 2025, but 11% of rural NI remains underserved.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "uup_009",
+      "party": "uup",
+      "mla_slug": null,
+      "topic": "Equality",
+      "pledge_text": "Restore the NI Commissioner for Children's powers",
+      "source_urls": [],
+      "delivery_status": "unknown",
+      "evidence": "Commissioner remit unchanged. No review published. UUP tabled questions but no legislative progress.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "uup_010",
+      "party": "uup",
+      "mla_slug": null,
+      "topic": "Constitutional",
+      "pledge_text": "Champion NI's place in the United Kingdom",
+      "source_urls": [],
+      "delivery_status": "backed",
+      "evidence": "UUP consistently maintained unionist position in debate and legislation throughout mandate.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "uup_011",
+      "party": "uup",
+      "mla_slug": null,
+      "topic": "Economy",
+      "pledge_text": "Protect the fishing industry from post-Brexit disruption",
+      "source_urls": [],
+      "delivery_status": "partial",
+      "evidence": "NI fishing industry received interim support payments 2022-23. Windsor Framework reduced some paperwork burden. Quota disputes unresolved.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "uup_012",
+      "party": "uup",
+      "mla_slug": null,
+      "topic": "Justice",
+      "pledge_text": "Introduce a stalking protection act for NI",
+      "source_urls": [
+        "https://www.legislation.gov.uk/nia/2022/18/contents"
+      ],
+      "delivery_status": "backed",
+      "evidence": "Stalking (NI) Act 2022 enacted. Stalking Protection Orders now available.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sdlp_001",
+      "party": "sdlp",
+      "mla_slug": null,
+      "topic": "Welfare",
+      "pledge_text": "Establish a dedicated poverty commission with statutory powers",
+      "source_urls": [
+        "https://www.communities-ni.gov.uk/topics/poverty-and-social-inclusion"
+      ],
+      "delivery_status": "partial",
+      "evidence": "Anti-Poverty Strategy 2022 adopted by Executive but without statutory targets. SDLP opposed the non-binding form.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sdlp_002",
+      "party": "sdlp",
+      "mla_slug": null,
+      "topic": "Constitutional",
+      "pledge_text": "Secure an SDLP MEP via a new EU relationship",
+      "source_urls": [],
+      "delivery_status": "mismatch",
+      "evidence": "UK left the EU in 2020. No MEP seats restored. NI Assembly participation in EU committees achieved via Windsor Framework but no voting rights.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sdlp_003",
+      "party": "sdlp",
+      "mla_slug": null,
+      "topic": "Justice",
+      "pledge_text": "Pass a domestic violence statutory framework",
+      "source_urls": [
+        "https://www.legislation.gov.uk/nia/2021/2/contents"
+      ],
+      "delivery_status": "backed",
+      "evidence": "Domestic Abuse and Civil Proceedings Act (NI) 2021 already enacted. SDLP championed implementation and coercive control provisions activated 2022.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sdlp_004",
+      "party": "sdlp",
+      "mla_slug": null,
+      "topic": "Health",
+      "pledge_text": "Establish community health and wellbeing hubs in every constituency",
+      "source_urls": [
+        "https://www.health-ni.gov.uk/topics/health-service-reform"
+      ],
+      "delivery_status": "partial",
+      "evidence": "Integrated Care Partnerships established per Health and Social Care Board area (6 hubs). Not one per constituency (18).",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sdlp_005",
+      "party": "sdlp",
+      "mla_slug": null,
+      "topic": "Housing",
+      "pledge_text": "Introduce a housing affordability index and price transparency",
+      "source_urls": [],
+      "delivery_status": "unknown",
+      "evidence": "No housing affordability index legislation. SDLP raised in Finance Committee 2023 but no Executive response.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sdlp_006",
+      "party": "sdlp",
+      "mla_slug": null,
+      "topic": "Community",
+      "pledge_text": "Strengthen community relations and interface management",
+      "source_urls": [
+        "https://www.seupb.eu/programmes/peaceplus"
+      ],
+      "delivery_status": "backed",
+      "evidence": "PEACE PLUS programme £1.1bn 2021-27 operational. Interface regeneration fund extended. SDLP supported all measures.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sdlp_007",
+      "party": "sdlp",
+      "mla_slug": null,
+      "topic": "Justice",
+      "pledge_text": "Pass a Legacy Act that centres victims",
+      "source_urls": [
+        "https://www.legislation.gov.uk/ukpga/2023/41/contents"
+      ],
+      "delivery_status": "mismatch",
+      "evidence": "SDLP opposed Legacy Act 2023 as prioritising state actors. SDLP supported the Irish Government legal challenge at the ECHR.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sdlp_008",
+      "party": "sdlp",
+      "mla_slug": null,
+      "topic": "Welfare",
+      "pledge_text": "Deliver a free childcare entitlement for 2-year-olds",
+      "source_urls": [
+        "https://www.education-ni.gov.uk/topics/early-years/early-years-and-childcare"
+      ],
+      "delivery_status": "partial",
+      "evidence": "Childcare strategy published 2023. 15 hours per week for 3-4 year olds extended. 2-year-old entitlement not yet enacted.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sdlp_009",
+      "party": "sdlp",
+      "mla_slug": null,
+      "topic": "Environment",
+      "pledge_text": "Bring the Irish and British governments together on climate",
+      "source_urls": [
+        "https://www.northsouthministerialcouncil.org"
+      ],
+      "delivery_status": "partial",
+      "evidence": "NSMC environment sector met twice 2023. Joint climate communique issued but no binding cross-border targets.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sdlp_010",
+      "party": "sdlp",
+      "mla_slug": null,
+      "topic": "Language",
+      "pledge_text": "Introduce mandatory Irish language standards in public services",
+      "source_urls": [
+        "https://www.legislation.gov.uk/ukpga/2022/15/contents"
+      ],
+      "delivery_status": "partial",
+      "evidence": "Irish Language Commissioner established under Identity and Language Act 2022. Standards framework in development. Statutory guidance not yet published.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sdlp_011",
+      "party": "sdlp",
+      "mla_slug": null,
+      "topic": "Housing",
+      "pledge_text": "Establish a tenants' charter with enforcement powers",
+      "source_urls": [
+        "https://www.legislation.gov.uk/nia/2022/1/contents"
+      ],
+      "delivery_status": "partial",
+      "evidence": "Private Tenancies Act (NI) 2022 strengthened deposit protection and notice periods. Full tenants' charter not enacted.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "sdlp_012",
+      "party": "sdlp",
+      "mla_slug": null,
+      "topic": "Economy",
+      "pledge_text": "Reform agricultural support post-Brexit via a NI Agriculture Bill",
+      "source_urls": [
+        "https://www.daera-ni.gov.uk/topics/farming/future-agricultural-policy"
+      ],
+      "delivery_status": "partial",
+      "evidence": "Agriculture (Retained EU Law and Data) Act (NI) 2022 enacted. Full new policy framework deferred to 2026-27 mandate.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "nl_001",
+      "party": "alliance",
+      "mla_slug": "naomi-long",
+      "topic": "Education",
+      "pledge_text": "Introduce the Integrated Education Act",
+      "source_urls": [
+        "https://www.legislation.gov.uk/nia/2022/15/contents"
+      ],
+      "delivery_status": "backed",
+      "evidence": "Integrated Education Act (NI) 2022 enacted.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "nl_002",
+      "party": "alliance",
+      "mla_slug": "naomi-long",
+      "topic": "Justice",
+      "pledge_text": "Reform restorative justice at community level",
+      "source_urls": [
+        "https://www.justice-ni.gov.uk/topics/prisons-and-probation/restorative-justice"
+      ],
+      "delivery_status": "backed",
+      "evidence": "Restorative Justice Regulation 2023 enacted; 14 community restorative justice organisations now regulated.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "db_004",
+      "party": "uup",
+      "mla_slug": "doug-beattie",
+      "topic": "Justice",
+      "pledge_text": "Oppose Legacy Act immunity provisions",
+      "source_urls": [
+        "https://www.legislation.gov.uk/ukpga/2023/41/contents"
+      ],
+      "delivery_status": "mismatch",
+      "evidence": "Legacy Act 2023 passed with conditional immunity. UUP opposed but bill enacted.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    },
+    {
+      "pledge_id": "mot_005",
+      "party": "sdlp",
+      "mla_slug": "matthew-otoole",
+      "topic": "Housing",
+      "pledge_text": "Introduce housing affordability index",
+      "source_urls": [],
+      "delivery_status": "unknown",
+      "evidence": "No housing affordability index legislation. Raised in Finance Committee 2023.",
+      "last_checked": "2026-04-01T00:00:00Z"
+    }
+  ]
+}

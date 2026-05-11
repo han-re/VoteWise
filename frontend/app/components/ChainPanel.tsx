@@ -221,6 +221,22 @@ export default function ChainPanel({ politicianId }: Props) {
   }
 
   const changelog = state.changelog ?? [];
+  const blockchainLog = [
+    {
+      label: "Current",
+      profile_hash: state.profile_hash,
+      explorer_url: state.explorer_url,
+      verified_at: state.verified_at,
+      replaced_at: "",
+    },
+    ...[...changelog].reverse().map((entry, index) => ({
+      label: `Previous ${index + 1}`,
+      profile_hash: entry.profile_hash,
+      explorer_url: entry.explorer_url,
+      verified_at: entry.verified_at,
+      replaced_at: entry.replaced_at,
+    })),
+  ];
 
   return (
     <div className="space-y-6">
@@ -290,33 +306,45 @@ export default function ChainPanel({ politicianId }: Props) {
         />
       </div>
 
-      {/* Changelog */}
-      {changelog.length > 0 && (
-        <div className="rounded-xl border border-amber-200 bg-amber-50 p-6">
-          <h3 className="text-sm font-semibold text-amber-800 mb-3">
-            Profile change history ({changelog.length} {changelog.length === 1 ? "update" : "updates"})
-          </h3>
-          <p className="text-xs text-amber-700 mb-4">
-            Each time this profile was updated, the previous version was re-stamped on-chain.
-            The original data is permanently preserved below.
-          </p>
-          <div className="space-y-4">
-            {[...changelog].reverse().map((entry, i) => (
-              <div key={i} className="border-l-2 border-amber-300 pl-4">
+      {/* Blockchain log */}
+      <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-6">
+        <div className="mb-3 flex items-start justify-between gap-3 flex-wrap">
+          <div>
+            <h3 className="text-sm font-semibold text-emerald-800">
+              Blockchain log
+            </h3>
+            <p className="text-xs text-emerald-700 mt-1">
+              Current and previous profile fingerprints stamped by the publication pipeline.
+            </p>
+          </div>
+          <span className="rounded-full border border-emerald-200 bg-white/60 px-2 py-0.5 text-xs font-medium text-emerald-700">
+            {blockchainLog.length} {blockchainLog.length === 1 ? "hash" : "hashes"}
+          </span>
+        </div>
+
+        <div className="tracker-hidden-scrollbar max-h-56 space-y-4 overflow-y-auto pr-1">
+          {blockchainLog.map((entry) => {
+            const isCurrent = entry.label === "Current";
+            return (
+              <div
+                key={`${entry.label}-${entry.profile_hash}`}
+                className={`border-l-2 pl-4 ${isCurrent ? "border-emerald-300" : "border-amber-300"}`}
+              >
                 <div className="flex items-center justify-between gap-2 flex-wrap">
-                  <p className="text-xs text-amber-700">
-                    Version from {fmt(entry.verified_at)} · replaced {fmt(entry.replaced_at)}
+                  <p className={`text-xs ${isCurrent ? "text-emerald-700" : "text-amber-700"}`}>
+                    {entry.label} - stamped {fmt(entry.verified_at)}
+                    {entry.replaced_at ? ` - replaced ${fmt(entry.replaced_at)}` : ""}
                   </p>
-                  <ExternalLink href={entry.explorer_url} label="View version" />
+                  <ExternalLink href={entry.explorer_url} label={isCurrent ? "View current" : "View version"} />
                 </div>
                 <div className="mt-1">
                   <HashPill hash={entry.profile_hash} />
                 </div>
               </div>
-            ))}
-          </div>
+            );
+          })}
         </div>
-      )}
+      </div>
 
     </div>
   );

@@ -1,0 +1,114 @@
+{
+  "session_type": "plenary",
+  "card_summary": "Assembly members condemned the car bomb attack at Dunmurry police station.",
+  "headline_summary": "Members across the Assembly condemned the car bomb attack at Dunmurry police station, calling for unity in support of the PSNI. The session also addressed the role of political language in the context of the attack.",
+  "extended_summary": {
+    "overview": "The plenary session opened with a moment of silence in recognition of the car bomb attack at Dunmurry police station. The Speaker set a solemn tone from the outset, and the chamber moved immediately into statements from members across the political parties.\n\nMembers from all parties represented in the chamber spoke in condemnation of the attack. A consistent theme across contributions was the call for unconditional support for the Police Service of Northern Ireland and a rejection of any justification for violence. No member of the Assembly expressed support for the attack or for those responsible.\n\nA secondary strand of debate concerned the relationship between political rhetoric and political violence. Several members argued that certain forms of political discourse, including the commemoration of individuals associated with past violence, contribute to a climate in which attacks of this kind can be rationalised by those who carry them out. Other members rejected this framing, drawing a clear distinction between legitimate political expression and criminal violence.\n\nThe exchange reflected longer-standing divisions within the Assembly about how to address the legacy of the Troubles and what forms of public commemoration are appropriate. These divisions did not prevent a shared condemnation of the specific attack, but they did surface in the tone and framing of individual contributions.\n\nThe session concluded without a formal vote or motion. The Speaker noted the broad consensus against the attack and the importance of allowing the PSNI to carry out its investigation without political interference. Members were reminded of their responsibility to model the kind of political discourse that supports rather than undermines community stability.",
+    "key_debates": [
+      {
+        "topic": "Car Bomb Attack Condemnation",
+        "summary": "Timothy Gaston opened by condemning the bombing in direct terms, describing terrorism as 'a moral absolute: it always was and always will be wrong.' He called on all members to stand without qualification in support of the PSNI.\n\nTrevor Clarke described the attack as 'despicable' and said that word did not go far enough to capture the nature of what had occurred. He noted that civilians in the area had been placed at serious risk and that the perpetrators had shown no regard for the lives of local residents.\n\nMs Flynn (Sinn Féin) stated that those responsible 'have nothing to offer our society' and condemned the attack in clear terms. Ms Hargey (Sinn Féin) reiterated the party's commitment to the power-sharing institutions and to building a stable society. Miss McAllister (Alliance) argued that 'furthering any political cause by using violence is unacceptable,' reflecting her party's stated opposition to political violence of any kind.\n\nMr Muir noted that it was 'only by the grace of God that no one was killed or seriously injured,' underlining the potential consequences of the attack. Ms Brownlee characterised those responsible as 'criminals intent on destruction,' drawing a distinction between criminal violence and legitimate political action — a position shared across parties during this session."
+      },
+      {
+        "topic": "Political Rhetoric and Violence",
+        "summary": "A separate but related discussion arose around the question of whether political rhetoric plays a role in enabling political violence. Timothy Gaston linked the bombing to recent public debate about a statue of Bobby Sands, arguing that commemorating individuals associated with past violence sends a message that can be used to legitimise present-day attacks.\n\nOther members challenged this line of argument, contending that it conflates legitimate political expression with incitement to violence. They argued that the Assembly should be careful not to allow condemnation of a specific criminal act to become a vehicle for broader attacks on political speech or the rights of communities to remember their own history.\n\nThe debate did not produce a resolution. Both the condemnation of the attack and the disagreement about its political context were placed on the public record. No motion was tabled and no vote was called on the rhetorical dimension of the discussion."
+      }
+    ],
+    "outcomes": "The session did not result in any formal motion, vote, or legislative outcome. The broad condemnation of the attack was placed on the record across party lines. Members called for the PSNI to be given full support in its investigation, and the Speaker noted the importance of maintaining political discourse that does not provide cover for those who resort to violence."
+  },
+  "key_topics": [
+    "Car Bomb Attack",
+    "Political Rhetoric"
+  ],
+  "key_speakers": [
+    {
+      "name": "Timothy Gaston",
+      "party": "TUV",
+      "contribution_count": 1
+    },
+    {
+      "name": "Trevor Clarke",
+      "party": "DUP",
+      "contribution_count": 1
+    },
+    {
+      "name": "Ms Flynn",
+      "party": "Sinn Féin",
+      "contribution_count": 1
+    },
+    {
+      "name": "Miss McAllister",
+      "party": "Alliance",
+      "contribution_count": 1
+    },
+    {
+      "name": "Ms Hargey",
+      "party": "Sinn Féin",
+      "contribution_count": 1
+    },
+    {
+      "name": "Mr Muir",
+      "party": "Alliance",
+      "contribution_count": 1
+    },
+    {
+      "name": "Ms Brownlee",
+      "party": "DUP",
+      "contribution_count": 1
+    }
+  ],
+  "notable_moments": [
+    {
+      "speaker": "Timothy Gaston",
+      "party": "TUV",
+      "quote": "Terrorism is a moral absolute: it always was and always will be wrong.",
+      "context": "Gaston opened the debate by condemning the bombing and called on all members to stand without qualification in support of the PSNI.",
+      "alignment_note": "TUV has consistently opposed political violence and supported the PSNI. This statement is in line with that position."
+    },
+    {
+      "speaker": "Trevor Clarke",
+      "party": "DUP",
+      "quote": "Despicable would not be a strong enough word for the actions carried out by the individuals responsible.",
+      "context": "Clarke condemned the attack and called for support for the police, noting that civilians in the area had been placed at serious risk.",
+      "alignment_note": "DUP has consistently supported the PSNI and opposed political violence. This statement is consistent with that position."
+    },
+    {
+      "speaker": "Ms Flynn",
+      "party": "Sinn Féin",
+      "quote": "The people behind the absolutely horrendous attack... have nothing to offer our society.",
+      "context": "Flynn condemned the attack and stated Sinn Féin's opposition to dissident republican violence.",
+      "alignment_note": "Sinn Féin has publicly rejected dissident republican violence and stated support for the PSNI. This statement is consistent with that position."
+    },
+    {
+      "speaker": "Miss McAllister",
+      "party": "Alliance",
+      "quote": "Furthering any political cause by using violence is unacceptable.",
+      "context": "McAllister condemned the attack and called for a united front across the Assembly against political violence.",
+      "alignment_note": "Alliance has stated opposition to political violence of any kind. This statement is consistent with that position."
+    },
+    {
+      "speaker": "Ms Hargey",
+      "party": "Sinn Féin",
+      "quote": "We believe in power-sharing and in building this society.",
+      "context": "Hargey reiterated Sinn Féin's commitment to the power-sharing institutions at Stormont following the attack.",
+      "alignment_note": "Sinn Féin has stated support for the power-sharing institutions established under the Good Friday Agreement. This statement is consistent with that position."
+    },
+    {
+      "speaker": "Mr Muir",
+      "party": "Alliance",
+      "quote": "It is only by the grace of God that no one was killed or seriously injured in that disgraceful terrorist attack.",
+      "context": "Muir emphasised the potential consequences of the bombing and the risk posed to civilians in the area.",
+      "alignment_note": "Alliance has stated opposition to political violence. This statement is consistent with that position."
+    },
+    {
+      "speaker": "Ms Brownlee",
+      "party": "DUP",
+      "quote": "Those responsible are not activists — they are criminals intent on destruction.",
+      "context": "Brownlee drew a distinction between criminal violence and legitimate political action during the session's closing exchanges.",
+      "alignment_note": "DUP has consistently characterised dissident republican violence as criminal rather than political. This statement is consistent with that position."
+    }
+  ],
+  "duration_estimate_minutes": 90,
+  "session_id": "2026-04-27-plenary",
+  "date": "2026-04-27"
+}
