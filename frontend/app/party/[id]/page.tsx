@@ -54,6 +54,47 @@ const STATUS_META = {
   broken:      { label: "Broken",      color: "#ef4444" },
 };
 
+/* ── Source-link defence ──
+   The seed should always carry a real deep link. If a future re-seed slips a
+   bare host root back in (the historical bug), getPartySourceLink rewrites it
+   to a topic landing page on that host and re-labels it "Source: <host>" so
+   the reader knows it is a department site, not a specific document. */
+const VW_SOURCE_HOST_LANDING: Record<string, string> = {
+  "niassembly.gov.uk":              "https://www.niassembly.gov.uk/assembly-business/legislation/",
+  "www.niassembly.gov.uk":          "https://www.niassembly.gov.uk/assembly-business/legislation/",
+  "aims.niassembly.gov.uk":         "https://aims.niassembly.gov.uk/officialreport/reports.aspx",
+  "www.education-ni.gov.uk":         "https://www.education-ni.gov.uk/topics",
+  "www.health-ni.gov.uk":           "https://www.health-ni.gov.uk/topics",
+  "www.economy-ni.gov.uk":          "https://www.economy-ni.gov.uk/topics",
+  "www.communities-ni.gov.uk":      "https://www.communities-ni.gov.uk/topics/housing",
+  "www.executiveoffice-ni.gov.uk":  "https://www.executiveoffice-ni.gov.uk/topics/programme-government",
+  "www.justice-ni.gov.uk":          "https://www.justice-ni.gov.uk/topics/policing-and-community-safety",
+  "www.finance-ni.gov.uk":          "https://www.finance-ni.gov.uk/topics/property-rating",
+  "www.nihe.gov.uk":                "https://www.nihe.gov.uk/about-us",
+  "www.translink.co.uk":            "https://www.infrastructure-ni.gov.uk/topics/public-transport",
+  "www.studentfinanceni.co.uk":     "https://www.economy-ni.gov.uk/topics/higher-education",
+};
+
+function vwPrettyHost(host: string): string {
+  return host.replace(/^www\./, "");
+}
+
+function getPartySourceLink(promise: { source_url?: string }): { href: string; label: string } | null {
+  const stored = (promise.source_url ?? "").trim();
+  if (!stored || stored.includes("placeholder")) return null;
+  let host: string;
+  try {
+    const u = new URL(stored);
+    host = u.hostname;
+    const hostOnly = (u.pathname === "" || u.pathname === "/") && !u.search;
+    if (!hostOnly) return { href: stored, label: "Source" };
+  } catch {
+    return { href: stored, label: "Source" };
+  }
+  const landing = VW_SOURCE_HOST_LANDING[host] ?? stored;
+  return { href: landing, label: `Source: ${vwPrettyHost(host)}` };
+}
+
 /* ── Shared style helpers — mirrors results/page.tsx ── */
 function cardStyle(extra?: CSSProperties): CSSProperties {
   return {
@@ -154,12 +195,16 @@ function PromiseRow({ promise }: { promise: PromiseItem }) {
             </span>
           </div>
           <p style={{ fontSize: "0.76rem", color: "rgba(180,207,232,0.55)", lineHeight: 1.55, margin: 0 }}>{promise.evidence}</p>
-          {promise.source_url && !promise.source_url.includes("placeholder") && (
-            <a href={promise.source_url} target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "0.25rem", fontSize: "0.68rem", color: "#60a5fa", textDecoration: "none", marginTop: "0.3rem" }}>
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" /></svg>
-              Source
-            </a>
-          )}
+          {(() => {
+            const link = getPartySourceLink(promise);
+            if (!link) return null;
+            return (
+              <a href={link.href} target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "0.25rem", fontSize: "0.68rem", color: "#60a5fa", textDecoration: "none", marginTop: "0.3rem", whiteSpace: "nowrap" as const }}>
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" /></svg>
+                {link.label}
+              </a>
+            );
+          })()}
         </div>
         <span style={{ fontSize: "0.65rem", fontWeight: 700, letterSpacing: "0.05em", textTransform: "uppercase" as const, color: meta.color, flexShrink: 0 }}>{meta.label}</span>
       </div>
