@@ -8,3 +8,5 @@ solana
 base58
 httpx
 pandas
+requests
+beautifulsoup4

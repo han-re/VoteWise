@@ -106,6 +106,33 @@ function fmtGBP(n: number) {
   return new Intl.NumberFormat("en-GB", { style: "currency", currency: "GBP", maximumFractionDigits: 0 }).format(n);
 }
 
+/* Hansard source links.
+   Older seeds stored approximate URLs (report.aspx with &rai=0 instead of a
+   real docID, or pattern-built TheyWorkForYou GIDs) that resolved to an empty
+   Table of Contents or a 404. Trust a stored URL only when it points at the NI
+   Assembly host AND carries a docID; otherwise fall back to the Official
+   Reports index and label it with the sitting date so the reader can find it. */
+const VW_HANSARD_INDEX_URL = "https://aims.niassembly.gov.uk/officialreport/reports.aspx";
+const VW_HANSARD_HOST = "aims.niassembly.gov.uk";
+
+function getHansardLink(vote: { date?: string; hansard_url?: string }): { href: string; label: string } {
+  const stored = vote.hansard_url ?? "";
+  let canonical = false;
+  try {
+    const parsed = new URL(stored);
+    canonical = parsed.host === VW_HANSARD_HOST && /[?&]docID=/.test(parsed.search);
+  } catch {
+    canonical = false;
+  }
+  const niceDate = vote.date
+    ? new Date(vote.date).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })
+    : null;
+  if (canonical) {
+    return { href: stored, label: niceDate ? `View on Hansard (${niceDate})` : "View on Hansard" };
+  }
+  return { href: VW_HANSARD_INDEX_URL, label: niceDate ? `Find on Hansard (${niceDate})` : "Find on Hansard" };
+}
+
 function loadQuizAnswers(): Record<string, number> {
   try {
     const raw = sessionStorage.getItem("votewise_quiz_answers")
@@ -410,6 +437,7 @@ export default function MlaPage() {
 /* ── Vote row — shared between Overview and Voting Record tabs ── */
 function VoteRow({ vote }: { vote: Vote }) {
   const vc = VOTE_COLORS[vote.vote] ?? VOTE_COLORS.Abstain;
+  const link = getHansardLink(vote);
   return (
     <div style={{ display: "flex", alignItems: "flex-start", gap: "0.85rem", padding: "0.9rem 1.1rem", background: vc.bg, border: `1px solid ${vc.border}`, borderRadius: "12px" }}>
       <span style={{ fontSize: "0.6rem", fontWeight: 700, letterSpacing: "0.06em", textTransform: "uppercase" as const, color: vc.text, border: `1px solid ${vc.border}`, borderRadius: "20px", padding: "0.15rem 0.5rem", flexShrink: 0, marginTop: "0.1rem", minWidth: 50, textAlign: "center" as const }}>
@@ -424,12 +452,10 @@ function VoteRow({ vote }: { vote: Vote }) {
           </span>
         </div>
       </div>
-      {vote.hansard_url && (
-        <a href={vote.hansard_url} target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "0.25rem", fontSize: "0.66rem", color: "#60a5fa", textDecoration: "none", flexShrink: 0, marginTop: "0.1rem" }}>
-          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" /></svg>
-          Hansard
-        </a>
-      )}
+      <a href={link.href} target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "0.25rem", fontSize: "0.66rem", color: "#60a5fa", textDecoration: "none", flexShrink: 0, marginTop: "0.1rem", whiteSpace: "nowrap" as const }}>
+        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" /></svg>
+        {link.label}
+      </a>
     </div>
   );
 }
