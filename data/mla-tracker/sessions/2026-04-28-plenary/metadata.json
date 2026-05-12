@@ -1,0 +1,68 @@
+{
+  "session_id": "2026-04-28-plenary",
+  "speakers": [
+    {
+      "name": "Mr Deputy Speaker",
+      "party": "Mr Blair",
+      "contribution_count": 11
+    },
+    {
+      "name": "Mr Givan",
+      "party": "The Minister of Education",
+      "contribution_count": 2
+    },
+    {
+      "name": "Mr Lyons",
+      "party": "The Minister for Communities",
+      "contribution_count": 1
+    },
+    {
+      "name": "Mr Nesbitt",
+      "party": "The Minister of Health",
+      "contribution_count": 1
+    }
+  ],
+  "topics_raised": [
+    {
+      "topic": "Infrastructure",
+      "first_mention_line": 39
+    },
+    {
+      "topic": "Education",
+      "first_mention_line": 45
+    },
+    {
+      "topic": "Economy",
+      "first_mention_line": 45
+    },
+    {
+      "topic": "Health",
+      "first_mention_line": 63
+    },
+    {
+      "topic": "Environment",
+      "first_mention_line": 73
+    },
+    {
+      "topic": "Justice",
+      "first_mention_line": 297
+    },
+    {
+      "topic": "Housing",
+      "first_mention_line": 433
+    },
+    {
+      "topic": "Welfare",
+      "first_mention_line": 449
+    },
+    {
+      "topic": "Equality",
+      "first_mention_line": 514
+    },
+    {
+      "topic": "Language",
+      "first_mention_line": 2917
+    }
+  ],
+  "votes_recorded": []
+}

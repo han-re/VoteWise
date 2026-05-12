@@ -14,6 +14,14 @@ Sources:
 Migration note: if db.Parties (capital P) contains documents from the old
 seed script, this script copies them to db.parties then drops the old
 collection before writing the real data.
+
+Source links: each promise's source_url is a verified deep link (an Act on
+legislation.gov.uk, an NI Assembly Official Report sitting, a department
+publication or news release, or a court judgment), reconciled via
+backend/seed/resolve_party_sources.py and recorded in
+backend/data/party_source_reconciliation.json. A handful that could not be
+pinned to a specific document point at a topic/section-level page on the
+correct host instead, flagged with a trailing comment on the line.
 """
 import asyncio
 import os
@@ -51,7 +59,7 @@ PARTIES = [
                     "on the Department of Education to encourage and facilitate "
                     "integrated education."
                 ),
-                "source_url": "https://www.legislation.gov.uk/ukpga/2022/15/contents",
+                "source_url": "https://www.legislation.gov.uk/nia/2022/15/contents",
             },
             {
                 "id": "all_002",
@@ -62,7 +70,7 @@ PARTIES = [
                     "Alliance Justice Minister Naomi Long dropped the Hate Crime Bill "
                     "during the mandate — a self-inflicted miss on their own manifesto pledge."
                 ),
-                "source_url": "https://niassembly.gov.uk",
+                "source_url": "https://www.justice-ni.gov.uk/topics/policing-and-community-safety",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "all_003",
@@ -73,7 +81,7 @@ PARTIES = [
                     "A Single Transfer Test was introduced in November 2024, "
                     "entrenching rather than ending academic selection."
                 ),
-                "source_url": "https://www.education-ni.gov.uk",
+                "source_url": "https://www.education-ni.gov.uk/topics",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "all_004",
@@ -84,7 +92,7 @@ PARTIES = [
                     "Progressing via the Tennyson Equality Bill and the Victims and "
                     "Witnesses Bill; not yet enacted as of 2026."
                 ),
-                "source_url": "https://niassembly.gov.uk",
+                "source_url": "https://www.niassembly.gov.uk/assembly-business/legislation/2017-2022-mandate/",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "all_005",
@@ -96,7 +104,7 @@ PARTIES = [
                     "Communities Minister stalled on legislation; a successful "
                     "Assembly motion passed in June 2024."
                 ),
-                "source_url": "https://niassembly.gov.uk",
+                "source_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/04&docID=403413",
             },
             {
                 "id": "all_006",
@@ -107,7 +115,7 @@ PARTIES = [
                     "Bengoa framework being implemented across HSC Trusts; reforms "
                     "are ongoing but incomplete and not Alliance-led legislation."
                 ),
-                "source_url": "https://www.health-ni.gov.uk",
+                "source_url": "https://www.health-ni.gov.uk/publications/health-and-wellbeing-2026-delivering-together",
             },
             {
                 "id": "all_007",
@@ -119,7 +127,7 @@ PARTIES = [
                     "including energy-efficiency retrofitting; not a standalone "
                     "Alliance-led bill."
                 ),
-                "source_url": "https://www.executiveoffice-ni.gov.uk",
+                "source_url": "https://www.communities-ni.gov.uk/publications/housing-supply-strategy-2024-2039",
             },
             {
                 "id": "all_008",
@@ -131,7 +139,7 @@ PARTIES = [
                     "and is progressing; not an Alliance-originated piece of "
                     "legislation."
                 ),
-                "source_url": "https://www.economy-ni.gov.uk",
+                "source_url": "https://www.economy-ni.gov.uk/articles/skills-strategy",
             },
         ],
         "scorecard_summary": {"kept": 1, "in_progress": 5, "broken": 2},
@@ -162,7 +170,7 @@ PARTIES = [
                     "The NI Childcare Subsidy Scheme delivered approximately £8 million "
                     "in savings for families while the DUP held the Education ministry."
                 ),
-                "source_url": "https://www.education-ni.gov.uk",
+                "source_url": "https://www.education-ni.gov.uk/news/childcare-subsidy-scheme-reduces-costs-working-families-across-northern-ireland",
             },
             {
                 "id": "dup_002",
@@ -173,7 +181,7 @@ PARTIES = [
                     "DUP Education Minister announced 28 new school build projects "
                     "during their period in office."
                 ),
-                "source_url": "https://www.education-ni.gov.uk",
+                "source_url": "https://www.education-ni.gov.uk/topics",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "dup_003",
@@ -184,7 +192,7 @@ PARTIES = [
                     "Academic selection was retained and formalised through the "
                     "Single Transfer Test introduced in November 2024."
                 ),
-                "source_url": "https://www.education-ni.gov.uk",
+                "source_url": "https://www.education-ni.gov.uk/topics",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "dup_004",
@@ -195,7 +203,7 @@ PARTIES = [
                     "Northern Ireland is ahead of the rest of the UK in full-fibre "
                     "broadband coverage, meeting the DUP's connectivity target."
                 ),
-                "source_url": "https://www.economy-ni.gov.uk",
+                "source_url": "https://www.economy-ni.gov.uk/articles/project-stratum",
             },
             {
                 "id": "dup_005",
@@ -206,7 +214,7 @@ PARTIES = [
                     "The fair funding formula for schools is under ongoing discussion; "
                     "no final settlement has been reached."
                 ),
-                "source_url": "https://www.education-ni.gov.uk",
+                "source_url": "https://www.education-ni.gov.uk/topics",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "dup_006",
@@ -217,7 +225,7 @@ PARTIES = [
                     "A Decent Homes consultation was launched, but social home starts "
                     "collapsed to approximately 400 per year during the mandate."
                 ),
-                "source_url": "https://www.communities-ni.gov.uk",
+                "source_url": "https://www.communities-ni.gov.uk/publications/housing-supply-strategy-2024-2039",
             },
             {
                 "id": "dup_007",
@@ -228,7 +236,7 @@ PARTIES = [
                     "Economic development plans progressing under the Economy "
                     "Department; this is no longer a DUP-held ministerial brief."
                 ),
-                "source_url": "https://www.economy-ni.gov.uk",
+                "source_url": "https://www.economy-ni.gov.uk/topics",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "dup_008",
@@ -273,7 +281,7 @@ PARTIES = [
                     "as a core framework for the mandate, with four priorities "
                     "(good jobs, regional balance, productivity, decarbonisation)."
                 ),
-                "source_url": "https://www.economy-ni.gov.uk",
+                "source_url": "https://www.economy-ni.gov.uk/news/statement-minister-murphy-economic-vision",
             },
             {
                 "id": "sf_002",
@@ -296,7 +304,7 @@ PARTIES = [
                     "2023 following Westminster direction on 2 December 2022; "
                     "2,899 procedures were performed in 2024-25."
                 ),
-                "source_url": "https://www.gov.uk",
+                "source_url": "https://www.gov.uk/government/news/secretary-of-state-for-northern-ireland-instructs-the-department-of-health-to-commission-abortion-services",
             },
             {
                 "id": "sf_004",
@@ -307,7 +315,7 @@ PARTIES = [
                     "A VAWG Strategy was embedded in the Programme for Government "
                     "as a core priority of the restored Executive."
                 ),
-                "source_url": "https://www.executiveoffice-ni.gov.uk",
+                "source_url": "https://www.executiveoffice-ni.gov.uk/topics/ending-violence-against-women-and-girls",
             },
             {
                 "id": "sf_005",
@@ -318,7 +326,7 @@ PARTIES = [
                     "The Executive adopted a matching target in December 2024, but "
                     "delivery is behind schedule with a £128m social housing shortfall."
                 ),
-                "source_url": "https://www.communities-ni.gov.uk",
+                "source_url": "https://www.communities-ni.gov.uk/publications/housing-supply-strategy-2024-2039",
             },
             {
                 "id": "sf_006",
@@ -329,7 +337,7 @@ PARTIES = [
                     "£215m has been ringfenced for waiting lists; the commitment is "
                     "partially honoured but the full £1bn has not been allocated."
                 ),
-                "source_url": "https://www.health-ni.gov.uk",
+                "source_url": "https://www.health-ni.gov.uk/topics",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "sf_007",
@@ -341,7 +349,7 @@ PARTIES = [
                     "measures, but over one in four of the NI population remain on "
                     "a waiting list."
                 ),
-                "source_url": "https://www.health-ni.gov.uk",
+                "source_url": "https://www.health-ni.gov.uk/topics",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "sf_008",
@@ -352,7 +360,7 @@ PARTIES = [
                     "The Magee Taskforce was established; student numbers are up 22% "
                     "to over 6,500, but the 10,000-student target remains distant."
                 ),
-                "source_url": "https://www.economy-ni.gov.uk",
+                "source_url": "https://www.economy-ni.gov.uk/news/economy-minister-launches-ulster-university-magee-taskforce",
             },
             {
                 "id": "sf_009",
@@ -364,7 +372,7 @@ PARTIES = [
                     "entrenching rather than ending academic selection — the opposite "
                     "of the manifesto pledge."
                 ),
-                "source_url": "https://www.education-ni.gov.uk",
+                "source_url": "https://www.education-ni.gov.uk/topics",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "sf_010",
@@ -375,7 +383,7 @@ PARTIES = [
                     "Only 19 of 35 Mental Health Strategy actions have been started; "
                     "the strategy remains chronically underfunded."
                 ),
-                "source_url": "https://www.health-ni.gov.uk",
+                "source_url": "https://www.health-ni.gov.uk/publications/mental-health-strategy-2021-2031",
             },
             {
                 "id": "sf_011",
@@ -386,7 +394,7 @@ PARTIES = [
                     "No legislation has passed; the DUP Communities Minister has "
                     "blocked progress throughout the mandate."
                 ),
-                "source_url": "https://niassembly.gov.uk",
+                "source_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/04&docID=403413",
             },
             {
                 "id": "sf_012",
@@ -397,7 +405,7 @@ PARTIES = [
                     "No bill was introduced during the mandate; no cross-party "
                     "consensus was achieved."
                 ),
-                "source_url": "https://niassembly.gov.uk",
+                "source_url": "https://www.niassembly.gov.uk/assembly-business/legislation/2017-2022-mandate/",  # section-level fallback; specific evidence URL not yet pinned
             },
         ],
         "scorecard_summary": {"kept": 4, "in_progress": 4, "broken": 4},
@@ -428,7 +436,7 @@ PARTIES = [
                     "The first NI Cancer Research Strategic Framework was published "
                     "and rapid diagnostic centres became operational."
                 ),
-                "source_url": "https://www.health-ni.gov.uk",
+                "source_url": "https://www.health-ni.gov.uk/publications/cancer-strategy-northern-ireland-2022-2032",
             },
             {
                 "id": "uup_002",
@@ -439,7 +447,7 @@ PARTIES = [
                     "Dáithí's Law passed, introducing an opt-out system for organ "
                     "donation in Northern Ireland."
                 ),
-                "source_url": "https://www.legislation.gov.uk",
+                "source_url": "https://www.legislation.gov.uk/nia/2022/10/contents",
             },
             {
                 "id": "uup_003",
@@ -450,7 +458,7 @@ PARTIES = [
                     "Housing was established as a standalone PfG priority, securing "
                     "dedicated focus and ringfenced funding discussions."
                 ),
-                "source_url": "https://www.executiveoffice-ni.gov.uk",
+                "source_url": "https://www.northernireland.gov.uk/articles/programme-government-2024-2027-our-plan-doing-what-matters-most",
             },
             {
                 "id": "uup_004",
@@ -461,7 +469,7 @@ PARTIES = [
                     "All City Deals progressing with cross-party support; significant "
                     "investment secured across NI regions."
                 ),
-                "source_url": "https://www.economy-ni.gov.uk",
+                "source_url": "https://www.economy-ni.gov.uk/articles/city-and-growth-deals",
             },
             {
                 "id": "uup_005",
@@ -473,7 +481,7 @@ PARTIES = [
                     "waits, but 35% of NI patients still wait over two years versus "
                     "single digits in England."
                 ),
-                "source_url": "https://www.health-ni.gov.uk",
+                "source_url": "https://www.health-ni.gov.uk/topics",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "uup_006",
@@ -484,7 +492,7 @@ PARTIES = [
                     "February 2024 pay deal delivered and agency spend reduced, "
                     "but staffing pressures continue into 2025-26."
                 ),
-                "source_url": "https://www.health-ni.gov.uk",
+                "source_url": "https://www.health-ni.gov.uk/topics",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "uup_007",
@@ -495,7 +503,7 @@ PARTIES = [
                     "A Mental Health Delivery Plan was published but the strategy "
                     "remains underfunded relative to need."
                 ),
-                "source_url": "https://www.health-ni.gov.uk",
+                "source_url": "https://www.health-ni.gov.uk/publications/mental-health-strategy-2021-2031",
             },
             {
                 "id": "uup_008",
@@ -506,7 +514,7 @@ PARTIES = [
                     "Reform discussions are ongoing; no legislative change has been "
                     "made to NIHE's borrowing powers."
                 ),
-                "source_url": "https://www.communities-ni.gov.uk",
+                "source_url": "https://www.communities-ni.gov.uk/topics/housing",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "uup_009",
@@ -517,7 +525,7 @@ PARTIES = [
                     "No movement toward a single system; denominational schooling "
                     "remains the norm and no legislation was introduced."
                 ),
-                "source_url": "https://www.education-ni.gov.uk",
+                "source_url": "https://www.education-ni.gov.uk/topics",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "uup_010",
@@ -528,7 +536,7 @@ PARTIES = [
                     "Corporation tax devolution has not been secured; the power "
                     "remains with Westminster and no formal transfer was agreed."
                 ),
-                "source_url": "https://www.gov.uk",
+                "source_url": "https://www.economy-ni.gov.uk/topics/economic-strategy",  # section-level fallback; specific evidence URL not yet pinned
             },
         ],
         "scorecard_summary": {"kept": 4, "in_progress": 4, "broken": 2},
@@ -560,7 +568,7 @@ PARTIES = [
                     "social homes by 2030, but the Executive is missing its own "
                     "2,500-homes-a-year target."
                 ),
-                "source_url": "https://niassembly.gov.uk",
+                "source_url": "https://www.communities-ni.gov.uk/publications/housing-supply-strategy-2024-2039",
             },
             {
                 "id": "sdlp_002",
@@ -571,7 +579,7 @@ PARTIES = [
                     "Mark H. Durkan tabled an Assembly motion in January 2026 calling "
                     "for rent controls and a pause on the right-to-buy scheme."
                 ),
-                "source_url": "https://niassembly.gov.uk",
+                "source_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "sdlp_003",
@@ -582,7 +590,7 @@ PARTIES = [
                     "No significant Assembly action has been identified on either "
                     "policy during the mandate."
                 ),
-                "source_url": "https://niassembly.gov.uk",
+                "source_url": "https://www.communities-ni.gov.uk/topics/housing",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "sdlp_004",
@@ -594,7 +602,7 @@ PARTIES = [
                     "was launched in March 2024 and student numbers rose 22% to over "
                     "6,500."
                 ),
-                "source_url": "https://www.economy-ni.gov.uk",
+                "source_url": "https://www.economy-ni.gov.uk/news/economy-minister-launches-ulster-university-magee-taskforce",
             },
             {
                 "id": "sdlp_005",
@@ -606,7 +614,7 @@ PARTIES = [
                     "secure the NI Childcare Subsidy Scheme and pushed for a draft "
                     "Childcare Strategy in January 2025."
                 ),
-                "source_url": "https://niassembly.gov.uk",
+                "source_url": "https://www.education-ni.gov.uk/news/childcare-subsidy-scheme-reduces-costs-working-families-across-northern-ireland",
             },
             {
                 "id": "sdlp_006",
@@ -617,7 +625,7 @@ PARTIES = [
                     "Position maintained in opposition, but no Assembly bill was "
                     "tabled to abolish the transfer test during the mandate."
                 ),
-                "source_url": "https://niassembly.gov.uk",
+                "source_url": "https://www.education-ni.gov.uk/topics",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "sdlp_007",
@@ -629,7 +637,7 @@ PARTIES = [
                     "nurses were offered 5.5% for 2024-25, close to but short of the "
                     "6% target."
                 ),
-                "source_url": "https://niassembly.gov.uk",
+                "source_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "sdlp_008",
@@ -641,7 +649,7 @@ PARTIES = [
                     "passed 41-25; legislation stalled by the DUP Communities "
                     "Minister."
                 ),
-                "source_url": "https://niassembly.gov.uk",
+                "source_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/04&docID=403413",
             },
             {
                 "id": "sdlp_009",
@@ -665,7 +673,7 @@ PARTIES = [
                     "declaring an ecological crisis at Lough Neagh; NI remains the "
                     "only part of the UK or Ireland without an independent EPA."
                 ),
-                "source_url": "https://niassembly.gov.uk",
+                "source_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/05/13&docID=400576",
             },
         ],
         "scorecard_summary": {"kept": 1, "in_progress": 8, "broken": 1},
@@ -698,7 +706,7 @@ PARTIES = [
                     "a 10% rent reduction amendment was tabled before the 2022 "
                     "election but voted down."
                 ),
-                "source_url": "https://niassembly.gov.uk",
+                "source_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/02/24&docID=428904",
             },
             {
                 "id": "pbp_002",
@@ -709,7 +717,7 @@ PARTIES = [
                     "NIHE remains a public body; no reclassification or privatisation "
                     "was pursued during the mandate."
                 ),
-                "source_url": "https://www.nihe.gov.uk",
+                "source_url": "https://www.nihe.gov.uk/about-us",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "pbp_003",
@@ -721,7 +729,7 @@ PARTIES = [
                     "at current build rates it would take over 50 years to clear the "
                     "47,936-household waiting list."
                 ),
-                "source_url": "https://niassembly.gov.uk",
+                "source_url": "https://www.communities-ni.gov.uk/topics/housing",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "pbp_004",
@@ -733,7 +741,7 @@ PARTIES = [
                     "and Alliance opposed; Sinn Féin and SDLP supported); it has not "
                     "been re-introduced in the current mandate."
                 ),
-                "source_url": "https://niassembly.gov.uk",
+                "source_url": "https://www.niassembly.gov.uk/assembly-business/legislation/2017-2022-mandate/",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "pbp_005",
@@ -745,7 +753,7 @@ PARTIES = [
                     "service; the February 2024 Executive deal delivered pay parity "
                     "with England (5% plus £1,505) but fell short of inflation-busting."
                 ),
-                "source_url": "https://niassembly.gov.uk",
+                "source_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "pbp_006",
@@ -757,7 +765,7 @@ PARTIES = [
                     "services rolled out across all five HSC Trusts during 2023, with "
                     "2,899 procedures performed in 2024-25."
                 ),
-                "source_url": "https://www.gov.uk",
+                "source_url": "https://www.gov.uk/government/news/secretary-of-state-for-northern-ireland-instructs-the-department-of-health-to-commission-abortion-services",
             },
             {
                 "id": "pbp_007",
@@ -768,7 +776,7 @@ PARTIES = [
                     "Translink remains fully in public ownership; no privatisation "
                     "was proposed or pursued during the mandate."
                 ),
-                "source_url": "https://www.translink.co.uk",
+                "source_url": "https://www.infrastructure-ni.gov.uk/topics/public-transport",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "pbp_008",
@@ -779,7 +787,7 @@ PARTIES = [
                     "Tuition fees in NI remain approximately £4,750 per year for "
                     "2025-26; no bill was tabled to abolish them at Stormont."
                 ),
-                "source_url": "https://www.studentfinanceni.co.uk",
+                "source_url": "https://www.economy-ni.gov.uk/topics/higher-education",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "pbp_009",
@@ -790,7 +798,7 @@ PARTIES = [
                     "The Climate Change Act (NI) 2022 sets net zero by 2050, not "
                     "2035; PBP's stronger amendments did not succeed."
                 ),
-                "source_url": "https://www.legislation.gov.uk",
+                "source_url": "https://www.legislation.gov.uk/nia/2022/31/contents",
             },
             {
                 "id": "pbp_010",
@@ -801,7 +809,7 @@ PARTIES = [
                     "Stormont delivered a one-off £200 payment for benefit recipients; "
                     "the universal £1,000 demand was not met."
                 ),
-                "source_url": "https://www.communities-ni.gov.uk",
+                "source_url": "https://www.communities-ni.gov.uk/topics/benefits-and-pensions",  # section-level fallback; specific evidence URL not yet pinned
             },
         ],
         "scorecard_summary": {"kept": 3, "in_progress": 2, "broken": 5},
@@ -860,7 +868,7 @@ PARTIES = [
                     "introduced in November 2024 entrenches the selective system "
                     "TUV supports."
                 ),
-                "source_url": "https://www.education-ni.gov.uk",
+                "source_url": "https://www.education-ni.gov.uk/topics",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "tuv_004",  # TUV SYNTHETIC
@@ -872,7 +880,7 @@ PARTIES = [
                     "services are fully operational across all five HSC Trusts, "
                     "contrary to TUV's position."
                 ),
-                "source_url": "https://www.gov.uk",
+                "source_url": "https://www.gov.uk/government/news/secretary-of-state-for-northern-ireland-instructs-the-department-of-health-to-commission-abortion-services",
             },
             {
                 "id": "tuv_005",  # TUV SYNTHETIC
@@ -884,7 +892,7 @@ PARTIES = [
                     "in NI; the UK Supreme Court's April 2025 ruling reinforced the "
                     "biological definition under the Equality Act."
                 ),
-                "source_url": "https://www.supremecourt.uk",
+                "source_url": "https://supremecourt.uk/cases/uksc-2024-0042",
             },
             {
                 "id": "tuv_006",  # TUV SYNTHETIC
@@ -896,7 +904,7 @@ PARTIES = [
                     "Minister; sentencing guidelines under periodic review, though "
                     "not driven by TUV legislation."
                 ),
-                "source_url": "https://www.justice-ni.gov.uk",
+                "source_url": "https://www.justice-ni.gov.uk/topics/policing-and-community-safety",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "tuv_007",  # TUV SYNTHETIC
@@ -907,7 +915,7 @@ PARTIES = [
                     "Rates relief extensions have been secured with cross-party "
                     "support during the mandate; no TUV-specific legislation passed."
                 ),
-                "source_url": "https://www.finance-ni.gov.uk",
+                "source_url": "https://www.finance-ni.gov.uk/topics/property-rating",  # section-level fallback; specific evidence URL not yet pinned
             },
             {
                 "id": "tuv_008",  # TUV SYNTHETIC
@@ -919,7 +927,7 @@ PARTIES = [
                     "restored Executive; all-island health and economic frameworks "
                     "have progressed."
                 ),
-                "source_url": "https://www.executiveoffice-ni.gov.uk",
+                "source_url": "https://www.northsouthministerialcouncil.org/",  # section-level fallback; specific evidence URL not yet pinned
             },
         ],
         "scorecard_summary": {"kept": 2, "in_progress": 2, "broken": 4},  # TUV SYNTHETIC

@@ -1,0 +1,128 @@
+{
+  "session_id": "2026-05-05-plenary",
+  "speakers": [
+    {
+      "name": "Mr Deputy Speaker",
+      "party": "Dr Aiken",
+      "contribution_count": 15
+    },
+    {
+      "name": "Mrs Long",
+      "party": "The Minister of Justice",
+      "contribution_count": 3
+    },
+    {
+      "name": "Mr Nesbitt",
+      "party": "The Minister of Health",
+      "contribution_count": 1
+    }
+  ],
+  "topics_raised": [
+    {
+      "topic": "Education",
+      "first_mention_line": 51
+    },
+    {
+      "topic": "Language",
+      "first_mention_line": 58
+    },
+    {
+      "topic": "Economy",
+      "first_mention_line": 63
+    },
+    {
+      "topic": "Justice",
+      "first_mention_line": 69
+    },
+    {
+      "topic": "Infrastructure",
+      "first_mention_line": 75
+    },
+    {
+      "topic": "Health",
+      "first_mention_line": 91
+    },
+    {
+      "topic": "Housing",
+      "first_mention_line": 338
+    },
+    {
+      "topic": "Environment",
+      "first_mention_line": 509
+    },
+    {
+      "topic": "Equality",
+      "first_mention_line": 697
+    },
+    {
+      "topic": "Welfare",
+      "first_mention_line": 2152
+    }
+  ],
+  "votes_recorded": [
+    {
+      "motion": "The Assembly divided: Ayes 32; Noes 46.",
+      "result": "",
+      "for": 0,
+      "against": 0,
+      "abstain": 0,
+      "line": 3691
+    },
+    {
+      "motion": "The Assembly divided: Ayes 32; Noes 46.                            Mr Burrows, Mr Butler, Mr Carroll, Mr",
+      "result": "",
+      "for": 0,
+      "against": 0,
+      "abstain": 0,
+      "line": 3697
+    },
+    {
+      "motion": "Question accordingly negatived.",
+      "result": "",
+      "for": 0,
+      "against": 0,
+      "abstain": 0,
+      "line": 3735
+    },
+    {
+      "motion": "The Assembly divided: Ayes 33; Noes 46.",
+      "result": "",
+      "for": 0,
+      "against": 0,
+      "abstain": 0,
+      "line": 3751
+    },
+    {
+      "motion": "The Assembly divided: Ayes 32; Noes 47.",
+      "result": "",
+      "for": 0,
+      "against": 0,
+      "abstain": 0,
+      "line": 3765
+    },
+    {
+      "motion": "Question accordingly negatived.",
+      "result": "",
+      "for": 0,
+      "against": 0,
+      "abstain": 0,
+      "line": 3810
+    },
+    {
+      "motion": "Question accordingly negatived.",
+      "result": "",
+      "for": 0,
+      "against": 0,
+      "abstain": 0,
+      "line": 3811
+    },
+    {
+      "motion": "The Assembly divided: Ayes 32; Noes 47.",
+      "result": "",
+      "for": 0,
+      "against": 0,
+      "abstain": 0,
+      "line": 3832
+    }
+  ]
+}

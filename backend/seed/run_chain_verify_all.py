@@ -4,11 +4,13 @@ Run from project root: python -m backend.seed.run_chain_verify_all
 """
 import asyncio
 import os
+from pathlib import Path
 
 from dotenv import load_dotenv
 from motor.motor_asyncio import AsyncIOMotorClient
 
-load_dotenv()
+ROOT_DIR = Path(__file__).resolve().parents[2]
+load_dotenv(ROOT_DIR / "backend" / ".env")
 
 
 async def main() -> None:
@@ -16,7 +18,7 @@ async def main() -> None:
     client = AsyncIOMotorClient(uri)
     db = client["votewise"]
 
-    from services.solana_service import verify_profile_on_chain
+    from backend.services.solana_service import verify_profile_on_chain
 
     mlas = await db.mlas.find({}).to_list(None)
     print(f"Verifying {len(mlas)} MLAs on Solana devnet...\n")
@@ -25,7 +27,7 @@ async def main() -> None:
         mla_id = mla["_id"]
         try:
             result = await verify_profile_on_chain(mla_id, mla, db)
-            sig = result.get("tx_signature", "fallback")
+            sig = result.get("tx_signature", "missing-tx")
             print(f"  {mla['name']:<30} {sig}")
         except Exception as exc:
             print(f"  {mla['name']:<30} ERROR: {exc}")

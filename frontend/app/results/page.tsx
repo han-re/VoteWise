@@ -242,9 +242,11 @@ export default function ResultsPage() {
               <button
                 onClick={() => {
                   if (!audioRef.current) return;
-                  audioPlaying
-                    ? audioRef.current.pause()
-                    : audioRef.current.play().catch(() => {});
+                  if (audioPlaying) {
+                    audioRef.current.pause();
+                  } else {
+                    audioRef.current.play().catch(() => {});
+                  }
                 }}
                 style={{
                   width: "52px", height: "52px", borderRadius: "50%", flexShrink: 0, cursor: "pointer",

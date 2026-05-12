@@ -18,9 +18,12 @@ stance_value -2 to +2 = MLA's revealed position on that axis:
   integration +2 = pro deepening cross-border cooperation
   justice    +2 = pro reopening Troubles legacy cases
 
-Hansard URLs marked # HANSARD_APPROX are plausible URL patterns — verify
-before chain verification. Declared interests and donations marked
-"synthetic": True are plausible data for demo purposes.
+Hansard URLs are verified NI Assembly Official Report deep links (report.aspx
+with eveDate and a real docID), reconciled via
+backend/seed/reconcile_hansard_urls.py against backend/data/hansard_index.json;
+votes whose dates do not match a real plenary sitting fall back to the Official
+Reports index page and carry a "# unmatched date" comment. Declared interests
+and donations marked "synthetic": True are plausible data for demo purposes.
 
 TUV: Timothy Gaston is included per CLAUDE.md spec. Verify his MLA status
 against 2022 results before production — TUV's listed seats_2022 is 1
@@ -56,7 +59,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "environment",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08&docID=370421",
             },
             {
                 "bill": "Trade Union Freedom Bill",
@@ -64,7 +67,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "welfare",
                 "stance_value": -2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2022-03-01.2.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/01&docID=369445",
             },
             {
                 "bill": "Safe Access Zones Act (NI) 2023",
@@ -72,7 +75,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "equality",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/02/07&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index
             },
             {
                 "bill": "Assembly motion: ban conversion therapy",
@@ -80,7 +83,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "equality",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-06-04.4.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/04&docID=403413",
             },
             {
                 "bill": "Assembly motion: Independent Environmental Protection Agency",
@@ -88,7 +91,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "environment",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-05-14.3.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/05/14&docID=400577",
             },
             {
                 "bill": "Academic selection — abolition debate",
@@ -96,7 +99,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "education",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&docID=416634",
             },
             {
                 "bill": "Assembly motion: public sector pay 2024",
@@ -104,7 +107,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "welfare",
                 "stance_value": 1,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-03-12.5.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/03/12&docID=392361",
             },
             {
                 "bill": "NI Troubles legacy / ICRIR opposition motion",
@@ -112,7 +115,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "justice",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/09/19&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index
             },
             {
                 "bill": "Assembly motion: Irish Language Act support",
@@ -120,7 +123,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "language",
                 "stance_value": 1,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22&docID=372036",
             },
         ],
         "declared_interests": [
@@ -163,7 +166,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "environment",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08&docID=370421",
             },
             {
                 "bill": "Assembly motion: Independent Environmental Protection Agency",
@@ -171,7 +174,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "environment",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-05-14.3.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/05/14&docID=400577",
             },
             {
                 "bill": "Safe Access Zones Act (NI) 2023",
@@ -179,7 +182,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "equality",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/02/07&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index
             },
             {
                 "bill": "Academic selection — abolition debate",
@@ -187,7 +190,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "education",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&docID=416634",
             },
             {
                 "bill": "Assembly motion: public sector pay 2024",
@@ -195,7 +198,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "welfare",
                 "stance_value": 1,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-03-12.5.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/03/12&docID=392361",
             },
             {
                 "bill": "People's Housing Bill — Second Stage",
@@ -203,7 +206,7 @@ MLAS = [
                 "vote": "Abstain",
                 "policy_axis": "housing",
                 "stance_value": 0,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2025-02-24.3.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/02/24&docID=428904",
             },
             {
                 "bill": "Assembly motion: cross-border health cooperation",
@@ -211,7 +214,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "integration",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/10&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/10&docID=408886",
             },
             {
                 "bill": "Assembly motion: oppose NHS privatisation",
@@ -219,7 +222,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "health",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/07/02&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/07/02&docID=406827",
             },
         ],
         "declared_interests": [
@@ -263,7 +266,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "welfare",
                 "stance_value": -2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2022-03-01.2.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/01&docID=369445",
             },
             {
                 "bill": "Climate Change Act (NI) 2022",
@@ -271,7 +274,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "environment",
                 "stance_value": -1,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08&docID=370421",
             },
             {
                 "bill": "Assembly motion: Irish Language Act support",
@@ -279,7 +282,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "language",
                 "stance_value": -2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22&docID=372036",
             },
             {
                 "bill": "Safe Access Zones Act (NI) 2023",
@@ -287,7 +290,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "equality",
                 "stance_value": -2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/02/07&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index
             },
             {
                 "bill": "Assembly motion: ban conversion therapy",
@@ -295,7 +298,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "equality",
                 "stance_value": -2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-06-04.4.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/04&docID=403413",
             },
             {
                 "bill": "Academic selection — abolition debate",
@@ -303,7 +306,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "education",
                 "stance_value": -2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&docID=416634",
             },
             {
                 "bill": "Assembly motion: public sector pay 2024",
@@ -311,7 +314,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "welfare",
                 "stance_value": 1,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-03-12.5.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/03/12&docID=392361",
             },
             {
                 "bill": "NI economic strategy — corporation tax devolution debate",
@@ -319,7 +322,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "economy",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/11/14&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index
             },
         ],
         "declared_interests": [
@@ -362,7 +365,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "language",
                 "stance_value": -2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22&docID=372036",
             },
             {
                 "bill": "Safe Access Zones Act (NI) 2023",
@@ -370,7 +373,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "equality",
                 "stance_value": -2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/02/07&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index
             },
             {
                 "bill": "Assembly motion: ban conversion therapy",
@@ -378,7 +381,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "equality",
                 "stance_value": -2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-06-04.4.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/04&docID=403413",
             },
             {
                 "bill": "Academic selection — abolition debate",
@@ -386,7 +389,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "education",
                 "stance_value": -2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&docID=416634",
             },
             {
                 "bill": "NI economic strategy — corporation tax devolution debate",
@@ -394,7 +397,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "economy",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/11/14&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index
             },
             {
                 "bill": "Assembly motion: public sector pay 2024",
@@ -402,7 +405,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "welfare",
                 "stance_value": 1,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-03-12.5.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/03/12&docID=392361",
             },
             {
                 "bill": "People's Housing Bill — Second Stage",
@@ -410,7 +413,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "housing",
                 "stance_value": -1,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2025-02-24.3.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/02/24&docID=428904",
             },
             {
                 "bill": "Assembly motion: cross-border health cooperation",
@@ -418,7 +421,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "integration",
                 "stance_value": -2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/10&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/10&docID=408886",
             },
         ],
         "declared_interests": [
@@ -462,7 +465,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "language",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22&docID=372036",
             },
             {
                 "bill": "Climate Change Act (NI) 2022",
@@ -470,7 +473,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "environment",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08&docID=370421",
             },
             {
                 "bill": "Trade Union Freedom Bill",
@@ -478,7 +481,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "welfare",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2022-03-01.2.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/01&docID=369445",
             },
             {
                 "bill": "Assembly motion: ban conversion therapy",
@@ -486,7 +489,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "equality",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-06-04.4.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/04&docID=403413",
             },
             {
                 "bill": "Assembly motion: cross-border health cooperation",
@@ -494,7 +497,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "integration",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/10&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/10&docID=408886",
             },
             {
                 "bill": "People's Housing Bill — Second Stage",
@@ -502,7 +505,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "housing",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2025-02-24.3.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/02/24&docID=428904",
             },
             {
                 "bill": "Academic selection — abolition debate",
@@ -510,7 +513,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "education",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&docID=416634",
             },
             {
                 "bill": "Assembly motion: oppose NHS privatisation",
@@ -518,7 +521,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "health",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/07/02&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/07/02&docID=406827",
             },
         ],
         "declared_interests": [
@@ -560,7 +563,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "language",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22&docID=372036",
             },
             {
                 "bill": "Trade Union Freedom Bill",
@@ -568,7 +571,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "welfare",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2022-03-01.2.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/01&docID=369445",
             },
             {
                 "bill": "NI economic strategy — corporation tax devolution debate",
@@ -576,7 +579,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "economy",
                 "stance_value": -1,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/11/14&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index
             },
             {
                 "bill": "Assembly motion: cross-border health cooperation",
@@ -584,7 +587,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "integration",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/10&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/10&docID=408886",
             },
             {
                 "bill": "Assembly motion: welfare mitigations extension",
@@ -592,7 +595,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "welfare",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/04/09&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/04/09&docID=395015",
             },
             {
                 "bill": "People's Housing Bill — Second Stage",
@@ -600,7 +603,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "housing",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2025-02-24.3.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/02/24&docID=428904",
             },
             {
                 "bill": "Climate Change Act (NI) 2022",
@@ -608,7 +611,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "environment",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08&docID=370421",
             },
             {
                 "bill": "NI Troubles legacy / ICRIR opposition motion",
@@ -616,7 +619,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "justice",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/09/19&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index
             },
         ],
         "declared_interests": [
@@ -660,7 +663,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "equality",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-06-04.4.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/04&docID=403413",
             },
             {
                 "bill": "Safe Access Zones Act (NI) 2023",
@@ -668,7 +671,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "equality",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/02/07&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index
             },
             {
                 "bill": "Trade Union Freedom Bill",
@@ -676,7 +679,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "welfare",
                 "stance_value": -2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2022-03-01.2.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/01&docID=369445",
             },
             {
                 "bill": "Climate Change Act (NI) 2022",
@@ -684,7 +687,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "environment",
                 "stance_value": 1,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08&docID=370421",
             },
             {
                 "bill": "NI Troubles legacy / ICRIR opposition motion",
@@ -692,7 +695,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "justice",
                 "stance_value": 1,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/09/19&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index
             },
             {
                 "bill": "Assembly motion: cross-border health cooperation",
@@ -700,7 +703,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "integration",
                 "stance_value": 1,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/10&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/10&docID=408886",
             },
             {
                 "bill": "Academic selection — abolition debate",
@@ -708,7 +711,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "education",
                 "stance_value": -2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&docID=416634",
             },
             {
                 "bill": "Assembly motion: public sector pay 2024",
@@ -716,7 +719,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "welfare",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-03-12.5.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/03/12&docID=392361",
             },
         ],
         "declared_interests": [
@@ -758,7 +761,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "welfare",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-03-12.5.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/03/12&docID=392361",
             },
             {
                 "bill": "Academic selection — abolition debate",
@@ -766,7 +769,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "education",
                 "stance_value": -2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&docID=416634",
             },
             {
                 "bill": "Climate Change Act (NI) 2022",
@@ -774,7 +777,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "environment",
                 "stance_value": 1,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08&docID=370421",
             },
             {
                 "bill": "Assembly motion: oppose NHS privatisation",
@@ -782,7 +785,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "health",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/07/02&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/07/02&docID=406827",
             },
             {
                 "bill": "NI economic strategy — corporation tax devolution debate",
@@ -790,7 +793,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "economy",
                 "stance_value": 1,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/11/14&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index
             },
             {
                 "bill": "People's Housing Bill — Second Stage",
@@ -798,7 +801,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "housing",
                 "stance_value": -1,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2025-02-24.3.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/02/24&docID=428904",
             },
             {
                 "bill": "NI Troubles legacy / ICRIR opposition motion",
@@ -806,7 +809,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "justice",
                 "stance_value": 1,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/09/19&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index
             },
             {
                 "bill": "Trade Union Freedom Bill",
@@ -814,7 +817,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "welfare",
                 "stance_value": -2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2022-03-01.2.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/01&docID=369445",
             },
         ],
         "declared_interests": [
@@ -859,7 +862,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "housing",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2025-02-24.3.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/02/24&docID=428904",
             },
             {
                 "bill": "Assembly motion: ban conversion therapy",
@@ -867,7 +870,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "equality",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-06-04.4.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/04&docID=403413",
             },
             {
                 "bill": "Assembly motion: Independent Environmental Protection Agency",
@@ -875,7 +878,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "environment",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-05-14.3.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/05/14&docID=400577",
             },
             {
                 "bill": "Assembly motion: Irish Language Act support",
@@ -883,7 +886,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "language",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22&docID=372036",
             },
             {
                 "bill": "Trade Union Freedom Bill",
@@ -891,7 +894,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "welfare",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2022-03-01.2.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/01&docID=369445",
             },
             {
                 "bill": "Assembly motion: cross-border health cooperation",
@@ -899,7 +902,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "integration",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/10&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/10&docID=408886",
             },
             {
                 "bill": "NI Troubles legacy / ICRIR opposition motion",
@@ -907,7 +910,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "justice",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/09/19&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index
             },
             {
                 "bill": "Assembly motion: public sector pay 2024",
@@ -915,7 +918,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "welfare",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-03-12.5.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/03/12&docID=392361",
             },
         ],
         "declared_interests": [
@@ -957,7 +960,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "equality",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-06-04.4.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/04&docID=403413",
             },
             {
                 "bill": "People's Housing Bill — Second Stage",
@@ -965,7 +968,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "housing",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2025-02-24.3.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/02/24&docID=428904",
             },
             {
                 "bill": "Trade Union Freedom Bill",
@@ -973,7 +976,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "welfare",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2022-03-01.2.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/01&docID=369445",
             },
             {
                 "bill": "Assembly motion: Irish Language Act support",
@@ -981,7 +984,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "language",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22&docID=372036",
             },
             {
                 "bill": "Safe Access Zones Act (NI) 2023",
@@ -989,7 +992,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "equality",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/02/07&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index
             },
             {
                 "bill": "Assembly motion: cross-border health cooperation",
@@ -997,7 +1000,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "integration",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/10&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/10&docID=408886",
             },
             {
                 "bill": "Climate Change Act (NI) 2022",
@@ -1005,7 +1008,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "environment",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08&docID=370421",
             },
             {
                 "bill": "Academic selection — abolition debate",
@@ -1013,7 +1016,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "education",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&docID=416634",
             },
         ],
         "declared_interests": [
@@ -1057,7 +1060,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "welfare",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2022-03-01.2.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/01&docID=369445",
             },
             {
                 "bill": "People's Housing Bill — Second Stage",
@@ -1065,7 +1068,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "housing",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2025-02-24.3.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/02/24&docID=428904",
             },
             {
                 "bill": "Climate Change Act (NI) 2022",
@@ -1073,7 +1076,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "environment",
                 "stance_value": -1,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08&docID=370421",
             },
             {
                 "bill": "Assembly motion: ban conversion therapy",
@@ -1081,7 +1084,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "equality",
                 "stance_value": 2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-06-04.4.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/04&docID=403413",
             },
             {
                 "bill": "Assembly motion: oppose NHS privatisation",
@@ -1089,7 +1092,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "health",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/07/02&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/07/02&docID=406827",
             },
             {
                 "bill": "Academic selection — abolition debate",
@@ -1097,7 +1100,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "education",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&docID=416634",
             },
             {
                 "bill": "NI economic strategy — corporation tax devolution debate",
@@ -1105,7 +1108,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "economy",
                 "stance_value": -2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/11/14&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index
             },
             {
                 "bill": "Assembly motion: welfare mitigations extension",
@@ -1113,7 +1116,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "welfare",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/04/09&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/04/09&docID=395015",
             },
         ],
         "declared_interests": [
@@ -1177,7 +1180,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "language",
                 "stance_value": -2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22&docID=372036",
             },
             {
                 "bill": "Trade Union Freedom Bill",
@@ -1185,7 +1188,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "welfare",
                 "stance_value": -2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2022-03-01.2.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/01&docID=369445",
             },
             {
                 "bill": "Safe Access Zones Act (NI) 2023",
@@ -1193,7 +1196,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "equality",
                 "stance_value": -2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/02/07&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index
             },
             {
                 "bill": "Assembly motion: ban conversion therapy",
@@ -1201,7 +1204,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "equality",
                 "stance_value": -2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-06-04.4.H",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/04&docID=403413",
             },
             {
                 "bill": "NI economic strategy — corporation tax devolution debate",
@@ -1209,7 +1212,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "economy",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/11/14&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index
             },
             {
                 "bill": "Assembly motion: cross-border health cooperation",
@@ -1217,7 +1220,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "integration",
                 "stance_value": -2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/10&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/10&docID=408886",
             },
             {
                 "bill": "NI Troubles legacy / ICRIR opposition motion",
@@ -1225,7 +1228,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "justice",
                 "stance_value": -2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/09/19&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index
             },
             {
                 "bill": "Academic selection — abolition debate",
@@ -1233,7 +1236,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "education",
                 "stance_value": -2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&rai=0",  # HANSARD_APPROX
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&docID=416634",
             },
         ],
         "declared_interests": [
@@ -1279,7 +1282,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "language",
                 "stance_value": -2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22&rai=0",  # HANSARD_APPROX  # TUV SYNTHETIC
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22&docID=372036",  # TUV SYNTHETIC
             },
             {
                 "bill": "Safe Access Zones Act (NI) 2023",
@@ -1287,7 +1290,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "equality",
                 "stance_value": -2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/02/07&rai=0",  # HANSARD_APPROX  # TUV SYNTHETIC
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index  # TUV SYNTHETIC
             },
             {
                 "bill": "Assembly motion: ban conversion therapy",
@@ -1295,7 +1298,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "equality",
                 "stance_value": -2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2024-06-04.4.H",  # HANSARD_APPROX  # TUV SYNTHETIC
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/04&docID=403413",  # TUV SYNTHETIC
             },
             {
                 "bill": "NI economic strategy — corporation tax devolution debate",
@@ -1303,7 +1306,7 @@ MLAS = [
                 "vote": "For",
                 "policy_axis": "economy",
                 "stance_value": 2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/11/14&rai=0",  # HANSARD_APPROX  # TUV SYNTHETIC
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/reports.aspx",  # unmatched date; falls back to reports index  # TUV SYNTHETIC
             },
             {
                 "bill": "Academic selection — abolition debate",
@@ -1311,7 +1314,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "education",
                 "stance_value": -2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&rai=0",  # HANSARD_APPROX  # TUV SYNTHETIC
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&docID=416634",  # TUV SYNTHETIC
             },
             {
                 "bill": "Assembly motion: cross-border health cooperation",
@@ -1319,7 +1322,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "integration",
                 "stance_value": -2,
-                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/10&rai=0",  # HANSARD_APPROX  # TUV SYNTHETIC
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/10&docID=408886",  # TUV SYNTHETIC
             },
             {
                 "bill": "Trade Union Freedom Bill",
@@ -1327,7 +1330,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "welfare",
                 "stance_value": -2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2022-03-01.2.H",  # HANSARD_APPROX  # TUV SYNTHETIC
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/01&docID=369445",  # TUV SYNTHETIC
             },
             {
                 "bill": "People's Housing Bill — Second Stage",
@@ -1335,7 +1338,7 @@ MLAS = [
                 "vote": "Against",
                 "policy_axis": "housing",
                 "stance_value": -2,
-                "hansard_url": "https://www.theyworkforyou.com/ni/?id=2025-02-24.3.H",  # HANSARD_APPROX  # TUV SYNTHETIC
+                "hansard_url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/02/24&docID=428904",  # TUV SYNTHETIC
             },
         ],
         "declared_interests": [  # TUV SYNTHETIC

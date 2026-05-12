@@ -550,6 +550,30 @@
               Take the quiz &rarr;
             </a>
 
+            <!-- VoteWise Pro secondary link — kept small + late-fade so it doesn't compete with the arc CTA -->
+            <a href="/pro" id="pro-cta" style="
+              position: fixed;
+              top: 1.25rem;
+              right: 1.4rem;
+              z-index: 50;
+              padding: 0.45rem 0.9rem;
+              font-size: 0.72rem;
+              letter-spacing: 0.04em;
+              color: rgba(125,211,252,0.85);
+              text-decoration: none;
+              border: 1px solid rgba(125,211,252,0.25);
+              border-radius: 999px;
+              background: rgba(125,211,252,0.05);
+              backdrop-filter: blur(6px);
+              -webkit-backdrop-filter: blur(6px);
+              opacity: 1;
+              transition: opacity 0.6s ease 0.4s, border-color 0.25s, color 0.25s;
+              pointer-events: all;
+              white-space: nowrap;
+            ">
+              For newsrooms and researchers &rarr; VoteWise Pro
+            </a>
+
             <!-- Bottom centre: most popular -->
             <div class="party-card arc-b"
                  style="--party-color:#326760; --party-img:url('/images/1.png')"
@@ -1314,6 +1338,17 @@
       }, 900);
       cta.onmouseover = () => { cta.style.transform = 'translate(-50%,-50%) scale(1.07)'; cta.style.boxShadow = '0 0 56px -4px rgba(232,150,42,0.65), inset 0 1px 0 rgba(255,255,255,0.08)'; cta.style.borderColor = 'rgba(232,150,42,0.9)'; };
       cta.onmouseout  = () => { cta.style.transform = 'translate(-50%,-50%) scale(1)'; cta.style.boxShadow = '0 0 40px -8px rgba(232,150,42,0.4), inset 0 1px 0 rgba(255,255,255,0.06)'; cta.style.borderColor = 'rgba(232,150,42,0.5)'; };
+    }
+
+    // Fade in the small Pro CTA a beat later so it doesn't compete with the arc CTA
+    const proCta = document.getElementById('pro-cta');
+    if (proCta) {
+      setTimeout(() => {
+        proCta.style.opacity = '1';
+        proCta.style.pointerEvents = 'all';
+      }, 1300);
+      proCta.onmouseover = () => { proCta.style.color = '#7dd3fc'; proCta.style.borderColor = 'rgba(125,211,252,0.6)'; };
+      proCta.onmouseout  = () => { proCta.style.color = 'rgba(125,211,252,0.85)'; proCta.style.borderColor = 'rgba(125,211,252,0.25)'; };
     }
   }
 

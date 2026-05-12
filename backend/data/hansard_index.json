@@ -1,0 +1,3970 @@
+[
+  {
+    "eveDate": "2014-09-08",
+    "docID": "205127",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/09/08&docID=205127"
+  },
+  {
+    "eveDate": "2014-09-09",
+    "docID": "205128",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/09/09&docID=205128"
+  },
+  {
+    "eveDate": "2014-09-15",
+    "docID": "205826",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/09/15&docID=205826"
+  },
+  {
+    "eveDate": "2014-09-16",
+    "docID": "205827",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/09/16&docID=205827"
+  },
+  {
+    "eveDate": "2014-09-22",
+    "docID": "206541",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/09/22&docID=206541"
+  },
+  {
+    "eveDate": "2014-09-23",
+    "docID": "206542",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/09/23&docID=206542"
+  },
+  {
+    "eveDate": "2014-09-29",
+    "docID": "207676",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/09/29&docID=207676"
+  },
+  {
+    "eveDate": "2014-09-30",
+    "docID": "207677",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/09/30&docID=207677"
+  },
+  {
+    "eveDate": "2014-10-06",
+    "docID": "208894",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/10/06&docID=208894"
+  },
+  {
+    "eveDate": "2014-10-07",
+    "docID": "208895",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/10/07&docID=208895"
+  },
+  {
+    "eveDate": "2014-10-13",
+    "docID": "209459",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/10/13&docID=209459"
+  },
+  {
+    "eveDate": "2014-10-14",
+    "docID": "209460",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/10/14&docID=209460"
+  },
+  {
+    "eveDate": "2014-10-20",
+    "docID": "210500",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/10/20&docID=210500"
+  },
+  {
+    "eveDate": "2014-10-21",
+    "docID": "210501",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/10/21&docID=210501"
+  },
+  {
+    "eveDate": "2014-11-03",
+    "docID": "211611",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/11/03&docID=211611"
+  },
+  {
+    "eveDate": "2014-11-04",
+    "docID": "211612",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/11/04&docID=211612"
+  },
+  {
+    "eveDate": "2014-11-10",
+    "docID": "212943",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/11/10&docID=212943"
+  },
+  {
+    "eveDate": "2014-11-11",
+    "docID": "212944",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/11/11&docID=212944"
+  },
+  {
+    "eveDate": "2014-11-17",
+    "docID": "213940",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/11/17&docID=213940"
+  },
+  {
+    "eveDate": "2014-11-18",
+    "docID": "213941",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/11/18&docID=213941"
+  },
+  {
+    "eveDate": "2014-11-24",
+    "docID": "214698",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/11/24&docID=214698"
+  },
+  {
+    "eveDate": "2014-11-25",
+    "docID": "214700",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/11/25&docID=214700"
+  },
+  {
+    "eveDate": "2014-12-01",
+    "docID": "215896",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/12/01&docID=215896"
+  },
+  {
+    "eveDate": "2014-12-02",
+    "docID": "215897",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/12/02&docID=215897"
+  },
+  {
+    "eveDate": "2014-12-08",
+    "docID": "216850",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/12/08&docID=216850"
+  },
+  {
+    "eveDate": "2014-12-09",
+    "docID": "216851",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2014/12/09&docID=216851"
+  },
+  {
+    "eveDate": "2015-01-12",
+    "docID": "218560",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/01/12&docID=218560"
+  },
+  {
+    "eveDate": "2015-01-13",
+    "docID": "218562",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/01/13&docID=218562"
+  },
+  {
+    "eveDate": "2015-01-19",
+    "docID": "219668",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/01/19&docID=219668"
+  },
+  {
+    "eveDate": "2015-01-20",
+    "docID": "219669",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/01/20&docID=219669"
+  },
+  {
+    "eveDate": "2015-01-26",
+    "docID": "220588",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/01/26&docID=220588"
+  },
+  {
+    "eveDate": "2015-01-27",
+    "docID": "220589",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/01/27&docID=220589"
+  },
+  {
+    "eveDate": "2015-02-02",
+    "docID": "221588",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/02/02&docID=221588"
+  },
+  {
+    "eveDate": "2015-02-03",
+    "docID": "221589",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/02/03&docID=221589"
+  },
+  {
+    "eveDate": "2015-02-09",
+    "docID": "222649",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/02/09&docID=222649"
+  },
+  {
+    "eveDate": "2015-02-10",
+    "docID": "222650",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/02/10&docID=222650"
+  },
+  {
+    "eveDate": "2015-02-11",
+    "docID": "223690",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/02/11&docID=223690"
+  },
+  {
+    "eveDate": "2015-02-16",
+    "docID": "224230",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/02/16&docID=224230"
+  },
+  {
+    "eveDate": "2015-02-17",
+    "docID": "224231",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/02/17&docID=224231"
+  },
+  {
+    "eveDate": "2015-02-23",
+    "docID": "224857",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/02/23&docID=224857"
+  },
+  {
+    "eveDate": "2015-02-24",
+    "docID": "224858",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/02/24&docID=224858"
+  },
+  {
+    "eveDate": "2015-03-02",
+    "docID": "226152",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/03/02&docID=226152"
+  },
+  {
+    "eveDate": "2015-03-03",
+    "docID": "226154",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/03/03&docID=226154"
+  },
+  {
+    "eveDate": "2015-03-09",
+    "docID": "226892",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/03/09&docID=226892"
+  },
+  {
+    "eveDate": "2015-03-10",
+    "docID": "226893",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/03/10&docID=226893"
+  },
+  {
+    "eveDate": "2015-03-16",
+    "docID": "228045",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/03/16&docID=228045"
+  },
+  {
+    "eveDate": "2015-03-23",
+    "docID": "228674",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/03/23&docID=228674"
+  },
+  {
+    "eveDate": "2015-03-24",
+    "docID": "228675",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/03/24&docID=228675"
+  },
+  {
+    "eveDate": "2015-04-13",
+    "docID": "229888",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/04/13&docID=229888"
+  },
+  {
+    "eveDate": "2015-04-14",
+    "docID": "229889",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/04/14&docID=229889"
+  },
+  {
+    "eveDate": "2015-04-20",
+    "docID": "231158",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/04/20&docID=231158"
+  },
+  {
+    "eveDate": "2015-04-21",
+    "docID": "231160",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/04/21&docID=231160"
+  },
+  {
+    "eveDate": "2015-04-27",
+    "docID": "231884",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/04/27&docID=231884"
+  },
+  {
+    "eveDate": "2015-04-28",
+    "docID": "231887",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/04/28&docID=231887"
+  },
+  {
+    "eveDate": "2015-05-11",
+    "docID": "233139",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/05/11&docID=233139"
+  },
+  {
+    "eveDate": "2015-05-12",
+    "docID": "233140",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/05/12&docID=233140"
+  },
+  {
+    "eveDate": "2015-05-18",
+    "docID": "234653",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/05/18&docID=234653"
+  },
+  {
+    "eveDate": "2015-05-19",
+    "docID": "234654",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/05/19&docID=234654"
+  },
+  {
+    "eveDate": "2015-05-26",
+    "docID": "235302",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/05/26&docID=235302"
+  },
+  {
+    "eveDate": "2015-06-01",
+    "docID": "236056",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/06/01&docID=236056"
+  },
+  {
+    "eveDate": "2015-06-02",
+    "docID": "236057",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/06/02&docID=236057"
+  },
+  {
+    "eveDate": "2015-06-08",
+    "docID": "237147",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/06/08&docID=237147"
+  },
+  {
+    "eveDate": "2015-06-09",
+    "docID": "237150",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/06/09&docID=237150"
+  },
+  {
+    "eveDate": "2015-06-15",
+    "docID": "238195",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/06/15&docID=238195"
+  },
+  {
+    "eveDate": "2015-06-16",
+    "docID": "238200",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/06/16&docID=238200"
+  },
+  {
+    "eveDate": "2015-06-22",
+    "docID": "239027",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/06/22&docID=239027"
+  },
+  {
+    "eveDate": "2015-06-23",
+    "docID": "239028",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/06/23&docID=239028"
+  },
+  {
+    "eveDate": "2015-06-24",
+    "docID": "239706",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/06/24&docID=239706"
+  },
+  {
+    "eveDate": "2015-06-29",
+    "docID": "240045",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/06/29&docID=240045"
+  },
+  {
+    "eveDate": "2015-06-30",
+    "docID": "240048",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2014-2015",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/06/30&docID=240048"
+  },
+  {
+    "eveDate": "2015-09-07",
+    "docID": "242371",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/09/07&docID=242371"
+  },
+  {
+    "eveDate": "2015-09-08",
+    "docID": "242583",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/09/08&docID=242583"
+  },
+  {
+    "eveDate": "2015-09-14",
+    "docID": "243272",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/09/14&docID=243272"
+  },
+  {
+    "eveDate": "2015-09-15",
+    "docID": "243273",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/09/15&docID=243273"
+  },
+  {
+    "eveDate": "2015-09-21",
+    "docID": "243654",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/09/21&docID=243654"
+  },
+  {
+    "eveDate": "2015-09-22",
+    "docID": "243655",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/09/22&docID=243655"
+  },
+  {
+    "eveDate": "2015-09-28",
+    "docID": "244305",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/09/28&docID=244305"
+  },
+  {
+    "eveDate": "2015-09-29",
+    "docID": "244306",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/09/29&docID=244306"
+  },
+  {
+    "eveDate": "2015-10-05",
+    "docID": "244867",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/10/05&docID=244867"
+  },
+  {
+    "eveDate": "2015-10-06",
+    "docID": "244868",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/10/06&docID=244868"
+  },
+  {
+    "eveDate": "2015-10-12",
+    "docID": "245606",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/10/12&docID=245606"
+  },
+  {
+    "eveDate": "2015-10-13",
+    "docID": "245608",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/10/13&docID=245608"
+  },
+  {
+    "eveDate": "2015-10-19",
+    "docID": "246357",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/10/19&docID=246357"
+  },
+  {
+    "eveDate": "2015-10-20",
+    "docID": "246358",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/10/20&docID=246358"
+  },
+  {
+    "eveDate": "2015-11-02",
+    "docID": "247256",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/11/02&docID=247256"
+  },
+  {
+    "eveDate": "2015-11-03",
+    "docID": "247257",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/11/03&docID=247257"
+  },
+  {
+    "eveDate": "2015-11-09",
+    "docID": "248258",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/11/09&docID=248258"
+  },
+  {
+    "eveDate": "2015-11-10",
+    "docID": "248259",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/11/10&docID=248259"
+  },
+  {
+    "eveDate": "2015-11-16",
+    "docID": "249232",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/11/16&docID=249232"
+  },
+  {
+    "eveDate": "2015-11-17",
+    "docID": "249233",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/11/17&docID=249233"
+  },
+  {
+    "eveDate": "2015-11-18",
+    "docID": "249944",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/11/18&docID=249944"
+  },
+  {
+    "eveDate": "2015-11-23",
+    "docID": "250209",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/11/23&docID=250209"
+  },
+  {
+    "eveDate": "2015-11-24",
+    "docID": "250211",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/11/24&docID=250211"
+  },
+  {
+    "eveDate": "2015-11-30",
+    "docID": "250898",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/11/30&docID=250898"
+  },
+  {
+    "eveDate": "2015-12-01",
+    "docID": "250899",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/12/01&docID=250899"
+  },
+  {
+    "eveDate": "2015-12-07",
+    "docID": "251986",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/12/07&docID=251986"
+  },
+  {
+    "eveDate": "2015-12-08",
+    "docID": "251987",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2015/12/08&docID=251987"
+  },
+  {
+    "eveDate": "2016-01-11",
+    "docID": "253922",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/01/11&docID=253922"
+  },
+  {
+    "eveDate": "2016-01-12",
+    "docID": "253924",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/01/12&docID=253924"
+  },
+  {
+    "eveDate": "2016-01-18",
+    "docID": "254973",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/01/18&docID=254973"
+  },
+  {
+    "eveDate": "2016-01-19",
+    "docID": "254974",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/01/19&docID=254974"
+  },
+  {
+    "eveDate": "2016-01-25",
+    "docID": "255808",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/01/25&docID=255808"
+  },
+  {
+    "eveDate": "2016-01-26",
+    "docID": "255809",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/01/26&docID=255809"
+  },
+  {
+    "eveDate": "2016-02-01",
+    "docID": "256777",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/02/01&docID=256777"
+  },
+  {
+    "eveDate": "2016-02-02",
+    "docID": "256790",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/02/02&docID=256790"
+  },
+  {
+    "eveDate": "2016-02-08",
+    "docID": "257727",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/02/08&docID=257727"
+  },
+  {
+    "eveDate": "2016-02-09",
+    "docID": "257728",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/02/09&docID=257728"
+  },
+  {
+    "eveDate": "2016-02-10",
+    "docID": "258728",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/02/10&docID=258728"
+  },
+  {
+    "eveDate": "2016-02-15",
+    "docID": "259250",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/02/15&docID=259250"
+  },
+  {
+    "eveDate": "2016-02-16",
+    "docID": "259251",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/02/16&docID=259251"
+  },
+  {
+    "eveDate": "2016-02-22",
+    "docID": "260126",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/02/22&docID=260126"
+  },
+  {
+    "eveDate": "2016-02-23",
+    "docID": "260128",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/02/23&docID=260128"
+  },
+  {
+    "eveDate": "2016-02-29",
+    "docID": "261094",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/02/29&docID=261094"
+  },
+  {
+    "eveDate": "2016-03-01",
+    "docID": "261095",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/03/01&docID=261095"
+  },
+  {
+    "eveDate": "2016-03-07",
+    "docID": "262042",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/03/07&docID=262042"
+  },
+  {
+    "eveDate": "2016-03-08",
+    "docID": "262043",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/03/08&docID=262043"
+  },
+  {
+    "eveDate": "2016-03-14",
+    "docID": "263221",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/03/14&docID=263221"
+  },
+  {
+    "eveDate": "2016-03-15",
+    "docID": "263222",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2015-2016",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/03/15&docID=263222"
+  },
+  {
+    "eveDate": "2016-05-12",
+    "docID": "264858",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/05/12&docID=264858"
+  },
+  {
+    "eveDate": "2016-05-25",
+    "docID": "264934",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/05/25&docID=264934"
+  },
+  {
+    "eveDate": "2016-05-31",
+    "docID": "265374",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/05/31&docID=265374"
+  },
+  {
+    "eveDate": "2016-06-06",
+    "docID": "265614",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/06/06&docID=265614"
+  },
+  {
+    "eveDate": "2016-06-07",
+    "docID": "265615",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/06/07&docID=265615"
+  },
+  {
+    "eveDate": "2016-06-13",
+    "docID": "266327",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/06/13&docID=266327"
+  },
+  {
+    "eveDate": "2016-06-14",
+    "docID": "266328",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/06/14&docID=266328"
+  },
+  {
+    "eveDate": "2016-06-20",
+    "docID": "267424",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/06/20&docID=267424"
+  },
+  {
+    "eveDate": "2016-06-21",
+    "docID": "267426",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/06/21&docID=267426"
+  },
+  {
+    "eveDate": "2016-06-27",
+    "docID": "268132",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/06/27&docID=268132"
+  },
+  {
+    "eveDate": "2016-06-28",
+    "docID": "268133",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/06/28&docID=268133"
+  },
+  {
+    "eveDate": "2016-09-12",
+    "docID": "270889",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/09/12&docID=270889"
+  },
+  {
+    "eveDate": "2016-09-13",
+    "docID": "270890",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/09/13&docID=270890"
+  },
+  {
+    "eveDate": "2016-09-19",
+    "docID": "271997",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/09/19&docID=271997"
+  },
+  {
+    "eveDate": "2016-09-20",
+    "docID": "271998",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/09/20&docID=271998"
+  },
+  {
+    "eveDate": "2016-09-26",
+    "docID": "273114",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/09/26&docID=273114"
+  },
+  {
+    "eveDate": "2016-09-27",
+    "docID": "273116",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/09/27&docID=273116"
+  },
+  {
+    "eveDate": "2016-10-03",
+    "docID": "274248",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/10/03&docID=274248"
+  },
+  {
+    "eveDate": "2016-10-04",
+    "docID": "274249",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/10/04&docID=274249"
+  },
+  {
+    "eveDate": "2016-10-10",
+    "docID": "275447",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/10/10&docID=275447"
+  },
+  {
+    "eveDate": "2016-10-11",
+    "docID": "275449",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/10/11&docID=275449"
+  },
+  {
+    "eveDate": "2016-10-17",
+    "docID": "276626",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/10/17&docID=276626"
+  },
+  {
+    "eveDate": "2016-10-18",
+    "docID": "276628",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/10/18&docID=276628"
+  },
+  {
+    "eveDate": "2016-10-24",
+    "docID": "277639",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/10/24&docID=277639"
+  },
+  {
+    "eveDate": "2016-10-25",
+    "docID": "277640",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/10/25&docID=277640"
+  },
+  {
+    "eveDate": "2016-11-07",
+    "docID": "279148",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/11/07&docID=279148"
+  },
+  {
+    "eveDate": "2016-11-08",
+    "docID": "279149",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/11/08&docID=279149"
+  },
+  {
+    "eveDate": "2016-11-14",
+    "docID": "280815",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/11/14&docID=280815"
+  },
+  {
+    "eveDate": "2016-11-15",
+    "docID": "280816",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/11/15&docID=280816"
+  },
+  {
+    "eveDate": "2016-11-21",
+    "docID": "281881",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/11/21&docID=281881"
+  },
+  {
+    "eveDate": "2016-11-22",
+    "docID": "281882",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/11/22&docID=281882"
+  },
+  {
+    "eveDate": "2016-11-28",
+    "docID": "283508",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/11/28&docID=283508"
+  },
+  {
+    "eveDate": "2016-11-29",
+    "docID": "283509",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/11/29&docID=283509"
+  },
+  {
+    "eveDate": "2016-12-05",
+    "docID": "284534",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/12/05&docID=284534"
+  },
+  {
+    "eveDate": "2016-12-06",
+    "docID": "284535",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/12/06&docID=284535"
+  },
+  {
+    "eveDate": "2016-12-19",
+    "docID": "286438",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2016/12/19&docID=286438"
+  },
+  {
+    "eveDate": "2017-01-16",
+    "docID": "287719",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2017/01/16&docID=287719"
+  },
+  {
+    "eveDate": "2017-01-17",
+    "docID": "287723",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2017/01/17&docID=287723"
+  },
+  {
+    "eveDate": "2017-01-23",
+    "docID": "288331",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2017/01/23&docID=288331"
+  },
+  {
+    "eveDate": "2017-01-24",
+    "docID": "288332",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2016-2017",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2017/01/24&docID=288332"
+  },
+  {
+    "eveDate": "2017-03-13",
+    "docID": "288823",
+    "venue": "Assembly Chamber",
+    "time": "4:00 PM",
+    "session": "2017-2018",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2017/03/13&docID=288823"
+  },
+  {
+    "eveDate": "2019-10-21",
+    "docID": "290622",
+    "venue": "Assembly Chamber",
+    "time": "1:03 PM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2019/10/21&docID=290622"
+  },
+  {
+    "eveDate": "2020-01-11",
+    "docID": "290745",
+    "venue": "Assembly Chamber",
+    "time": "1:01 PM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/01/11&docID=290745"
+  },
+  {
+    "eveDate": "2020-01-14",
+    "docID": "290860",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/01/14&docID=290860"
+  },
+  {
+    "eveDate": "2020-01-20",
+    "docID": "291366",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/01/20&docID=291366"
+  },
+  {
+    "eveDate": "2020-01-27",
+    "docID": "291486",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/01/27&docID=291486"
+  },
+  {
+    "eveDate": "2020-02-03",
+    "docID": "292480",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/02/03&docID=292480"
+  },
+  {
+    "eveDate": "2020-02-10",
+    "docID": "293242",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/02/10&docID=293242"
+  },
+  {
+    "eveDate": "2020-02-17",
+    "docID": "294390",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/02/17&docID=294390"
+  },
+  {
+    "eveDate": "2020-02-24",
+    "docID": "295483",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/02/24&docID=295483"
+  },
+  {
+    "eveDate": "2020-02-25",
+    "docID": "295484",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/02/25&docID=295484"
+  },
+  {
+    "eveDate": "2020-03-02",
+    "docID": "296419",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/03/02&docID=296419"
+  },
+  {
+    "eveDate": "2020-03-03",
+    "docID": "296420",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/03/03&docID=296420"
+  },
+  {
+    "eveDate": "2020-03-09",
+    "docID": "297456",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/03/09&docID=297456"
+  },
+  {
+    "eveDate": "2020-03-10",
+    "docID": "297457",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/03/10&docID=297457"
+  },
+  {
+    "eveDate": "2020-03-16",
+    "docID": "298480",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/03/16&docID=298480"
+  },
+  {
+    "eveDate": "2020-03-23",
+    "docID": "299355",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/03/23&docID=299355"
+  },
+  {
+    "eveDate": "2020-03-24",
+    "docID": "299356",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/03/24&docID=299356"
+  },
+  {
+    "eveDate": "2020-03-31",
+    "docID": "299867",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/03/31&docID=299867"
+  },
+  {
+    "eveDate": "2020-04-21",
+    "docID": "300445",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/04/21&docID=300445"
+  },
+  {
+    "eveDate": "2020-04-28",
+    "docID": "300528",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/04/28&docID=300528"
+  },
+  {
+    "eveDate": "2020-05-05",
+    "docID": "300622",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/05/05&docID=300622"
+  },
+  {
+    "eveDate": "2020-05-12",
+    "docID": "300902",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/05/12&docID=300902"
+  },
+  {
+    "eveDate": "2020-05-19",
+    "docID": "301084",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/05/19&docID=301084"
+  },
+  {
+    "eveDate": "2020-05-26",
+    "docID": "301336",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/05/26&docID=301336"
+  },
+  {
+    "eveDate": "2020-06-01",
+    "docID": "301412",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/06/01&docID=301412"
+  },
+  {
+    "eveDate": "2020-06-02",
+    "docID": "301413",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/06/02&docID=301413"
+  },
+  {
+    "eveDate": "2020-06-09",
+    "docID": "301801",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/06/09&docID=301801"
+  },
+  {
+    "eveDate": "2020-06-16",
+    "docID": "302204",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/06/16&docID=302204"
+  },
+  {
+    "eveDate": "2020-06-23",
+    "docID": "302713",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/06/23&docID=302713"
+  },
+  {
+    "eveDate": "2020-06-30",
+    "docID": "303726",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/06/30&docID=303726"
+  },
+  {
+    "eveDate": "2020-07-06",
+    "docID": "304151",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/07/06&docID=304151"
+  },
+  {
+    "eveDate": "2020-07-07",
+    "docID": "304152",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/07/07&docID=304152"
+  },
+  {
+    "eveDate": "2020-07-21",
+    "docID": "304884",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/07/21&docID=304884"
+  },
+  {
+    "eveDate": "2020-07-27",
+    "docID": "305231",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/07/27&docID=305231"
+  },
+  {
+    "eveDate": "2020-07-28",
+    "docID": "305232",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/07/28&docID=305232"
+  },
+  {
+    "eveDate": "2020-08-18",
+    "docID": "305888",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2019-2020",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/08/18&docID=305888"
+  },
+  {
+    "eveDate": "2020-09-07",
+    "docID": "306459",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/09/07&docID=306459"
+  },
+  {
+    "eveDate": "2020-09-08",
+    "docID": "306460",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/09/08&docID=306460"
+  },
+  {
+    "eveDate": "2020-09-14",
+    "docID": "307004",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/09/14&docID=307004"
+  },
+  {
+    "eveDate": "2020-09-15",
+    "docID": "307005",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/09/15&docID=307005"
+  },
+  {
+    "eveDate": "2020-09-21",
+    "docID": "307892",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/09/21&docID=307892"
+  },
+  {
+    "eveDate": "2020-09-22",
+    "docID": "307905",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/09/22&docID=307905"
+  },
+  {
+    "eveDate": "2020-09-28",
+    "docID": "309041",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/09/28&docID=309041"
+  },
+  {
+    "eveDate": "2020-09-29",
+    "docID": "309042",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/09/29&docID=309042"
+  },
+  {
+    "eveDate": "2020-10-05",
+    "docID": "310166",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/10/05&docID=310166"
+  },
+  {
+    "eveDate": "2020-10-06",
+    "docID": "310172",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/10/06&docID=310172"
+  },
+  {
+    "eveDate": "2020-10-12",
+    "docID": "310907",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/10/12&docID=310907"
+  },
+  {
+    "eveDate": "2020-10-13",
+    "docID": "310908",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/10/13&docID=310908"
+  },
+  {
+    "eveDate": "2020-10-14",
+    "docID": "311964",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/10/14&docID=311964"
+  },
+  {
+    "eveDate": "2020-10-19",
+    "docID": "312094",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/10/19&docID=312094"
+  },
+  {
+    "eveDate": "2020-10-20",
+    "docID": "312095",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/10/20&docID=312095"
+  },
+  {
+    "eveDate": "2020-11-02",
+    "docID": "312902",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/11/02&docID=312902"
+  },
+  {
+    "eveDate": "2020-11-03",
+    "docID": "312903",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/11/03&docID=312903"
+  },
+  {
+    "eveDate": "2020-11-09",
+    "docID": "314293",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/11/09&docID=314293"
+  },
+  {
+    "eveDate": "2020-11-10",
+    "docID": "314294",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/11/10&docID=314294"
+  },
+  {
+    "eveDate": "2020-11-16",
+    "docID": "315840",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/11/16&docID=315840"
+  },
+  {
+    "eveDate": "2020-11-17",
+    "docID": "315841",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/11/17&docID=315841"
+  },
+  {
+    "eveDate": "2020-11-23",
+    "docID": "316868",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/11/23&docID=316868"
+  },
+  {
+    "eveDate": "2020-11-24",
+    "docID": "316869",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/11/24&docID=316869"
+  },
+  {
+    "eveDate": "2020-11-30",
+    "docID": "317938",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/11/30&docID=317938"
+  },
+  {
+    "eveDate": "2020-12-01",
+    "docID": "317939",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/12/01&docID=317939"
+  },
+  {
+    "eveDate": "2020-12-07",
+    "docID": "319200",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/12/07&docID=319200"
+  },
+  {
+    "eveDate": "2020-12-08",
+    "docID": "319276",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/12/08&docID=319276"
+  },
+  {
+    "eveDate": "2020-12-14",
+    "docID": "319621",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/12/14&docID=319621"
+  },
+  {
+    "eveDate": "2020-12-15",
+    "docID": "319622",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/12/15&docID=319622"
+  },
+  {
+    "eveDate": "2020-12-30",
+    "docID": "320953",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/12/30&docID=320953"
+  },
+  {
+    "eveDate": "2020-12-31",
+    "docID": "321010",
+    "venue": "Assembly Chamber",
+    "time": "11:00 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2020/12/31&docID=321010"
+  },
+  {
+    "eveDate": "2021-01-18",
+    "docID": "321621",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/01/18&docID=321621"
+  },
+  {
+    "eveDate": "2021-01-19",
+    "docID": "321622",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/01/19&docID=321622"
+  },
+  {
+    "eveDate": "2021-01-25",
+    "docID": "323112",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/01/25&docID=323112"
+  },
+  {
+    "eveDate": "2021-01-26",
+    "docID": "323143",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/01/26&docID=323143"
+  },
+  {
+    "eveDate": "2021-02-01",
+    "docID": "324096",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/02/01&docID=324096"
+  },
+  {
+    "eveDate": "2021-02-02",
+    "docID": "324097",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/02/02&docID=324097"
+  },
+  {
+    "eveDate": "2021-02-08",
+    "docID": "325081",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/02/08&docID=325081"
+  },
+  {
+    "eveDate": "2021-02-16",
+    "docID": "326045",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/02/16&docID=326045"
+  },
+  {
+    "eveDate": "2021-02-22",
+    "docID": "327048",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/02/22&docID=327048"
+  },
+  {
+    "eveDate": "2021-02-23",
+    "docID": "327049",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/02/23&docID=327049"
+  },
+  {
+    "eveDate": "2021-03-01",
+    "docID": "328381",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/03/01&docID=328381"
+  },
+  {
+    "eveDate": "2021-03-02",
+    "docID": "328384",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/03/02&docID=328384"
+  },
+  {
+    "eveDate": "2021-03-08",
+    "docID": "329452",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/03/08&docID=329452"
+  },
+  {
+    "eveDate": "2021-03-09",
+    "docID": "329455",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/03/09&docID=329455"
+  },
+  {
+    "eveDate": "2021-03-15",
+    "docID": "330674",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/03/15&docID=330674"
+  },
+  {
+    "eveDate": "2021-03-16",
+    "docID": "330676",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/03/16&docID=330676"
+  },
+  {
+    "eveDate": "2021-03-22",
+    "docID": "331532",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/03/22&docID=331532"
+  },
+  {
+    "eveDate": "2021-03-23",
+    "docID": "331535",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/03/23&docID=331535"
+  },
+  {
+    "eveDate": "2021-04-01",
+    "docID": "332812",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/04/01&docID=332812"
+  },
+  {
+    "eveDate": "2021-04-08",
+    "docID": "332973",
+    "venue": "Assembly Chamber",
+    "time": "11:00 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/04/08&docID=332973"
+  },
+  {
+    "eveDate": "2021-04-12",
+    "docID": "332316",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/04/12&docID=332316"
+  },
+  {
+    "eveDate": "2021-04-13",
+    "docID": "332317",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/04/13&docID=332317"
+  },
+  {
+    "eveDate": "2021-04-19",
+    "docID": "333595",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/04/19&docID=333595"
+  },
+  {
+    "eveDate": "2021-04-20",
+    "docID": "333597",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/04/20&docID=333597"
+  },
+  {
+    "eveDate": "2021-04-26",
+    "docID": "334489",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/04/26&docID=334489"
+  },
+  {
+    "eveDate": "2021-04-27",
+    "docID": "334490",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/04/27&docID=334490"
+  },
+  {
+    "eveDate": "2021-05-04",
+    "docID": "335376",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/05/04&docID=335376"
+  },
+  {
+    "eveDate": "2021-05-10",
+    "docID": "336439",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/05/10&docID=336439"
+  },
+  {
+    "eveDate": "2021-05-11",
+    "docID": "336440",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/05/11&docID=336440"
+  },
+  {
+    "eveDate": "2021-05-17",
+    "docID": "337442",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/05/17&docID=337442"
+  },
+  {
+    "eveDate": "2021-05-18",
+    "docID": "337443",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/05/18&docID=337443"
+  },
+  {
+    "eveDate": "2021-05-24",
+    "docID": "338423",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/05/24&docID=338423"
+  },
+  {
+    "eveDate": "2021-05-25",
+    "docID": "338424",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/05/25&docID=338424"
+  },
+  {
+    "eveDate": "2021-06-01",
+    "docID": "339497",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/06/01&docID=339497"
+  },
+  {
+    "eveDate": "2021-06-07",
+    "docID": "339983",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/06/07&docID=339983"
+  },
+  {
+    "eveDate": "2021-06-08",
+    "docID": "339984",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/06/08&docID=339984"
+  },
+  {
+    "eveDate": "2021-06-14",
+    "docID": "341073",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/06/14&docID=341073"
+  },
+  {
+    "eveDate": "2021-06-15",
+    "docID": "341074",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/06/15&docID=341074"
+  },
+  {
+    "eveDate": "2021-06-17",
+    "docID": "342077",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/06/17&docID=342077"
+  },
+  {
+    "eveDate": "2021-06-21",
+    "docID": "341905",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/06/21&docID=341905"
+  },
+  {
+    "eveDate": "2021-06-22",
+    "docID": "341906",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/06/22&docID=341906"
+  },
+  {
+    "eveDate": "2021-06-28",
+    "docID": "345033",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/06/28&docID=345033"
+  },
+  {
+    "eveDate": "2021-06-29",
+    "docID": "345034",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/06/29&docID=345034"
+  },
+  {
+    "eveDate": "2021-07-05",
+    "docID": "345817",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/07/05&docID=345817"
+  },
+  {
+    "eveDate": "2021-07-06",
+    "docID": "345818",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/07/06&docID=345818"
+  },
+  {
+    "eveDate": "2021-07-20",
+    "docID": "347308",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2020-2021",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/07/20&docID=347308"
+  },
+  {
+    "eveDate": "2021-09-09",
+    "docID": "349061",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/09/09&docID=349061"
+  },
+  {
+    "eveDate": "2021-09-13",
+    "docID": "348691",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/09/13&docID=348691"
+  },
+  {
+    "eveDate": "2021-09-14",
+    "docID": "348692",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/09/14&docID=348692"
+  },
+  {
+    "eveDate": "2021-09-20",
+    "docID": "349761",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/09/20&docID=349761"
+  },
+  {
+    "eveDate": "2021-09-21",
+    "docID": "349762",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/09/21&docID=349762"
+  },
+  {
+    "eveDate": "2021-09-27",
+    "docID": "350780",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/09/27&docID=350780"
+  },
+  {
+    "eveDate": "2021-09-28",
+    "docID": "350783",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/09/28&docID=350783"
+  },
+  {
+    "eveDate": "2021-10-04",
+    "docID": "351844",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/10/04&docID=351844"
+  },
+  {
+    "eveDate": "2021-10-05",
+    "docID": "351845",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/10/05&docID=351845"
+  },
+  {
+    "eveDate": "2021-10-11",
+    "docID": "352777",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/10/11&docID=352777"
+  },
+  {
+    "eveDate": "2021-10-12",
+    "docID": "352778",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/10/12&docID=352778"
+  },
+  {
+    "eveDate": "2021-10-18",
+    "docID": "353646",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/10/18&docID=353646"
+  },
+  {
+    "eveDate": "2021-10-19",
+    "docID": "353647",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/10/19&docID=353647"
+  },
+  {
+    "eveDate": "2021-11-01",
+    "docID": "354734",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/11/01&docID=354734"
+  },
+  {
+    "eveDate": "2021-11-02",
+    "docID": "354735",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/11/02&docID=354735"
+  },
+  {
+    "eveDate": "2021-11-08",
+    "docID": "356094",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/11/08&docID=356094"
+  },
+  {
+    "eveDate": "2021-11-09",
+    "docID": "356095",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/11/09&docID=356095"
+  },
+  {
+    "eveDate": "2021-11-15",
+    "docID": "356898",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/11/15&docID=356898"
+  },
+  {
+    "eveDate": "2021-11-16",
+    "docID": "356899",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/11/16&docID=356899"
+  },
+  {
+    "eveDate": "2021-11-22",
+    "docID": "358050",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/11/22&docID=358050"
+  },
+  {
+    "eveDate": "2021-11-23",
+    "docID": "358051",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/11/23&docID=358051"
+  },
+  {
+    "eveDate": "2021-11-29",
+    "docID": "359050",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/11/29&docID=359050"
+  },
+  {
+    "eveDate": "2021-11-30",
+    "docID": "359051",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/11/30&docID=359051"
+  },
+  {
+    "eveDate": "2021-12-06",
+    "docID": "359906",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/12/06&docID=359906"
+  },
+  {
+    "eveDate": "2021-12-07",
+    "docID": "359907",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/12/07&docID=359907"
+  },
+  {
+    "eveDate": "2021-12-13",
+    "docID": "360942",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/12/13&docID=360942"
+  },
+  {
+    "eveDate": "2021-12-14",
+    "docID": "360943",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2021/12/14&docID=360943"
+  },
+  {
+    "eveDate": "2022-01-10",
+    "docID": "362642",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/01/10&docID=362642"
+  },
+  {
+    "eveDate": "2022-01-17",
+    "docID": "363195",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/01/17&docID=363195"
+  },
+  {
+    "eveDate": "2022-01-18",
+    "docID": "363196",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/01/18&docID=363196"
+  },
+  {
+    "eveDate": "2022-01-19",
+    "docID": "364206",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/01/19&docID=364206"
+  },
+  {
+    "eveDate": "2022-01-24",
+    "docID": "364350",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/01/24&docID=364350"
+  },
+  {
+    "eveDate": "2022-01-25",
+    "docID": "364352",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/01/25&docID=364352"
+  },
+  {
+    "eveDate": "2022-01-31",
+    "docID": "365157",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/01/31&docID=365157"
+  },
+  {
+    "eveDate": "2022-02-01",
+    "docID": "365158",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/02/01&docID=365158"
+  },
+  {
+    "eveDate": "2022-02-07",
+    "docID": "366532",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/02/07&docID=366532"
+  },
+  {
+    "eveDate": "2022-02-08",
+    "docID": "366587",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/02/08&docID=366587"
+  },
+  {
+    "eveDate": "2022-02-14",
+    "docID": "367307",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/02/14&docID=367307"
+  },
+  {
+    "eveDate": "2022-02-15",
+    "docID": "367308",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/02/15&docID=367308"
+  },
+  {
+    "eveDate": "2022-02-21",
+    "docID": "368497",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/02/21&docID=368497"
+  },
+  {
+    "eveDate": "2022-02-22",
+    "docID": "368499",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/02/22&docID=368499"
+  },
+  {
+    "eveDate": "2022-02-23",
+    "docID": "368500",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/02/23&docID=368500"
+  },
+  {
+    "eveDate": "2022-02-24",
+    "docID": "369145",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/02/24&docID=369145"
+  },
+  {
+    "eveDate": "2022-02-28",
+    "docID": "369443",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/02/28&docID=369443"
+  },
+  {
+    "eveDate": "2022-03-01",
+    "docID": "369445",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/01&docID=369445"
+  },
+  {
+    "eveDate": "2022-03-02",
+    "docID": "369446",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/02&docID=369446"
+  },
+  {
+    "eveDate": "2022-03-07",
+    "docID": "370420",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/07&docID=370420"
+  },
+  {
+    "eveDate": "2022-03-08",
+    "docID": "370421",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/08&docID=370421"
+  },
+  {
+    "eveDate": "2022-03-09",
+    "docID": "370422",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/09&docID=370422"
+  },
+  {
+    "eveDate": "2022-03-14",
+    "docID": "371482",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/14&docID=371482"
+  },
+  {
+    "eveDate": "2022-03-15",
+    "docID": "371483",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/15&docID=371483"
+  },
+  {
+    "eveDate": "2022-03-21",
+    "docID": "372035",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/21&docID=372035"
+  },
+  {
+    "eveDate": "2022-03-22",
+    "docID": "372036",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/22&docID=372036"
+  },
+  {
+    "eveDate": "2022-03-24",
+    "docID": "372037",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2021-2022",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/03/24&docID=372037"
+  },
+  {
+    "eveDate": "2022-05-13",
+    "docID": "373396",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2022-2023",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/05/13&docID=373396"
+  },
+  {
+    "eveDate": "2022-05-30",
+    "docID": "374260",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2022-2023",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/05/30&docID=374260"
+  },
+  {
+    "eveDate": "2022-08-03",
+    "docID": "379694",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2022-2023",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/08/03&docID=379694"
+  },
+  {
+    "eveDate": "2022-10-27",
+    "docID": "385403",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2022-2023",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/10/27&docID=385403"
+  },
+  {
+    "eveDate": "2022-12-07",
+    "docID": "386093",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2022-2023",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2022/12/07&docID=386093"
+  },
+  {
+    "eveDate": "2023-02-14",
+    "docID": "386191",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2022-2023",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2023/02/14&docID=386191"
+  },
+  {
+    "eveDate": "2024-01-17",
+    "docID": "386819",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/01/17&docID=386819"
+  },
+  {
+    "eveDate": "2024-02-03",
+    "docID": "386860",
+    "venue": "Assembly Chamber",
+    "time": "1:00 PM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/02/03&docID=386860"
+  },
+  {
+    "eveDate": "2024-02-06",
+    "docID": "386874",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/02/06&docID=386874"
+  },
+  {
+    "eveDate": "2024-02-12",
+    "docID": "387394",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/02/12&docID=387394"
+  },
+  {
+    "eveDate": "2024-02-13",
+    "docID": "387395",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/02/13&docID=387395"
+  },
+  {
+    "eveDate": "2024-02-19",
+    "docID": "388359",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/02/19&docID=388359"
+  },
+  {
+    "eveDate": "2024-02-20",
+    "docID": "388360",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/02/20&docID=388360"
+  },
+  {
+    "eveDate": "2024-02-26",
+    "docID": "389673",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/02/26&docID=389673"
+  },
+  {
+    "eveDate": "2024-02-27",
+    "docID": "389674",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/02/27&docID=389674"
+  },
+  {
+    "eveDate": "2024-03-04",
+    "docID": "390974",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/03/04&docID=390974"
+  },
+  {
+    "eveDate": "2024-03-05",
+    "docID": "390975",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/03/05&docID=390975"
+  },
+  {
+    "eveDate": "2024-03-11",
+    "docID": "392360",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/03/11&docID=392360"
+  },
+  {
+    "eveDate": "2024-03-12",
+    "docID": "392361",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/03/12&docID=392361"
+  },
+  {
+    "eveDate": "2024-03-19",
+    "docID": "393940",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/03/19&docID=393940"
+  },
+  {
+    "eveDate": "2024-04-08",
+    "docID": "395014",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/04/08&docID=395014"
+  },
+  {
+    "eveDate": "2024-04-09",
+    "docID": "395015",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/04/09&docID=395015"
+  },
+  {
+    "eveDate": "2024-04-15",
+    "docID": "396689",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/04/15&docID=396689"
+  },
+  {
+    "eveDate": "2024-04-16",
+    "docID": "396690",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/04/16&docID=396690"
+  },
+  {
+    "eveDate": "2024-04-22",
+    "docID": "397732",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/04/22&docID=397732"
+  },
+  {
+    "eveDate": "2024-04-23",
+    "docID": "397733",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/04/23&docID=397733"
+  },
+  {
+    "eveDate": "2024-04-29",
+    "docID": "398864",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/04/29&docID=398864"
+  },
+  {
+    "eveDate": "2024-04-30",
+    "docID": "398865",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/04/30&docID=398865"
+  },
+  {
+    "eveDate": "2024-05-07",
+    "docID": "399634",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/05/07&docID=399634"
+  },
+  {
+    "eveDate": "2024-05-13",
+    "docID": "400576",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/05/13&docID=400576"
+  },
+  {
+    "eveDate": "2024-05-14",
+    "docID": "400577",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/05/14&docID=400577"
+  },
+  {
+    "eveDate": "2024-05-20",
+    "docID": "401598",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/05/20&docID=401598"
+  },
+  {
+    "eveDate": "2024-05-21",
+    "docID": "401599",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/05/21&docID=401599"
+  },
+  {
+    "eveDate": "2024-05-28",
+    "docID": "402612",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/05/28&docID=402612"
+  },
+  {
+    "eveDate": "2024-06-03",
+    "docID": "403412",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/03&docID=403412"
+  },
+  {
+    "eveDate": "2024-06-04",
+    "docID": "403413",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/04&docID=403413"
+  },
+  {
+    "eveDate": "2024-06-10",
+    "docID": "404547",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/10&docID=404547"
+  },
+  {
+    "eveDate": "2024-06-11",
+    "docID": "404548",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/11&docID=404548"
+  },
+  {
+    "eveDate": "2024-06-17",
+    "docID": "405246",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/17&docID=405246"
+  },
+  {
+    "eveDate": "2024-06-18",
+    "docID": "405247",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/18&docID=405247"
+  },
+  {
+    "eveDate": "2024-06-24",
+    "docID": "406146",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/24&docID=406146"
+  },
+  {
+    "eveDate": "2024-06-25",
+    "docID": "406147",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/06/25&docID=406147"
+  },
+  {
+    "eveDate": "2024-07-01",
+    "docID": "406825",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/07/01&docID=406825"
+  },
+  {
+    "eveDate": "2024-07-02",
+    "docID": "406827",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/07/02&docID=406827"
+  },
+  {
+    "eveDate": "2024-08-08",
+    "docID": "408498",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2023-2024",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/08/08&docID=408498"
+  },
+  {
+    "eveDate": "2024-09-09",
+    "docID": "408885",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/09&docID=408885"
+  },
+  {
+    "eveDate": "2024-09-10",
+    "docID": "408886",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/10&docID=408886"
+  },
+  {
+    "eveDate": "2024-09-16",
+    "docID": "409616",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/16&docID=409616"
+  },
+  {
+    "eveDate": "2024-09-17",
+    "docID": "409617",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/17&docID=409617"
+  },
+  {
+    "eveDate": "2024-09-23",
+    "docID": "410650",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/23&docID=410650"
+  },
+  {
+    "eveDate": "2024-09-24",
+    "docID": "410651",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/24&docID=410651"
+  },
+  {
+    "eveDate": "2024-09-30",
+    "docID": "411417",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/09/30&docID=411417"
+  },
+  {
+    "eveDate": "2024-10-01",
+    "docID": "411418",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/10/01&docID=411418"
+  },
+  {
+    "eveDate": "2024-10-07",
+    "docID": "412366",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/10/07&docID=412366"
+  },
+  {
+    "eveDate": "2024-10-08",
+    "docID": "412367",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/10/08&docID=412367"
+  },
+  {
+    "eveDate": "2024-10-14",
+    "docID": "413431",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/10/14&docID=413431"
+  },
+  {
+    "eveDate": "2024-10-15",
+    "docID": "413432",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/10/15&docID=413432"
+  },
+  {
+    "eveDate": "2024-10-21",
+    "docID": "414507",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/10/21&docID=414507"
+  },
+  {
+    "eveDate": "2024-10-22",
+    "docID": "414508",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/10/22&docID=414508"
+  },
+  {
+    "eveDate": "2024-11-04",
+    "docID": "415336",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/04&docID=415336"
+  },
+  {
+    "eveDate": "2024-11-05",
+    "docID": "415337",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/05&docID=415337"
+  },
+  {
+    "eveDate": "2024-11-11",
+    "docID": "416633",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/11&docID=416633"
+  },
+  {
+    "eveDate": "2024-11-12",
+    "docID": "416634",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/12&docID=416634"
+  },
+  {
+    "eveDate": "2024-11-18",
+    "docID": "417532",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/18&docID=417532"
+  },
+  {
+    "eveDate": "2024-11-19",
+    "docID": "417533",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/19&docID=417533"
+  },
+  {
+    "eveDate": "2024-11-25",
+    "docID": "418423",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/25&docID=418423"
+  },
+  {
+    "eveDate": "2024-11-26",
+    "docID": "418424",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/11/26&docID=418424"
+  },
+  {
+    "eveDate": "2024-12-02",
+    "docID": "419470",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/12/02&docID=419470"
+  },
+  {
+    "eveDate": "2024-12-03",
+    "docID": "419471",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/12/03&docID=419471"
+  },
+  {
+    "eveDate": "2024-12-09",
+    "docID": "420417",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/12/09&docID=420417"
+  },
+  {
+    "eveDate": "2024-12-10",
+    "docID": "420418",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2024/12/10&docID=420418"
+  },
+  {
+    "eveDate": "2025-01-13",
+    "docID": "422082",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/01/13&docID=422082"
+  },
+  {
+    "eveDate": "2025-01-14",
+    "docID": "422083",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/01/14&docID=422083"
+  },
+  {
+    "eveDate": "2025-01-20",
+    "docID": "423731",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/01/20&docID=423731"
+  },
+  {
+    "eveDate": "2025-01-21",
+    "docID": "423732",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/01/21&docID=423732"
+  },
+  {
+    "eveDate": "2025-01-27",
+    "docID": "424824",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/01/27&docID=424824"
+  },
+  {
+    "eveDate": "2025-01-28",
+    "docID": "424825",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/01/28&docID=424825"
+  },
+  {
+    "eveDate": "2025-02-03",
+    "docID": "425759",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/02/03&docID=425759"
+  },
+  {
+    "eveDate": "2025-02-04",
+    "docID": "425760",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/02/04&docID=425760"
+  },
+  {
+    "eveDate": "2025-02-10",
+    "docID": "426822",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/02/10&docID=426822"
+  },
+  {
+    "eveDate": "2025-02-11",
+    "docID": "426823",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/02/11&docID=426823"
+  },
+  {
+    "eveDate": "2025-02-17",
+    "docID": "427947",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/02/17&docID=427947"
+  },
+  {
+    "eveDate": "2025-02-18",
+    "docID": "427948",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/02/18&docID=427948"
+  },
+  {
+    "eveDate": "2025-02-24",
+    "docID": "428904",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/02/24&docID=428904"
+  },
+  {
+    "eveDate": "2025-02-25",
+    "docID": "428905",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/02/25&docID=428905"
+  },
+  {
+    "eveDate": "2025-03-03",
+    "docID": "430026",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/03/03&docID=430026"
+  },
+  {
+    "eveDate": "2025-03-04",
+    "docID": "430160",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/03/04&docID=430160"
+  },
+  {
+    "eveDate": "2025-03-10",
+    "docID": "431150",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/03/10&docID=431150"
+  },
+  {
+    "eveDate": "2025-03-11",
+    "docID": "431151",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/03/11&docID=431151"
+  },
+  {
+    "eveDate": "2025-03-18",
+    "docID": "432305",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/03/18&docID=432305"
+  },
+  {
+    "eveDate": "2025-03-24",
+    "docID": "433026",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/03/24&docID=433026"
+  },
+  {
+    "eveDate": "2025-03-25",
+    "docID": "433027",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/03/25&docID=433027"
+  },
+  {
+    "eveDate": "2025-03-31",
+    "docID": "434620",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/03/31&docID=434620"
+  },
+  {
+    "eveDate": "2025-04-01",
+    "docID": "434621",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/04/01&docID=434621"
+  },
+  {
+    "eveDate": "2025-04-07",
+    "docID": "435279",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/04/07&docID=435279"
+  },
+  {
+    "eveDate": "2025-04-08",
+    "docID": "435280",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/04/08&docID=435280"
+  },
+  {
+    "eveDate": "2025-04-28",
+    "docID": "436283",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/04/28&docID=436283"
+  },
+  {
+    "eveDate": "2025-04-29",
+    "docID": "436284",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/04/29&docID=436284"
+  },
+  {
+    "eveDate": "2025-05-06",
+    "docID": "437900",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/05/06&docID=437900"
+  },
+  {
+    "eveDate": "2025-05-12",
+    "docID": "438445",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/05/12&docID=438445"
+  },
+  {
+    "eveDate": "2025-05-13",
+    "docID": "438446",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/05/13&docID=438446"
+  },
+  {
+    "eveDate": "2025-05-19",
+    "docID": "439412",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/05/19&docID=439412"
+  },
+  {
+    "eveDate": "2025-05-20",
+    "docID": "439413",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/05/20&docID=439413"
+  },
+  {
+    "eveDate": "2025-05-27",
+    "docID": "440190",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/05/27&docID=440190"
+  },
+  {
+    "eveDate": "2025-06-02",
+    "docID": "440989",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/06/02&docID=440989"
+  },
+  {
+    "eveDate": "2025-06-03",
+    "docID": "440990",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/06/03&docID=440990"
+  },
+  {
+    "eveDate": "2025-06-09",
+    "docID": "441928",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/06/09&docID=441928"
+  },
+  {
+    "eveDate": "2025-06-10",
+    "docID": "441929",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/06/10&docID=441929"
+  },
+  {
+    "eveDate": "2025-06-16",
+    "docID": "442839",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/06/16&docID=442839"
+  },
+  {
+    "eveDate": "2025-06-17",
+    "docID": "442840",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/06/17&docID=442840"
+  },
+  {
+    "eveDate": "2025-06-23",
+    "docID": "443696",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/06/23&docID=443696"
+  },
+  {
+    "eveDate": "2025-06-24",
+    "docID": "443697",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/06/24&docID=443697"
+  },
+  {
+    "eveDate": "2025-06-30",
+    "docID": "444644",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/06/30&docID=444644"
+  },
+  {
+    "eveDate": "2025-07-01",
+    "docID": "444646",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2024-2025",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/07/01&docID=444646"
+  },
+  {
+    "eveDate": "2025-09-08",
+    "docID": "447886",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/09/08&docID=447886"
+  },
+  {
+    "eveDate": "2025-09-09",
+    "docID": "447887",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/09/09&docID=447887"
+  },
+  {
+    "eveDate": "2025-09-15",
+    "docID": "448740",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/09/15&docID=448740"
+  },
+  {
+    "eveDate": "2025-09-16",
+    "docID": "448741",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/09/16&docID=448741"
+  },
+  {
+    "eveDate": "2025-09-22",
+    "docID": "449815",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/09/22&docID=449815"
+  },
+  {
+    "eveDate": "2025-09-23",
+    "docID": "449816",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/09/23&docID=449816"
+  },
+  {
+    "eveDate": "2025-09-29",
+    "docID": "450895",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/09/29&docID=450895"
+  },
+  {
+    "eveDate": "2025-09-30",
+    "docID": "450896",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/09/30&docID=450896"
+  },
+  {
+    "eveDate": "2025-10-06",
+    "docID": "452297",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/10/06&docID=452297"
+  },
+  {
+    "eveDate": "2025-10-07",
+    "docID": "452298",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/10/07&docID=452298"
+  },
+  {
+    "eveDate": "2025-10-13",
+    "docID": "453674",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/10/13&docID=453674"
+  },
+  {
+    "eveDate": "2025-10-14",
+    "docID": "453676",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/10/14&docID=453676"
+  },
+  {
+    "eveDate": "2025-10-20",
+    "docID": "454909",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/10/20&docID=454909"
+  },
+  {
+    "eveDate": "2025-10-21",
+    "docID": "454910",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/10/21&docID=454910"
+  },
+  {
+    "eveDate": "2025-11-03",
+    "docID": "456024",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/11/03&docID=456024"
+  },
+  {
+    "eveDate": "2025-11-04",
+    "docID": "456025",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/11/04&docID=456025"
+  },
+  {
+    "eveDate": "2025-11-10",
+    "docID": "457575",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/11/10&docID=457575"
+  },
+  {
+    "eveDate": "2025-11-11",
+    "docID": "457576",
+    "venue": "Assembly Chamber",
+    "time": "11:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/11/11&docID=457576"
+  },
+  {
+    "eveDate": "2025-11-17",
+    "docID": "458629",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/11/17&docID=458629"
+  },
+  {
+    "eveDate": "2025-11-18",
+    "docID": "458630",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/11/18&docID=458630"
+  },
+  {
+    "eveDate": "2025-11-24",
+    "docID": "459892",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/11/24&docID=459892"
+  },
+  {
+    "eveDate": "2025-11-25",
+    "docID": "459893",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/11/25&docID=459893"
+  },
+  {
+    "eveDate": "2025-12-01",
+    "docID": "461171",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/12/01&docID=461171"
+  },
+  {
+    "eveDate": "2025-12-02",
+    "docID": "461172",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/12/02&docID=461172"
+  },
+  {
+    "eveDate": "2025-12-08",
+    "docID": "462200",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/12/08&docID=462200"
+  },
+  {
+    "eveDate": "2025-12-09",
+    "docID": "462201",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2025/12/09&docID=462201"
+  },
+  {
+    "eveDate": "2026-01-12",
+    "docID": "465134",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/01/12&docID=465134"
+  },
+  {
+    "eveDate": "2026-01-13",
+    "docID": "465135",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/01/13&docID=465135"
+  },
+  {
+    "eveDate": "2026-01-19",
+    "docID": "466141",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/01/19&docID=466141"
+  },
+  {
+    "eveDate": "2026-01-20",
+    "docID": "466142",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/01/20&docID=466142"
+  },
+  {
+    "eveDate": "2026-01-26",
+    "docID": "467176",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/01/26&docID=467176"
+  },
+  {
+    "eveDate": "2026-01-27",
+    "docID": "467177",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/01/27&docID=467177"
+  },
+  {
+    "eveDate": "2026-02-02",
+    "docID": "468375",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/02/02&docID=468375"
+  },
+  {
+    "eveDate": "2026-02-03",
+    "docID": "468376",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/02/03&docID=468376"
+  },
+  {
+    "eveDate": "2026-02-09",
+    "docID": "469642",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/02/09&docID=469642"
+  },
+  {
+    "eveDate": "2026-02-10",
+    "docID": "469643",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/02/10&docID=469643"
+  },
+  {
+    "eveDate": "2026-02-16",
+    "docID": "470673",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/02/16&docID=470673"
+  },
+  {
+    "eveDate": "2026-02-17",
+    "docID": "470676",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/02/17&docID=470676"
+  },
+  {
+    "eveDate": "2026-02-23",
+    "docID": "471959",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/02/23&docID=471959"
+  },
+  {
+    "eveDate": "2026-02-24",
+    "docID": "471960",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/02/24&docID=471960"
+  },
+  {
+    "eveDate": "2026-03-02",
+    "docID": "473424",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/03/02&docID=473424"
+  },
+  {
+    "eveDate": "2026-03-03",
+    "docID": "473425",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/03/03&docID=473425"
+  },
+  {
+    "eveDate": "2026-03-09",
+    "docID": "474547",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/03/09&docID=474547"
+  },
+  {
+    "eveDate": "2026-03-10",
+    "docID": "474548",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/03/10&docID=474548"
+  },
+  {
+    "eveDate": "2026-03-16",
+    "docID": "475858",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/03/16&docID=475858"
+  },
+  {
+    "eveDate": "2026-03-23",
+    "docID": "476718",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/03/23&docID=476718"
+  },
+  {
+    "eveDate": "2026-03-24",
+    "docID": "476719",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/03/24&docID=476719"
+  },
+  {
+    "eveDate": "2026-03-31",
+    "docID": "478332",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/03/31&docID=478332"
+  },
+  {
+    "eveDate": "2026-04-13",
+    "docID": "477835",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/04/13&docID=477835"
+  },
+  {
+    "eveDate": "2026-04-14",
+    "docID": "477836",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/04/14&docID=477836"
+  },
+  {
+    "eveDate": "2026-04-20",
+    "docID": "480111",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/04/20&docID=480111"
+  },
+  {
+    "eveDate": "2026-04-21",
+    "docID": "480112",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/04/21&docID=480112"
+  },
+  {
+    "eveDate": "2026-04-27",
+    "docID": "481245",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/04/27&docID=481245"
+  },
+  {
+    "eveDate": "2026-04-28",
+    "docID": "481246",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/04/28&docID=481246"
+  },
+  {
+    "eveDate": "2026-05-05",
+    "docID": "482193",
+    "venue": "Assembly Chamber",
+    "time": "10:30 AM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/05/05&docID=482193"
+  },
+  {
+    "eveDate": "2026-05-11",
+    "docID": "483368",
+    "venue": "Assembly Chamber",
+    "time": "12:00 PM",
+    "session": "2025-2026",
+    "url": "https://aims.niassembly.gov.uk/officialreport/report.aspx?&eveDate=2026/05/11&docID=483368"
+  }
+]
