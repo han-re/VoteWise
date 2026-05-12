@@ -256,7 +256,7 @@ export default function MethodologyPage() {
         <Divider color="#e8962a" />
 
         <p style={P_STYLE}>
-          Each party's 2022 Assembly election manifesto was reviewed and divided
+          Each party&apos;s 2022 Assembly election manifesto was reviewed and divided
           into individual, testable pledges. We exclude commitments that are
           explicitly dependent on Westminster action unless there is a corresponding
           Stormont motion or lobbying record to assess. Each pledge is assigned one
@@ -271,7 +271,7 @@ export default function MethodologyPage() {
         <p style={{ ...P_STYLE, marginTop: "1rem" }}>
           The overall delivery score is the average of all pledge scores. The
           MLA-level score is a weighted blend: 60% their individual pledge record,
-          40% their party's platform score. This reflects the reality that an
+          40% their party&apos;s platform score. This reflects the reality that an
           individual MLA cannot unilaterally deliver an Executive programme, but is
           accountable for how they vote when a relevant bill comes before the
           Assembly.

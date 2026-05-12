@@ -58,7 +58,11 @@ export function useProPage() {
 export function useSetProPage(title: string, breadcrumb: string[] = []) {
   const { setMeta } = useProPage();
   const breadcrumbKey = breadcrumb.join("|");
+  const pageMeta = useMemo(
+    () => ({ title, breadcrumb: breadcrumbKey ? breadcrumbKey.split("|") : [] }),
+    [title, breadcrumbKey]
+  );
   useEffect(() => {
-    setMeta({ title, breadcrumb });
-  }, [title, breadcrumbKey, setMeta]);
+    setMeta(pageMeta);
+  }, [pageMeta, setMeta]);
 }

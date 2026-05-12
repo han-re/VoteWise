@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState, type CSSProperties } from "react";
+import { useEffect, useState, type CSSProperties } from "react";
 
 import { DataTable, type Column } from "../components/DataTable";
 import { KpiTile } from "../components/KpiTile";

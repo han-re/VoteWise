@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { useChatbot } from "./ChatbotProvider";
 import { ChatbotSidebar } from "./ChatbotSidebar";
 
@@ -8,7 +8,10 @@ export function FloatingChatbot() {
   const { isOpen, activeSlug, close } = useChatbot();
   const [mounted, setMounted] = useState(false);
 
-  useEffect(() => { setMounted(true); }, []);
+  useEffect(() => {
+    const timer = window.setTimeout(() => setMounted(true), 0);
+    return () => window.clearTimeout(timer);
+  }, []);
   if (!mounted) return null;
 
   return (

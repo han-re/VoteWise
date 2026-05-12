@@ -20,12 +20,6 @@ export function ProTopBar() {
     backdropFilter: "blur(6px)",
   };
 
-  const breadcrumbStyle: CSSProperties = {
-    color: "rgba(180,207,232,0.45)",
-    fontSize: 12,
-    letterSpacing: "0.02em",
-  };
-
   return (
     <header style={barStyle}>
       <div style={{ flex: 1, minWidth: 0 }}>

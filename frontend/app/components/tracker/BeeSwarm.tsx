@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, useCallback, type CSSProperties } from "react";
+import { useEffect, useMemo, useRef, useState, useCallback, type CSSProperties } from "react";
 import { useRouter } from "next/navigation";
 import ChartWrapper from "./ChartWrapper";
 import type { SwarmNode } from "../../tracker/_types";
@@ -169,10 +169,17 @@ const LEFT_PAD = 20;
 const RIGHT_PAD = 20;
 const TOTAL_H = CHART_H + AXIS_H;
 
+function stableJitter(seed: string): number {
+  let hash = 0;
+  for (let i = 0; i < seed.length; i++) {
+    hash = (hash * 31 + seed.charCodeAt(i)) >>> 0;
+  }
+  return (hash / 0xffffffff - 0.5) * 30;
+}
+
 export default function BeeSwarm({ nodes }: Props) {
   const router = useRouter();
   const containerRef = useRef<HTMLDivElement>(null);
-  const [positions, setPositions] = useState<WorkingNode[]>([]);
   const [ready, setReady] = useState(false);
   const [width, setWidth] = useState(600);
   const [tooltip, setTooltip] = useState<TooltipState | null>(null);
@@ -196,26 +203,28 @@ export default function BeeSwarm({ nodes }: Props) {
     return () => obs.disconnect();
   }, []);
 
-  // Run simulation when width or nodes change
-  useEffect(() => {
-    if (width < 100 || nodes.length === 0) return;
+  const positions = useMemo(() => {
+    if (width < 100 || nodes.length === 0) return [];
 
     const working: WorkingNode[] = nodes.map((n) => ({
       ...n,
       targetX: scoreToX(n.score),
       x: scoreToX(n.score),
-      y: CHART_H / 2 + (Math.random() - 0.5) * 30,
+      y: CHART_H / 2 + stableJitter(n.id),
       vx: 0,
       vy: 0,
     }));
 
-    const result = simulate(working, width, CHART_H, scoreLeft, scoreRight);
-    setPositions(result);
+    return simulate(working, width, CHART_H, scoreLeft, scoreRight);
+  }, [width, nodes, scoreToX, scoreLeft, scoreRight]);
 
+  // Staggered reveal after the latest simulation is available.
+  useEffect(() => {
+    if (positions.length === 0) return;
     // Staggered reveal
     const t = setTimeout(() => setReady(true), 60);
     return () => clearTimeout(t);
-  }, [width, nodes, scoreToX, scoreLeft, scoreRight]);
+  }, [positions]);
 
   // CSV data
   const csvHeaders = ["Name", "Party", "Constituency", "Delivery Score"];

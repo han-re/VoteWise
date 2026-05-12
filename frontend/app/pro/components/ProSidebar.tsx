@@ -28,8 +28,11 @@ export function ProSidebar({ collapsed, onToggle }: Props) {
   const [orgName, setOrgName] = useState("Demo organisation");
 
   useEffect(() => {
-    const stored = localStorage.getItem("votewise_pro_demo_org");
-    if (stored) setOrgName(stored);
+    const timer = window.setTimeout(() => {
+      const stored = localStorage.getItem("votewise_pro_demo_org");
+      if (stored) setOrgName(stored);
+    }, 0);
+    return () => window.clearTimeout(timer);
   }, []);
 
   function isActive(href: string): boolean {

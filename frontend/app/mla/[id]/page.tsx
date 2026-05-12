@@ -191,8 +191,11 @@ export default function MlaPage() {
       .then(data => { setMla(data); setLoading(false); })
       .catch(() => { setError(true); setLoading(false); });
 
-    setAlignment(loadStoredAlignment(id));
-    setUserAnswers(loadQuizAnswers());
+    const timer = window.setTimeout(() => {
+      setAlignment(loadStoredAlignment(id));
+      setUserAnswers(loadQuizAnswers());
+    }, 0);
+    return () => window.clearTimeout(timer);
   }, [id]);
 
   const TABS: { id: Tab; label: string }[] = [
