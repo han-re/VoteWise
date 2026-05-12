@@ -14,6 +14,7 @@ const NAV: NavItem[] = [
   { label: "Donations & Spending",      href: "/pro/donations" },
   { label: "Attendance & Engagement",   href: "/pro/attendance" },
   { label: "Stormont Sessions",         href: "/pro/sessions" },
+  { label: "MLA Profile +",             href: "/pro/mla-profile-plus" },
   { label: "Pricing",                   href: "/pro/pricing" },
 ];
 
@@ -74,6 +75,7 @@ export function ProSidebar({ collapsed, onToggle }: Props) {
       <div style={brandStyle}>
         <Link
           href="/pro"
+          className="pro-no-hover"
           style={{
             color: "#cddcec",
             textDecoration: "none",
@@ -88,7 +90,11 @@ export function ProSidebar({ collapsed, onToggle }: Props) {
             whiteSpace: "nowrap",
           }}
         >
-          {!collapsed && <span>VoteWise</span>}
+          {!collapsed && (
+            <span>
+              Vote<span style={{ color: "var(--vw-pro-cyan)" }}>Wise</span>
+            </span>
+          )}
           {!collapsed && <span style={proPillStyle}>PRO</span>}
           {collapsed && <span style={proPillStyle}>PRO</span>}
         </Link>

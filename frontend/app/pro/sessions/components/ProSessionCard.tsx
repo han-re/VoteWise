@@ -8,6 +8,7 @@ export interface ProSessionRow {
   agenda_summary: string;
   attendee_count: number;
   speech_count_total: number;
+  source?: "pro" | "tracker";
 }
 
 const cardStyle: CSSProperties = {
@@ -32,12 +33,15 @@ export function ProSessionCard({ session }: { session: ProSessionRow }) {
   return (
     <article style={cardStyle}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 12 }}>
-        <Link
-          href={`/pro/sessions/${session.session_id}`}
-          style={{ color: "#e6eef7", textDecoration: "none", fontSize: 16, fontWeight: 600, lineHeight: 1.3 }}
-        >
-          {session.title}
-        </Link>
+        <div style={{ minWidth: 0 }}>
+          <Link
+            href={`/pro/sessions/${session.session_id}`}
+            className="pro-text-hover-only"
+            style={{ color: "#e6eef7", textDecoration: "none", fontSize: 16, fontWeight: 600, lineHeight: 1.3 }}
+          >
+            {session.title}
+          </Link>
+        </div>
         <span style={{ color: "rgba(180,207,232,0.55)", fontSize: 12, fontFamily: "var(--vw-pro-mono)", whiteSpace: "nowrap" }}>
           {formatDate(session.date)}
         </span>
@@ -54,6 +58,7 @@ export function ProSessionCard({ session }: { session: ProSessionRow }) {
         </span>
         <Link
           href={`/pro/sessions/${session.session_id}`}
+          className="pro-text-hover-only"
           style={{ color: "var(--vw-pro-cyan)", textDecoration: "none", marginLeft: "auto" }}
         >
           Open session &rarr;

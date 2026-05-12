@@ -34,6 +34,38 @@ export function MethodologyFootnote({
     color: "rgba(205,220,236,0.78)",
   };
 
+  function renderMethodology(raw: string) {
+    return raw.split("\n").map((line, index) => {
+      if (line.startsWith("# ")) {
+        return (
+          <h2 key={index} style={{ margin: "14px 0 8px", color: "#e6eef7", fontSize: 17, fontWeight: 700 }}>
+            {line.slice(2)}
+          </h2>
+        );
+      }
+      if (line.startsWith("## ")) {
+        return (
+          <h3 key={index} style={{ margin: "12px 0 7px", color: "#cddcec", fontSize: 15, fontWeight: 700 }}>
+            {line.slice(3)}
+          </h3>
+        );
+      }
+      if (line.startsWith("- ")) {
+        return (
+          <p key={index} style={{ margin: "4px 0 4px 14px" }}>
+            &bull; {line.slice(2).replace(/\*\*/g, "")}
+          </p>
+        );
+      }
+      if (!line.trim()) return <div key={index} style={{ height: 6 }} />;
+      return (
+        <p key={index} style={{ margin: "4px 0" }}>
+          {line.replace(/\*\*/g, "")}
+        </p>
+      );
+    });
+  }
+
   return (
     <details style={detailsStyle}>
       <summary
@@ -46,8 +78,8 @@ export function MethodologyFootnote({
       >
         {summary}
       </summary>
-      <div style={{ marginTop: 10, whiteSpace: "pre-wrap", lineHeight: 1.55 }}>
-        {content ?? text ?? "Methodology not available."}
+      <div style={{ marginTop: 10, lineHeight: 1.55 }}>
+        {content ?? (text ? renderMethodology(text) : "Methodology not available.")}
       </div>
     </details>
   );

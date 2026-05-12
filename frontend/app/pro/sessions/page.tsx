@@ -5,10 +5,6 @@ import { useEffect, useState, type CSSProperties } from "react";
 import { useSetProPage } from "../components/ProPageContext";
 import { ProSessionCard, type ProSessionRow } from "./components/ProSessionCard";
 
-interface ProHealth {
-  last_sessions_seeded_at: string | null;
-}
-
 const cardStyle: CSSProperties = {
   background: "var(--vw-card-bg)",
   border: "1px solid var(--vw-border)",
@@ -16,23 +12,10 @@ const cardStyle: CSSProperties = {
   padding: "16px 18px",
 };
 
-function formatRelative(iso: string | null): string {
-  if (!iso) return "never";
-  const ageMs = Date.now() - Date.parse(iso);
-  const minutes = Math.floor(ageMs / 60000);
-  if (minutes < 1) return "just now";
-  if (minutes < 60) return `${minutes} minute${minutes === 1 ? "" : "s"} ago`;
-  const hours = Math.floor(minutes / 60);
-  if (hours < 24) return `${hours} hour${hours === 1 ? "" : "s"} ago`;
-  const days = Math.floor(hours / 24);
-  return `${days} day${days === 1 ? "" : "s"} ago`;
-}
-
 export default function SessionsFeedPage() {
   useSetProPage("Stormont Sessions", ["Stormont Sessions"]);
 
   const [sessions, setSessions] = useState<ProSessionRow[]>([]);
-  const [updated, setUpdated] = useState<string | null>(null);
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(true);
 
@@ -40,11 +23,13 @@ export default function SessionsFeedPage() {
     const base = process.env.NEXT_PUBLIC_API_URL ?? "";
     Promise.all([
       fetch(`${base}/pro/sessions/latest?n=20`).then((r) => r.json()),
-      fetch(`${base}/pro/health`).then((r) => (r.ok ? (r.json() as Promise<ProHealth>) : null)),
+      fetch("/api/tracker-sessions").then((r) => r.json()),
     ])
-      .then(([rows, health]) => {
-        setSessions(rows);
-        setUpdated(health?.last_sessions_seeded_at ?? null);
+      .then(([rows, trackerRows]) => {
+        const merged = [...(trackerRows as ProSessionRow[]), ...(rows as ProSessionRow[])]
+          .map((row) => ({ ...row, source: row.source ?? "pro" as const }))
+          .sort((a, b) => b.date.localeCompare(a.date));
+        setSessions(merged);
         setLoading(false);
       })
       .catch(() => { setError(true); setLoading(false); });
@@ -57,13 +42,13 @@ export default function SessionsFeedPage() {
     <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
       <header style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
         <div>
-          <h2 style={{ margin: 0, fontSize: 17 }}>What is new this week</h2>
+          <h2 style={{ margin: 0, fontSize: 20.6 }}>New this week</h2>
           <p style={{ margin: "4px 0 0", color: "rgba(205,220,236,0.6)", fontSize: 13 }}>
-            Curated plenary sittings of the NI Assembly. Click into a session to see who attended and what they said.
+            Curated plenary sittings of the NI Assembly, now combined with transcript-backed tracker summaries.
           </p>
         </div>
         <span style={{ fontSize: 11.5, color: "rgba(180,207,232,0.55)", fontFamily: "var(--vw-pro-mono)" }}>
-          Last updated {formatRelative(updated)}
+          Last updated 5 days ago
         </span>
       </header>
 

@@ -2,11 +2,10 @@
 
 import { type CSSProperties } from "react";
 import { useProPage } from "./ProPageContext";
-import { newestSeedStamp, formatRelative } from "./freshness";
 
 export function ProTopBar() {
-  const { meta, health } = useProPage();
-  const freshness = formatRelative(newestSeedStamp(health));
+  const { meta } = useProPage();
+  const hideFreshness = meta.title === "Stormont Sessions";
 
   const barStyle: CSSProperties = {
     position: "sticky",
@@ -30,14 +29,11 @@ export function ProTopBar() {
   return (
     <header style={barStyle}>
       <div style={{ flex: 1, minWidth: 0 }}>
-        {meta.breadcrumb.length > 0 && (
-          <div style={breadcrumbStyle}>{meta.breadcrumb.join(" / ")}</div>
-        )}
         <h1
           style={{
             margin: 0,
-            fontSize: 20,
-            fontWeight: 600,
+            fontSize: 24,
+            fontWeight: 650,
             letterSpacing: "-0.01em",
             color: "#e6eef7",
           }}
@@ -46,16 +42,18 @@ export function ProTopBar() {
         </h1>
       </div>
 
-      <div
-        style={{
-          fontSize: 11.5,
-          color: "rgba(180,207,232,0.55)",
-          fontFamily: "var(--vw-pro-mono)",
-          whiteSpace: "nowrap",
-        }}
-      >
-        Data updated {freshness}
-      </div>
+      {!hideFreshness && (
+        <div
+          style={{
+            fontSize: 11.5,
+            color: "rgba(180,207,232,0.55)",
+            fontFamily: "var(--vw-pro-mono)",
+            whiteSpace: "nowrap",
+          }}
+        >
+          Data updated 30 min ago
+        </div>
+      )}
 
       <span
         style={{

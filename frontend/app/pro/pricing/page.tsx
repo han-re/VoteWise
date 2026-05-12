@@ -113,7 +113,6 @@ export default function PricingPage() {
         "Donations & spending dashboard with filters",
         "Stormont attendance & engagement leaderboard",
         "Curated sessions feed and per-session chatbot",
-        "CSV export of every dataset",
         "Priority email support",
       ],
       cta: (
@@ -139,7 +138,7 @@ export default function PricingPage() {
         "Multi-seat with role-based access",
         "Dedicated account manager and SLA",
       ],
-      cta: <PricingCta label="Contact sales" href="mailto:hello@votewise.example?subject=VoteWise%20Enterprise" />,
+      cta: <PricingCta label="Contact sales" href="mailto:rehanananth@gmail.com?subject=VoteWise%20Enterprise" />,
     },
   ];
 

@@ -23,6 +23,7 @@ export function ProShell({ children }: { children: ReactNode }) {
   return (
     <ProPageProvider>
       <div
+        className="pro-shell"
         style={{
           display: "flex",
           minHeight: "100vh",

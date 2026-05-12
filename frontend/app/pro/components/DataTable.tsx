@@ -119,7 +119,16 @@ export function DataTable<R>({
         </div>
       )}
 
-      <div style={{ overflowX: "auto", border: "1px solid var(--vw-pro-grid)", borderRadius: 8 }}>
+      <div
+        className="tracker-hidden-scrollbar"
+        style={{
+          overflowX: "auto",
+          border: "1px solid var(--vw-pro-grid)",
+          borderRadius: 8,
+          scrollbarWidth: "none",
+          msOverflowStyle: "none",
+        }}
+      >
         <table style={tableStyle}>
           <thead>
             <tr style={{ background: "rgba(125,211,252,0.04)" }}>

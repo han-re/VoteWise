@@ -12,6 +12,7 @@ import VoteBreakdown from "../../../components/tracker/VoteBreakdown";
 import TrackerVerificationPanel from "../../../components/tracker/TrackerVerificationPanel";
 import VerifiedBadge from "../../../components/VerifiedBadge";
 import type { MlaPledge, VoteRecord, InterestRecord, DonationRecord } from "../../_types";
+import MethodologyPage from "../../methodology/page";
 
 export async function generateStaticParams() {
   const { getMlas } = await import("../../_data");
@@ -108,8 +109,7 @@ function SectionTabs({ color }: { color: string }) {
     { href: "#pledges", label: "Pledges" },
     { href: "#votes", label: "Voting record" },
     { href: "#interests", label: "Interests" },
-    { href: "#donations", label: "Donations" },
-    { href: "#provenance", label: "Data provenance" },
+    { href: "#methodology", label: "Methodology" },
   ];
 
   return (
@@ -1019,6 +1019,10 @@ export default async function MlaTrackerPage({
               ))}
             </dl>
           </div>
+        </section>
+
+        <section id="methodology" style={{ scrollMarginTop: "5rem", marginTop: "2.5rem" }}>
+          <MethodologyPage />
         </section>
       </div>
     </main>
